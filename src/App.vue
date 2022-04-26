@@ -1,24 +1,53 @@
-<script setup>
+<script>
+export default {
+  data() {
+    return {
+      users: [
+        {
+          id: 0,
+          name: "Jonathan Girroir",
+          email: "jonathan@plm3d.com",
+          title: "Engineering Manager",
+          thumb: "jonathan.png",
+          tickets: [],
+        },
+        {
+          id: 1,
+          name: "Dave Opsahl",
+          email: "dave@plm3d.com",
+          title: "Design Engineer",
+          thumb: "dave.png",
+          tickets: [],
+        },
+        {
+          id: 2,
+          name: "Gavin Bridgeman",
+          email: "gavin@plm3d.com",
+          title: "Design Engineer",
+          thumb: "gavin.png",
+          tickets: [],
+        },
+      ],
+    };
+  },
+  provide() {
+    return {
+      users: this.users,
+    }
+  },
+  methods: {
+    getThumb(thumbName) {
+      const imgUrl = new URL(`./images/${thumbName}?url`, import.meta.url)
+        .href;
+      return imgUrl;
+    },
+  },
+};
 </script>
 
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
-
-  <!-- <img
-    v-show="!communicatorLoaded"
-    src="./images/loading_spinner.gif"
-    style="
-      margin: auto;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-    "
-    id="spinner"
-  /> -->
-
   <div class="container">
+    <!-- Nav Start -->
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="https://www.techsoft3d.com">
@@ -67,12 +96,14 @@
         </div>
       </div>
     </nav>
+    <!-- Nav End -->
 
     <router-view></router-view>
   </div>
 </template>
 
 <style>
-  @import "./stylesheets/style.css";
-  @import "./stylesheets/bulma.css";
+@import "./stylesheets/style.css";
+@import "./stylesheets/bulma.css";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 </style>

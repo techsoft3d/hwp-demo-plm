@@ -1,0 +1,125 @@
+<script>
+import { getAllChildren } from "../../javascript/node-utilities";
+
+const Image_Path = "../../images";
+
+export default {
+  props: ["assembly", "completeNodeList", "structure"],
+  data() {
+    return {
+      currentNode: {
+        children: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        filesize: 134,
+        modelBrowserName: "Product1",
+        name: "_micro engine.CATProduct",
+        parents: [],
+        partnumber: "00413099",
+        thumb: "_micro_engine.CATProduct/_micro_engine.CATProduct.png",
+      },
+      usesView: 0, // 0 is "Uses", 1 is "Used In"
+      usedInNodeList: [],
+    };
+  },
+  computed: {
+    usesNodeList() {
+      if (this.structure.length > 0)
+        return getAllChildren(this.structure, this.currentNode);
+      return [];
+    },
+  },
+  methods: {
+    getThumb(thumbName) {
+      const imgUrl = new URL(`${Image_Path}/${thumbName}?url`, import.meta.url)
+        .href;
+      return imgUrl;
+    },
+  },
+  mounted() {
+    console.log("part detail mounted");
+  },
+};
+</script>
+
+<template>
+  <div id="info" class="node_display">
+    <div class="row list-group">
+      <div class="columns">
+        <div class="column is-one-third">
+          <div class="box">
+            <figure class="image">
+              <img v-bind:src="getThumb(currentNode.thumb)" />
+            </figure>
+          </div>
+        </div>
+        <div class="column">
+          <p><strong>Part Number:</strong> {{ currentNode.partnumber }}</p>
+          <p><strong>Revision:</strong> 1</p>
+          <p><strong>Owner:</strong> Jonathan Girroir</p>
+          <p><strong>Type:</strong> Catia V5</p>
+          <p><strong>Size:</strong> {{ currentNode.filesize }} Kb</p>
+          <p><strong>Last Updated:</strong> Oct 25</p>
+          <br />
+          <div class="buttons">
+            <a class="button is-info">View</a>
+            <a class="button">Generate BOM</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabs">
+      <ul>
+        <li :class="[usesView == 0 ? 'is-active' : '']">
+          <a @click="usesView = 0">
+            <span>Uses</span>
+          </a>
+        </li>
+        <li :class="[usesView == 1 ? 'is-active' : '']">
+          <a @click="usesView = 1">
+            <span>Used In</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Uses View -->
+    <div v-show="usesView === 0">
+      <div class="columns is-multiline is-2-desktop">
+        <div
+          v-for="(node, index) in usesNodeList"
+          class="column is-one-quarter"
+          :key="index"
+        >
+          <div class="box">
+            <figure class="image">
+              <img v-bind:src="getThumb(node.thumb)" />
+            </figure>
+            <div class="has-text-centered">{{ node.name }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Uses View End -->
+
+    <!-- Used In View -->
+    <div v-show="usesView === 1">
+      <div class="columns">
+        <div
+          v-for="(node, index) in usedInNodeList"
+          class="column is-one-quarter"
+          :key="index"
+        >
+          <div class="box">
+            <figure class="image">
+              <img v-bind:src="getThumb(node.thumb)" />
+            </figure>
+            <div class="has-text-centered">{{ node.name }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Used In View End -->
+  </div>
+</template>
+
+<style>
+</style>

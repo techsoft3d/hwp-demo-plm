@@ -1,5 +1,5 @@
 <script>
-import drillXml from "../model-data/__drill.asm.xml?raw"; 
+import drillXml from "../model-data/__drill.asm.xml?raw";
 
 export default {
   data() {
@@ -56,121 +56,9 @@ export default {
     };
   },
   methods: {
-    load() {
-      this.$router.push("/project");
-    },
-    loadProject(assembly) {
-      this.completenodelist = [];
-      this.currentView = "list";
-      this.viewerVisibl = false;
-      this.currentNod = {};
-      this.currentNodeLis = [];
-      this.usedInNodeLis = [];
-      this.structure = [];
-      this.revision = 1;
-      this.viewNodeTable = true;
-      this.viewInfo = false;
-      this.usesView = 0;
-      this.currentAssembly = {};
-
-      this.masterAssembly = assembly.assemblyFile;
-      this.currentAssembly = assembly;
-      var model_name = this.masterAssembly.split(".");
-      model_name = model_name[0].replace(" ", "_") + "";
-      this.loadAssembly(model_name);
-      this.communicatorLoaded = false;
-
-      // Parse the xml
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.open(
-        "GET",
-        "/demos/product-lifecycle-management/model-data/" +
-          this.masterAssembly.replace(" ", "-") +
-          ".xml"
-      );
-      xmlhttp.setRequestHeader("Content-Type", "text/xml");
-
-      xmlhttp.onload = function () {
-        if (xmlhttp.status == 200) {
-          parser = new DOMParser();
-          xmlDoc = parser.parseFromString(xmlhttp.responseText, "text/xml");
-
-          structure = [];
-          x = xmlDoc.getElementsByTagName("ProductOccurence");
-          for (i = 0; i < x.length; i++) {
-            file_name = "";
-            thumb_file = "";
-            _modelBrowserName = "";
-            if (x[i].getAttribute("FilePath") != null) {
-              file_name = x[i]
-                .getAttribute("FilePath")
-                .split("\\")
-                .pop()
-                .split("/")
-                .pop();
-              thumb_file =
-                "/demos/product-lifecycle-management/images/" +
-                vm.masterAssembly.replace(" ", "_") +
-                "/" +
-                file_name.replace(" ", "_") +
-                ".png";
-              _modelBrowserName = x[i].getAttribute("Name");
-            }
-
-            id = parseInt(x[i].getAttribute("Id"));
-            var _fileSize = Math.round(
-              parseInt(x[i].getAttribute("FileSize")) / 1024
-            );
-            var _partNumber = x[i].getAttribute("PartNumber");
-
-            structure[id] = {
-              children: [],
-              parents: [],
-              name: file_name,
-              thumb: thumb_file,
-              modelBrowserName: _modelBrowserName,
-              filesize: _fileSize,
-              partnumber: _partNumber,
-            };
-
-            if (x[i].getAttribute("Children") != null) {
-              structure[id].children = x[i]
-                .getAttribute("Children")
-                .split(" ")
-                .map(function (item) {
-                  return parseInt(item, 10);
-                });
-            } else if (x[i].getAttribute("InstanceRef") != null) {
-              structure[id].children.push(
-                parseInt(x[i].getAttribute("InstanceRef"), 10)
-              );
-            } else {
-              structure[id].children = null;
-            }
-          }
-
-          // find the root node
-          root = {};
-          searchName = vm.masterAssembly;
-          found = false;
-          for (i = 0; i < structure.length && !found; i++) {
-            if (structure[i].name == searchName) {
-              root = structure[i];
-            }
-          }
-
-          vm.completenodelist.push(root);
-
-          getAllChildren(structure, root).forEach(function (node) {
-            vm.completenodelist.push(node);
-          });
-
-          buildTree(structure, root);
-        }
-      };
-
-      xmlhttp.send();
-      this.projectView = false;
+    load(projectNumber) {
+      console.log(projectNumber);
+      this.$router.push(`/project/${projectNumber}`);
     },
   },
   mounted() {
@@ -191,7 +79,10 @@ export default {
         <th>Status</th>
         <th>% Complete</th>
       </tr>
-      <tr @click="load()" v-for="assembly in assemblies" v-bind:key="assembly.projectNumber">
+      <tr 
+        v-for="assembly in assemblies" v-bind:key="assembly.projectNumber"
+        @click="load(assembly.projectNumber)"
+        >
         <td>{{ assembly.projectNumber }}</td>
         <td>{{ assembly.name }}</td>
         <td>{{ assembly.startDate }}</td>
@@ -202,11 +93,7 @@ export default {
     </table>
     <br />
     <div class="buttons is-right">
-      <a
-        class="button is-info"
-        @click="alert('This feature is not yet implemented')"
-        >Create New...</a
-      >
+      <a class="button is-info">Create New...</a>
     </div>
 
     <br />
@@ -238,14 +125,13 @@ export default {
     </table>
     <br />
     <div class="buttons is-right">
-      <a
-        class="button is-info"
-        @click="
-          eco.Status = 'New';
-          ecoVisible = true;
-        "
-        >Create New...</a
-      >
+      <a class="button is-info"> Create New... </a>
     </div>
   </div>
 </template>
+
+<style>
+tr {
+  cursor: pointer;
+}
+</style>
