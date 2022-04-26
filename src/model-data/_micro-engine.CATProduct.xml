@@ -1,0 +1,115 @@
+<Root>
+	<ModelFile>
+		<ProductOccurence Behaviour="1" Children="1" Id="0" IsPart="false" Name="_micro engine" />
+		<ProductOccurence Behaviour="1" Children="2 3 4 5 6 7 8 9 10 11 12 13 14 15 16" FilePath="./_data/micro_engine/_micro engine.CATProduct" FileSize="136706" Id="1" IsPart="false" Name="Product1" PartNumber="00413099" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/housing .CATPart" FileSize="846779" Id="2" InstanceRef="17" IsPart="false" Name="HOUSING(HOUSING.1)" PartNumber="00142526" Style="0">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 21.5 -0.5 -0.310000002384185791 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="17" IsPart="false" Name="">
+			<ExternalModel FileSize="846779" Name="housing .CATPart" PartNumber="0086316" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/cylinder liner.CATPart" FileSize="235125" Id="3" InstanceRef="18" IsPart="false" Name="CYLINDER LINER(CYLINDER LINER.1)" PartNumber="00747755" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="1 3.673819061467131775e-16 -3.673819061467131775e-16 0 -3.673819061467131775e-16 6.123031769111886291e-17 -1 0 -3.673819061467131775e-16 1 6.123031769111886291e-17 0 21.5 28.5 -71.30999755859375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="18" IsPart="false" Name="">
+			<ExternalModel FileSize="235125" Name="cylinder liner.CATPart" PartNumber="00209153" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/housing top.CATPart" FileSize="3001204" Id="4" InstanceRef="19" IsPart="false" Name="HOUSING TOP(HOUSING TOP.1)" PartNumber="00367246" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 21.5 28.5 -90.30999755859375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="19" IsPart="false" Name="">
+			<ExternalModel FileSize="3001204" Name="housing top.CATPart" PartNumber="00280528" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="20 21 22 23 24 25 26" FilePath="./_data/micro_engine/mobile part.CATProduct" FileSize="64543" Id="5" IsPart="false" Name="MOBILE PART(MOBILE PART.1)" PartNumber="00207733" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="-1 5.967448757360216405e-16 5.796494612244943129e-17 0 -5.963211475041576767e-16 -0.9999751448631286621 0.007053606212139129639 0 6.217270801938827628e-17 0.007053606212139129639 0.9999751448631286621 0 122.3708648681640625 31.22583198547363281 -48.94095611572265625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/push rod.CATPart" FileSize="738732" Id="20" InstanceRef="27" IsPart="false" Name="PUSH ROD(PUSH ROD.1)" PartNumber="00327366" Style="0">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 100.7928009033203125 2.896131038665771484 37.9209442138671875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="27" IsPart="false" Name="">
+			<ExternalModel FileSize="738732" Name="push rod.CATPart" PartNumber="00300079" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/bearing_pr_dw.CATPart" FileSize="75710" Id="21" InstanceRef="28" IsPart="false" Name="BEARING PR DW(BEARING PR DW.1)" PartNumber="00149229" Style="0">
+			<Transformation RelativeTransfo="1.224606353822377258e-16 -1 6.123031769111886291e-17 0 1 1.224606353822377258e-16 -6.123031769111886291e-17 0 6.123031769111886291e-17 6.123031769111886291e-17 1 0 100.7928009033203125 2.896131038665771484 37.9209442138671875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="28" IsPart="false" Name="">
+			<ExternalModel FileSize="75710" Name="bearing_pr_dw.CATPart" PartNumber="00741559" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/bearing_pr_up.CATPart" FileSize="75241" Id="22" InstanceRef="29" IsPart="false" Name="BEARING PR UP(BEARING PR UP.1)" PartNumber="00696272" Style="0">
+			<Transformation RelativeTransfo="1.224606353822377258e-16 -1 6.123031769111886291e-17 0 1 1.224606353822377258e-16 -6.123031769111886291e-17 0 6.123031769111886291e-17 6.123031769111886291e-17 1 0 100.7928009033203125 2.896131038665771484 7.920945644378662109 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="29" IsPart="false" Name="">
+			<ExternalModel FileSize="75241" Name="bearing_pr_up.CATPart" PartNumber="00892888" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/axe.CATPart" FileSize="92351" Id="23" InstanceRef="30" IsPart="false" Name="AXE(AXE.1)" PartNumber="00943977" Style="0">
+			<Transformation RelativeTransfo="1.224606353822377258e-16 -1 6.123031769111886291e-17 0 1 1.224606353822377258e-16 -6.123031769111886291e-17 0 6.123031769111886291e-17 6.123031769111886291e-17 1 0 109.2928009033203125 2.896131038665771484 7.920945644378662109 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="30" IsPart="false" Name="">
+			<ExternalModel FileSize="92351" Name="axe.CATPart" PartNumber="00729756" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/piston.CATPart" FileSize="213123" Id="24" InstanceRef="31" IsPart="false" Name="PISTON(PISTON.1)" PartNumber="00830529" Style="0">
+			<Transformation RelativeTransfo="1 1.228910075287817155e-16 -4.334177738606216262e-19 0 4.334177738606216262e-19 -0.007053606212139129639 -0.9999751448631286621 0 -1.228910075287817155e-16 0.9999751448631286621 -0.007053606212139129639 0 100.7928009033203125 2.896131038665771484 7.920945644378662109 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="31" IsPart="false" Name="">
+			<ExternalModel FileSize="213123" Name="piston.CATPart" PartNumber="00993202" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/crankshaft.CATPart" FileSize="429648" Id="25" InstanceRef="32" IsPart="false" Name="CRANKSHAFT(CRANKSHAFT.1)" PartNumber="00666036" Style="0">
+			<Transformation RelativeTransfo="6.145965186158796473e-17 -0.003752432996407151222 0.9999929666519165039 0 -1 -4.310860042204164927e-22 6.14600819955064923e-17 0 -2.30193740372515124e-19 -0.9999929666519165039 -0.003752432996407151222 0 37.19280242919921875 2.929903030395507813 28.92100906372070313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="32" IsPart="false" Name="">
+			<ExternalModel FileSize="429648" Name="crankshaft.CATPart" PartNumber="00701482" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/bearing CS.CATPart" FileSize="160940" Id="26" InstanceRef="33" IsPart="false" Name="BEARING CS(BEARING CS.1)" PartNumber="00512551" Style="0">
+			<Transformation RelativeTransfo="-6.003205062088474617e-17 0.9998121261596679688 0.01938201859593391418 0 -1 -6.004355174012168347e-17 1.150205143071355284e-20 0 1.175265141952971852e-18 -0.01938201859593391418 0.9998121261596679688 0 49.2928009033203125 2.929903030395507813 28.92100906372070313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="33" IsPart="false" Name="">
+			<ExternalModel FileSize="160940" Name="bearing CS.CATPart" PartNumber="00545634" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/housing back.CATPart" FileSize="203771" Id="6" InstanceRef="34" IsPart="false" Name="HOUSING BACK(HOUSING BACK.1)" PartNumber="00909740" Style="0" Unit="1.000000" />
+		<ProductOccurence Behaviour="1" Id="34" IsPart="false" Name="">
+			<ExternalModel FileSize="203771" Name="housing back.CATPart" PartNumber="00385722" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/housing front.CATPart" FileSize="961798" Id="7" InstanceRef="35" IsPart="false" Name="HOUSING FRONT(HOUSING FRONT.1)" PartNumber="00206614" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="1 -1.224606353822377258e-16 1.224606353822377258e-16 0 1.224606353822377258e-16 9.436895709313830594e-16 -1 0 1.224606353822377258e-16 1 9.436895709313830594e-16 0 31.60000038146972656 28.5 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="35" IsPart="false" Name="">
+			<ExternalModel FileSize="961798" Name="housing front.CATPart" PartNumber="0087155" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw back.CATPart" FileSize="123981" Id="8" InstanceRef="36" IsPart="false" Name="SCREW BACK(SCREW BACK.1)" PartNumber="00910187" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 41 -7.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="36" IsPart="false" Name="">
+			<ExternalModel FileSize="123981" Name="screw back.CATPart" PartNumber="00418601" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw back.CATPart" FileSize="123981" Id="9" InstanceRef="36" IsPart="false" Name="SCREW BACK(SCREW BACK.2)" PartNumber="00648260" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 16 -7.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw back.CATPart" FileSize="123981" Id="10" InstanceRef="36" IsPart="false" Name="SCREW BACK(SCREW BACK.3)" PartNumber="00617827" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 41 -32.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw back.CATPart" FileSize="123981" Id="11" InstanceRef="36" IsPart="false" Name="SCREW BACK(SCREW BACK.4)" PartNumber="00480318" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 5 16 -32.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw top.CATPart" FileSize="117001" Id="12" InstanceRef="37" IsPart="false" Name="SCREW TOP(SCREW TOP.1)" PartNumber="0072569" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 30.5 19.5 -75.30999755859375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="37" IsPart="false" Name="">
+			<ExternalModel FileSize="117001" Name="screw top.CATPart" PartNumber="00284906" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw top.CATPart" FileSize="117001" Id="13" InstanceRef="37" IsPart="false" Name="SCREW TOP(SCREW TOP.2)" PartNumber="00558943" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 30.5 37.5 -75.30999755859375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw top.CATPart" FileSize="117001" Id="14" InstanceRef="37" IsPart="false" Name="SCREW TOP(SCREW TOP.3)" PartNumber="00499511" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 12.5 19.5 -75.30999755859375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/screw top.CATPart" FileSize="117001" Id="15" InstanceRef="37" IsPart="false" Name="SCREW TOP(SCREW TOP.4)" PartNumber="00575593" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="3.673819061467131775e-16 0 1 0 0 1 -0 0 -1 0 3.673819061467131775e-16 0 12.5 37.5 -75.30999755859375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/micro_engine/carburetor.CATPart" FileSize="949794" Id="16" InstanceRef="38" IsPart="false" Name="CARBURETOR(CARBURETOR.1)" PartNumber="00281630" Style="0" Unit="1.000000">
+			<Transformation RelativeTransfo="-0.9545378684997558594 -0.005617600400000810623 -0.2980366349220275879 0 0.005362296942621469498 -0.9999842047691345215 0.001674277125857770443 0 -0.2980413436889648438 -9.278602192130946946e-16 0.9545529484748840332 0 44.57569503784179688 28.5 -49.14356231689453125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="38" IsPart="false" Name="">
+			<ExternalModel FileSize="949794" Name="carburetor.CATPart" PartNumber="00131701" />
+		</ProductOccurence>
+	</ModelFile>
+</Root>

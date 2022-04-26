@@ -1,0 +1,61 @@
+[
+  {
+    "projectNumber": "PR00001",
+    "name": "Micro Engine",
+    "assemblyFile": "_micro_engine.CATProduct",
+    "modeler": "Catia",
+    "status": "In Design",
+    "startDate": "Aug 26, 2017",
+    "endDate": "Dec 18, 2017",
+    "percentComplete": "75%",
+    "revision": "1",
+    "members": [
+      0,
+      1
+    ]
+  },
+  {
+    "projectNumber": "PR00002",
+    "name": "Moto X",
+    "assemblyFile": "_MOTO_X.asm",
+    "modeler": "Creo",
+    "status": "Complete",
+    "startDate": "Apr 23, 2016",
+    "endDate": "Nov 9, 2016",
+    "percentComplete": "100%",
+    "revision": "A",
+    "members": [
+      0,
+      2
+    ]
+  },
+  {
+    "projectNumber": "PR00003",
+    "name": "Hammer Drill",
+    "assemblyFile": "__drill.asm",
+    "modeler": "Creo",
+    "status": "In Design",
+    "startDate": "Oct 2, 2017",
+    "endDate": "Feb 1, 2018",
+    "percentComplete": "52%",
+    "revision": "1",
+    "members": [
+      0,
+      1
+    ]
+  },
+  {
+    "projectNumber": "PR00004",
+    "name": "Pump Assembly",
+    "assemblyFile": "874631_pump_assy_revb.asm.88",
+    "modeler": "Creo",
+    "status": "Complete",
+    "startDate": "Jun 12, 2017",
+    "endDate": "Jan 18, 2018",
+    "percentComplete": "100%",
+    "members": [
+      0,
+      2
+    ]
+  }
+]

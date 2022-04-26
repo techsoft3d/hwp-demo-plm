@@ -1,22 +1,78 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <router-view></router-view>
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
+
+  <!-- <img
+    v-show="!communicatorLoaded"
+    src="./images/loading_spinner.gif"
+    style="
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    "
+    id="spinner"
+  /> -->
+
+  <div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://www.techsoft3d.com">
+          <img src="./images/TS3D_logo.jpg" alt="Tech Soft 3D" />
+        </a>
+      </div>
+      <div class="navbar-end">
+        <a
+          class="navbar-item"
+          href="http://pages.techsoft3d.com/evaluate"
+          target="_blank"
+          style="text-decoration: none; color: #0a95d5"
+        >
+          Trial
+        </a>
+        <a
+          class="navbar-item"
+          href="https://techsoft3d.com/industries/product-lifecycle-management/"
+          target="_blank"
+          style="text-decoration: none; color: #0a95d5"
+        >
+          Technology
+        </a>
+        <a
+          class="navbar-item"
+          href="https://techsoft3d.com/industries/product-lifecycle-management/"
+          target="_blank"
+          style="text-decoration: none; color: #0a95d5"
+        >
+          Resources
+        </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" style="text-decoration: none; color: #0a95d5">
+            <span class="icon">
+              <i class="fa fa-user-circle-o"></i>
+            </span>
+          </a>
+          <!-- <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" @click="" v-for="(user, index) in users">
+              <div v-if="index === currentUser">
+                <strong @click="currentUser = index">{{ user.name }}</strong>
+              </div>
+              <div v-else @click="currentUser = index">{{ user.name }}</div>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </nav>
+
+    <router-view></router-view>
+  </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import "./stylesheets/style.css";
+  @import "./stylesheets/bulma.css";
 </style>
