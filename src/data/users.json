@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Jonathan Girroir",
+    "email": "jonathan@plm3d.com",
+    "title": "Engineering Manager",
+    "thumb": "/jonathan.png",
+    "tickets": []
+  },
+  {
+    "id": 1,
+    "name": "Dave Opsahl",
+    "email": "dave@plm3d.com",
+    "title": "Design Engineer",
+    "thumb": "/dave.png",
+    "tickets": []
+  },
+  {
+    "id": 2,
+    "name": "Gavin Bridgeman",
+    "email": "gavin@plm3d.com",
+    "title": "Design Engineer",
+    "thumb": "/gavin.png",
+    "tickets": []
+  }
+]

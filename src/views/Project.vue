@@ -1,30 +1,24 @@
 <script>
 import { computed } from "@vue/runtime-core";
 import { getAllChildren } from "../javascript/node-utilities";
+import { getAssembly, users } from "../javascript/data-utilities";
 
 const Image_Path = "../images";
 const Model_Data_Path = "../model-data";
 
 export default {
-  inject: ["users"],
   data() {
     return {
-      assembly: {
-        projectNumber: "PR00001",
-        name: "Micro Engine",
-        assemblyFile: "_micro engine.CATProduct",
-        modeler: "Catia",
-        status: "In Design",
-        startDate: "Aug 26, 2017",
-        endDate: "Dec 18, 2017",
-        percentComplete: "75%",
-        revision: "1",
-        members: [0, 1],
-      },
+      assembly: {},
       completeNodeList: [],
       layout: 0, // 0 list, 1 table
       structure: [],
     };
+  },
+  computed: {
+    users() {
+      return users;
+    },
   },
   provide() {
     return {
@@ -121,15 +115,23 @@ export default {
       this.completeNodeList = completeNodeList;
       this.structure = structure;
     },
+    navProject() {
+      this.$router.push(`/project/${this.assembly.projectNumber}`);
+    },
+    navHome() {
+      this.$router.push(`/`);
+    },
     getThumb(thumbName) {
       const imgUrl = new URL(`${Image_Path}/${thumbName}?url`, import.meta.url)
         .href;
       return imgUrl;
     },
   },
-  mounted() {
-    console.log("project mounted");
-    this.loadProject();
+  async created() {
+    console.log("project created");
+    const projectNumber = this.$route.params.projectNumber;
+    this.assembly = getAssembly(projectNumber);
+    await this.loadProject();
   },
 };
 </script>
@@ -141,19 +143,19 @@ export default {
       <!-- Level Start-->
       <div class="level">
         <div class="level-left">
-          <a class="button is-white">
+          <a class="button is-white" @click="navHome()">
             <strong>Projects</strong>
           </a>
           <p><strong>|</strong></p>
-          <a class="button is-white">
-            <strong>{{ "assembly.name" }}</strong>
+          <a class="button is-white" @click="navProject()">
+            <strong>{{ assembly.name }}</strong>
           </a>
-          <p><strong>|</strong></p>
-          <a class="button is-white">
-            <strong></strong>
+          <p v-if="$route.params.partNumber != null"><strong>|</strong></p>
+          <a v-if="$route.params.partNumber != null" class="button is-white">
+            <strong>Part</strong>
           </a>
         </div>
-        <div class="level-center">
+        <div v-if="false" class="level-center">
           <div class="level-item">
             <div class="buttons">
               <!--buttons -->
@@ -164,10 +166,16 @@ export default {
         </div>
         <div class="level-right">
           <div class="level-item">
-            <div class="field has-addons">
+            <div
+              v-if="$route.params.partNumber == null"
+              class="field has-addons"
+            >
               <!-- Table Icon -->
               <p class="control">
-                <a :class="['button', layout == 1 ? 'is-active' : '']" @click="layout = 1">
+                <a
+                  :class="['button', layout == 1 ? 'is-active' : '']"
+                  @click="layout = 1"
+                >
                   <span class="icon is-small">
                     <i class="fa fa-th-large"></i>
                   </span>
@@ -175,7 +183,10 @@ export default {
               </p>
               <!-- List Icon -->
               <p class="control">
-                <a :class="['button', layout == 0 ? 'is-active' : '']" @click="layout = 0">
+                <a
+                  :class="['button', layout == 0 ? 'is-active' : '']"
+                  @click="layout = 0"
+                >
                   <span class="icon is-small">
                     <i class="fa fa-th-list"></i>
                   </span>

@@ -1,5 +1,5 @@
 // Helper Functions
-export const getAllChildren = function (structure, node) {
+function getAllChildren(structure, node) {
   let ret = [];
   if (node.children != null) {
     var k = 0;
@@ -20,3 +20,33 @@ export const getAllChildren = function (structure, node) {
   }
   return ret;
 };
+
+function getAllAncestors(node, structure) {
+  this.currentNode = node;
+  this.currentNodeList = getAllChildren(structure, node);
+  this.viewInfo = true;
+  var path = [];
+
+  var findNode = function (name, currentNode, path) {
+    var found = false;
+    for (var i = 0; i < currentNode.child_objects.length; i++) {
+      if (currentNode.child_objects[i].name === name) {
+        path.push(currentNode);
+        found = true;
+      }
+      else if (currentNode.child_objects[i].child_objects != null && currentNode.child_objects[i].child_objects.length > 0) {
+        path.push(currentNode);
+        if (!findNode(name, currentNode.child_objects[i], path)) {
+          path.pop();
+        }
+
+      }
+    }
+    return found;
+  }
+  findNode(node.name, root, path);
+
+  this.usedInNodeList = path;
+}
+
+export { getAllChildren, getAllAncestors };

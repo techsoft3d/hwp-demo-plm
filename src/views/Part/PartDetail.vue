@@ -1,5 +1,5 @@
 <script>
-import { getAllChildren } from "../../javascript/node-utilities";
+import { getAllChildren, getAllAncestors } from "../../javascript/node-utilities";
 
 const Image_Path = "../../images";
 
@@ -7,7 +7,13 @@ export default {
   props: ["assembly", "completeNodeList", "structure"],
   data() {
     return {
-      currentNode: {
+      usesView: 0, // 0 is "Uses", 1 is "Used In"
+    };
+  },
+  computed: {
+    currentNode() {
+      const partNumber = this.$route.params.partNumber;
+      let result = {
         children: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
         filesize: 134,
         modelBrowserName: "Product1",
@@ -15,17 +21,24 @@ export default {
         parents: [],
         partnumber: "00413099",
         thumb: "_micro_engine.CATProduct/_micro_engine.CATProduct.png",
-      },
-      usesView: 0, // 0 is "Uses", 1 is "Used In"
-      usedInNodeList: [],
-    };
-  },
-  computed: {
+      };
+
+      for (let i = 0; i < this.completeNodeList.length; i++) {
+        if (this.completeNodeList[i].partnumber == partNumber) {
+          result = this.completeNodeList[i];
+        }
+      }
+
+      return result;
+    },
     usesNodeList() {
       if (this.structure.length > 0)
         return getAllChildren(this.structure, this.currentNode);
       return [];
     },
+    usedInNodeList() {
+      return [];
+    }
   },
   methods: {
     getThumb(thumbName) {
@@ -33,9 +46,14 @@ export default {
         .href;
       return imgUrl;
     },
+    load(partNumber) {
+      this.$router.push(
+        `/project/${this.assembly.projectNumber}/part/${partNumber}`
+      );
+    }
   },
-  mounted() {
-    console.log("part detail mounted");
+  created() {
+    console.log("part detail created");
   },
 };
 </script>
@@ -88,6 +106,7 @@ export default {
           v-for="(node, index) in usesNodeList"
           class="column is-one-quarter"
           :key="index"
+          @click="load(node.partnumber)"
         >
           <div class="box">
             <figure class="image">

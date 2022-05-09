@@ -6,6 +6,8 @@ import Home from './views/Home.vue';
 import Project from './views/Project.vue';
 import PartList from './views/Part/PartList.vue';
 import PartDetail from './views/Part/PartDetail.vue';
+import Error from './views/Error.vue';
+import ModelOverlay from './views/ModelOverlay.vue';
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
@@ -25,7 +27,8 @@ const router = VueRouter.createRouter({
         }
       ],
     },
-    // { path: '/:pathMatch(.*)*', name: 'NotFound', component: Home },
+    { path: '/model', component: ModelOverlay },
+    { path: '/:pathMatch(.*)*', name: 'NotFound', component: Error },
   ]
 });
 

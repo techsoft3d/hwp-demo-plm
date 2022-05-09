@@ -1,8 +1,13 @@
+<script>
+export default {
+  
+}
+</script>
+
 <template>
   <div
     id="content"
     class="viewer"
-    v-show="viewerVisible"
     style="line-height: 1; box-sizing: initial"
   >
     <div id="viewerContainer"></div>
@@ -12,13 +17,7 @@
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
             <a
-              class="navbar-link"
-              v-show="
-                (currentNode.name === 'housing .CATPart' ||
-                  currentNode.name === '_micro engine.CATProduct') &&
-                revisionsPossible
-              "
-              class="button"
+              class="navbar-link button"
             >
               V. {{ revision }}
             </a>
@@ -29,12 +28,7 @@
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
             <a
-              class="navbar-link"
-              v-show="
-                currentNode.name === 'housing .CATPart' ||
-                currentNode.name === '_micro engine.CATProduct'
-              "
-              class="button"
+              class="navbar-link button"
             >
               <span class="icon">
                 <i class="fa fa-navicon"></i>
@@ -53,7 +47,6 @@
               <a
                 class="navbar-item"
                 v-show="checkedOut"
-                class="navbar-item"
                 @click="checkedOut = false"
                 >Check in</a
               >
