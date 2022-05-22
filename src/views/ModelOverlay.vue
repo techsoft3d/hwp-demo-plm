@@ -1,35 +1,88 @@
 <script>
 export default {
-  
-}
+  methods: {
+    closeViewer() {
+      console.log("close viewer");
+      const partNumber = this.$route.params.partNumber;
+      const projectNumber = this.$route.params.projectNumber;
+      this.$router.push(
+        `/project/${projectNumber}/part/${partNumber}`
+      );
+    },
+    getModelUrl(modelName) {
+      const modelUrl = new URL(
+        `../assets/CAD-models/${modelName}?url`,
+        import.meta.url
+      ).href;
+      console.log(modelUrl);
+      return modelUrl;
+    },
+  },
+  mounted() {
+    let viewer = new Communicator.WebViewer({
+      containerId: "viewerContainer",
+      endpointUri: this.getModelUrl("drill.scs"),
+    });
+
+    var findNode = function (nodeId, name) {
+      var children = viewer.model.getNodeChildren(nodeId);
+      for (var i = 0; i < children.length; i++) {
+        if (viewer.model.getNodeName(children[i]) === name) {
+          return children[i];
+        } else {
+          ret = findNode(children[i], name);
+          if (ret != -1) return ret;
+        }
+      }
+
+      return -1;
+    };
+
+    const partNumber = this.$route.params.partNumber;
+    viewer.setCallbacks({
+      modelStructureReady: function () {
+        viewer.model.setNodesVisibility([5], false);
+        console.log(viewer.model.getNodeName(0));
+        viewer.model.setNodesVisibility([partNumber], true);
+      },
+    });
+
+    window.onresize = function (event) {
+      viewer.resizeCanvas();
+    };
+
+    // window.onbeforeunload = () => {
+    //   $.get("/api/delete_collection?collection=" + [data.collection_id]);
+    // };
+
+    const uiConfig = {
+      containerId: "content",
+      screenConfiguration: Sample.screenConfiguration,
+    };
+    const ui = new Communicator.Ui.Desktop.DesktopUi(viewer, uiConfig);
+
+    viewer.start();
+  },
+};
 </script>
 
 <template>
-  <div
-    id="content"
-    class="viewer"
-    style="line-height: 1; box-sizing: initial"
-  >
+  <div id="content" class="viewer" style="line-height: 1; box-sizing: initial">
+    <!-- Viewer Container -->
     <div id="viewerContainer"></div>
     <!-- Toolbar HTML-->
     <div class="fullscreen">
       <div class="navbar">
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a
-              class="navbar-link button"
-            >
-              V. {{ revision }}
-            </a>
+            <a class="navbar-link button"> V. {{ revision }} </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" @click="changeRevision(1)"> V. 1 </a>
               <a class="navbar-item" @click="changeRevision(2)"> V. 2 </a>
             </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
-            <a
-              class="navbar-link button"
-            >
+            <a class="navbar-link button">
               <span class="icon">
                 <i class="fa fa-navicon"></i>
               </span>
@@ -69,6 +122,7 @@ export default {
         </div>
       </div>
     </div>
+
     <div id="toolBar">
       <div class="toolbar-tools">
         <div
@@ -819,3 +873,28 @@ export default {
     </div>
   </div>
 </template>
+
+<style>
+@import "../stylesheets/hwp-styles/Toolbar.css";
+@import "../stylesheets/hwp-styles/TreeControl.css";
+@import "../stylesheets/hwp-styles/Common.css";
+@import "../stylesheets/hwp-styles/Desktop.css";
+@import "../stylesheets/hwp-styles/NoteText.css";
+@import "../stylesheets/hwp-styles/jquery-ui.min.css";
+@import "../stylesheets/hwp-styles/PropertyWindow.css";
+@import "../stylesheets/hwp-styles/ViewerSettings.css";
+@import "../stylesheets/hwp-styles/jquery.minicolors.css";
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#viewerContainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+</style>

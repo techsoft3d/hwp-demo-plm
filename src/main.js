@@ -2,7 +2,9 @@ import { createApp } from 'vue';
 import * as VueRouter from 'vue-router';
 
 import App from './App.vue';
+import Main from './Main.vue';
 import Home from './views/Home.vue';
+import TopBar from './views/components/NavBarTop.vue';
 import Project from './views/Project.vue';
 import PartList from './views/Part/PartList.vue';
 import PartDetail from './views/Part/PartDetail.vue';
@@ -12,22 +14,40 @@ import ModelOverlay from './views/ModelOverlay.vue';
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
   routes: [
-    { path: '/', component: Home },
     {
-      path: '/project/:projectNumber', 
-      component: Project,
+      path: "/",
+      component: Main,
       children: [
         {
-          path: "part/:partNumber",
-          component: PartDetail,
+          path: "/project/:projectNumber",
+          components: {
+            default: Project,
+            TopBar
+          },
+          children: [
+            {
+              path: "part/:partNumber",
+              component: PartDetail,
+            },
+            {
+              path: "",
+              component: PartList,
+            }
+          ],
         },
         {
           path: "",
-          component: PartList,
-        }
-      ],
+          components: {
+            TopBar,
+            default: Home
+          }
+        },
+      ]
     },
-    { path: '/model', component: ModelOverlay },
+    {
+      path: '/model/:projectNumber/:partNumber',
+      component: ModelOverlay,
+    },
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: Error },
   ]
 });

@@ -50,6 +50,13 @@ export default {
       this.$router.push(
         `/project/${this.assembly.projectNumber}/part/${partNumber}`
       );
+    },
+    viewModel() {
+      const partNumber = this.$route.params.partNumber;
+      const projectNumber = this.$route.params.projectNumber;
+      this.$router.push(
+        `/model/${projectNumber}/${partNumber}`
+      );
     }
   },
   created() {
@@ -78,7 +85,7 @@ export default {
           <p><strong>Last Updated:</strong> Oct 25</p>
           <br />
           <div class="buttons">
-            <a class="button is-info">View</a>
+            <a class="button is-info" @click="viewModel()">View</a>
             <a class="button">Generate BOM</a>
           </div>
         </div>

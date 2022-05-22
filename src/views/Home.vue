@@ -1,12 +1,16 @@
 <script>
 import drillXml from "../model-data/__drill.asm.xml?raw";
-import { assemblies, getAssembly, getUser } from "../javascript/data-utilities.js";
+import {
+  assemblies,
+  getAssembly,
+  getUser,
+} from "../javascript/data-utilities.js";
 
 export default {
   computed: {
     assemblies() {
       return assemblies;
-    }
+    },
   },
   methods: {
     load(projectNumber) {
@@ -33,10 +37,11 @@ export default {
         <th>Status</th>
         <th>% Complete</th>
       </tr>
-      <tr 
-        v-for="assembly in assemblies" v-bind:key="assembly.projectNumber"
+      <tr
+        v-for="assembly in assemblies"
+        v-bind:key="assembly.projectNumber"
         @click="load(assembly.projectNumber)"
-        >
+      >
         <td>{{ assembly.projectNumber }}</td>
         <td>{{ assembly.name }}</td>
         <td>{{ assembly.startDate }}</td>
