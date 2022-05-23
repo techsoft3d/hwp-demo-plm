@@ -1,13 +1,22 @@
 <script>
+import { getAssembly } from "../javascript/data-utilities";
+import { getAllChildren } from "../javascript/node-utilities";
+const Model_Data_Path = "../model-data";
+
 export default {
+  data() {
+    return {
+      assembly: {},
+      completeNodeList: [],
+      structure: [],
+    };
+  },
   methods: {
     closeViewer() {
       console.log("close viewer");
       const partNumber = this.$route.params.partNumber;
       const projectNumber = this.$route.params.projectNumber;
-      this.$router.push(
-        `/project/${projectNumber}/part/${partNumber}`
-      );
+      this.$router.push(`/project/${projectNumber}/part/${partNumber}`);
     },
     getModelUrl(modelName) {
       const modelUrl = new URL(
@@ -17,52 +26,153 @@ export default {
       console.log(modelUrl);
       return modelUrl;
     },
+    async loadProject() {
+      let completeNodeList = [];
+      let masterAssembly = this.assembly.assemblyFile;
+
+      // Parse the xml
+      let xml = await import(
+        /* @vite-ignore */
+        `${Model_Data_Path}/${masterAssembly.replace(" ", "-")}.xml?raw`
+      );
+      xml = xml.default;
+
+      let parser = new DOMParser();
+      let xmlDoc = parser.parseFromString(xml, "text/xml");
+
+      let structure = [];
+      let x = xmlDoc.getElementsByTagName("ProductOccurence");
+      for (let i = 0; i < x.length; i++) {
+        let file_name = "";
+        let thumb_file = "";
+        let _modelBrowserName = "";
+        if (x[i].getAttribute("FilePath") != null) {
+          file_name = x[i]
+            .getAttribute("FilePath")
+            .split("\\")
+            .pop()
+            .split("/")
+            .pop();
+          thumb_file =
+            masterAssembly.replace(" ", "_") +
+            "/" +
+            file_name.replace(" ", "_") +
+            ".png";
+          _modelBrowserName = x[i].getAttribute("Name");
+        }
+
+        const id = parseInt(x[i].getAttribute("Id"));
+        const _fileSize = Math.round(
+          parseInt(x[i].getAttribute("FileSize")) / 1024
+        );
+        const _partNumber = x[i].getAttribute("PartNumber");
+
+        structure[id] = {
+          children: [],
+          parents: [],
+          name: file_name,
+          thumb: thumb_file,
+          modelBrowserName: _modelBrowserName,
+          filesize: _fileSize,
+          partnumber: _partNumber,
+        };
+
+        if (x[i].getAttribute("Children") != null) {
+          structure[id].children = x[i]
+            .getAttribute("Children")
+            .split(" ")
+            .map(function (item) {
+              return parseInt(item, 10);
+            });
+        } else if (x[i].getAttribute("InstanceRef") != null) {
+          structure[id].children.push(
+            parseInt(x[i].getAttribute("InstanceRef"), 10)
+          );
+        } else {
+          structure[id].children = null;
+        }
+      }
+
+      // find the root node
+      let root = {};
+      const searchName = masterAssembly;
+      let found = false;
+      for (let i = 0; i < structure.length && !found; i++) {
+        if (structure[i].name == searchName) {
+          root = structure[i];
+        }
+      }
+
+      completeNodeList.push(root);
+
+      getAllChildren(structure, root).forEach(function (node) {
+        completeNodeList.push(node);
+      });
+
+      this.completeNodeList = completeNodeList;
+      this.structure = structure;
+    },
   },
-  mounted() {
+  async mounted() {
+    const projectNumber = this.$route.params.projectNumber;
+    this.assembly = getAssembly(projectNumber);
+    await this.loadProject();
+    console.log(this.assembly);
+    console.log(this.completeNodeList);
+
     let viewer = new Communicator.WebViewer({
       containerId: "viewerContainer",
-      endpointUri: this.getModelUrl("drill.scs"),
+      endpointUri: this.getModelUrl(this.assembly.CADFile),
     });
 
+    // Find node with name
     var findNode = function (nodeId, name) {
       var children = viewer.model.getNodeChildren(nodeId);
       for (var i = 0; i < children.length; i++) {
         if (viewer.model.getNodeName(children[i]) === name) {
           return children[i];
         } else {
-          ret = findNode(children[i], name);
+          let ret = findNode(children[i], name);
           if (ret != -1) return ret;
         }
       }
-
       return -1;
+    };
+
+    // Find the part's name
+    const findPartNode = (pNumber) => {
+      for (let i = 0; i < this.completeNodeList.length; i++) {
+        if (this.completeNodeList[i].partnumber == pNumber) {
+          return this.completeNodeList[i];
+        }
+      }
+      return null;
     };
 
     const partNumber = this.$route.params.partNumber;
     viewer.setCallbacks({
       modelStructureReady: function () {
-        viewer.model.setNodesVisibility([5], false);
+        viewer.model.setNodesVisibility([0], false);
+        let partNode = findPartNode(partNumber);
+        let childNodeId = findNode(0, partNode.modelBrowserName);
         console.log(viewer.model.getNodeName(0));
-        viewer.model.setNodesVisibility([partNumber], true);
+        viewer.model.setNodesVisibility([childNodeId], true);
       },
     });
 
-    window.onresize = function (event) {
+    window.addEventListener("resize", function () {
       viewer.resizeCanvas();
-    };
-
-    // window.onbeforeunload = () => {
-    //   $.get("/api/delete_collection?collection=" + [data.collection_id]);
-    // };
+    });
 
     const uiConfig = {
       containerId: "content",
       screenConfiguration: Sample.screenConfiguration,
     };
-    const ui = new Communicator.Ui.Desktop.DesktopUi(viewer, uiConfig);
+    new Communicator.Ui.Desktop.DesktopUi(viewer, uiConfig);
 
     viewer.start();
   },
+  async created() {},
 };
 </script>
 
@@ -75,7 +185,7 @@ export default {
       <div class="navbar">
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link button"> V. {{ revision }} </a>
+            <a class="navbar-link button"> V. {{ "revision" }} </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" @click="changeRevision(1)"> V. 1 </a>
               <a class="navbar-item" @click="changeRevision(2)"> V. 2 </a>
@@ -97,7 +207,7 @@ export default {
               >
                 ECO...
               </a>
-              <a
+              <!-- <a
                 class="navbar-item"
                 v-show="checkedOut"
                 @click="checkedOut = false"
@@ -108,7 +218,7 @@ export default {
                 v-show="!checkedOut"
                 @click="checkedOut = true"
                 >Check out</a
-              >
+              > -->
               <a class="navbar-item" @click="uploadVisible = true">
                 Upload...
               </a>

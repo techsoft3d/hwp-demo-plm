@@ -3,7 +3,7 @@
     "projectNumber": "PR00001",
     "name": "Micro Engine",
     "assemblyFile": "_micro engine.CATProduct",
-    "CADFile": "mocroengine.scs",
+    "CADFile": "microengine.scs",
     "modeler": "Catia",
     "status": "In Design",
     "startDate": "Aug 26, 2017",
