@@ -32,8 +32,13 @@ export default {
       return result;
     },
     usesNodeList() {
-      if (this.structure.length > 0)
-        return getAllChildren(this.structure, this.currentNode);
+      if (this.structure.length > 0) {
+        let children = getAllChildren(this.structure, this.currentNode);
+        children = children.filter(node => {
+          return node.partnumber != null;
+        });
+        return children;
+      }
       return [];
     },
     usedInNodeList() {
