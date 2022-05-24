@@ -1,10 +1,13 @@
 <script>
 import { computed } from "@vue/runtime-core";
-import { getAllChildren } from "../javascript/node-utilities";
-import { getAssembly, users } from "../javascript/data-utilities";
+import {
+  getAssembly,
+  users,
+  loadStructure,
+  loadCompleteNoteList,
+} from "../javascript/data-utilities";
 
-const Image_Path = "../images";
-const Model_Data_Path = "../model-data";
+const Image_Path = "/src/images";
 
 export default {
   data() {
@@ -24,97 +27,10 @@ export default {
     return {
       assembly: this.assembly,
       completeNodeList: computed(() => this.completeNodeList),
-      // structure: computed(() => this.structure),
       layout: computed(() => this.layout),
     };
   },
   methods: {
-    async loadProject() {
-      let completeNodeList = [];
-      let masterAssembly = this.assembly.assemblyFile;
-
-      // Parse the xml
-      let xml = await import(
-        /* @vite-ignore */
-        `${Model_Data_Path}/${masterAssembly.replace(" ", "-")}.xml?raw`
-      );
-      xml = xml.default;
-
-      let parser = new DOMParser();
-      let xmlDoc = parser.parseFromString(xml, "text/xml");
-
-      let structure = [];
-      let x = xmlDoc.getElementsByTagName("ProductOccurence");
-      for (let i = 0; i < x.length; i++) {
-        let file_name = "";
-        let thumb_file = "";
-        let _modelBrowserName = "";
-        if (x[i].getAttribute("FilePath") != null) {
-          file_name = x[i]
-            .getAttribute("FilePath")
-            .split("\\")
-            .pop()
-            .split("/")
-            .pop();
-          thumb_file =
-            masterAssembly.replace(" ", "_") +
-            "/" +
-            file_name.replace(" ", "_") +
-            ".png";
-          _modelBrowserName = x[i].getAttribute("Name");
-        }
-
-        const id = parseInt(x[i].getAttribute("Id"));
-        const _fileSize = Math.round(
-          parseInt(x[i].getAttribute("FileSize")) / 1024
-        );
-        const _partNumber = x[i].getAttribute("PartNumber");
-
-        structure[id] = {
-          children: [],
-          parents: [],
-          name: file_name,
-          thumb: thumb_file,
-          modelBrowserName: _modelBrowserName,
-          filesize: _fileSize,
-          partnumber: _partNumber,
-        };
-
-        if (x[i].getAttribute("Children") != null) {
-          structure[id].children = x[i]
-            .getAttribute("Children")
-            .split(" ")
-            .map(function (item) {
-              return parseInt(item, 10);
-            });
-        } else if (x[i].getAttribute("InstanceRef") != null) {
-          structure[id].children.push(
-            parseInt(x[i].getAttribute("InstanceRef"), 10)
-          );
-        } else {
-          structure[id].children = null;
-        }
-      }
-
-      // find the root node
-      let root = {};
-      const searchName = masterAssembly;
-      let found = false;
-      for (let i = 0; i < structure.length && !found; i++) {
-        if (structure[i].name == searchName) {
-          root = structure[i];
-        }
-      }
-
-      completeNodeList.push(root);
-
-      getAllChildren(structure, root).forEach(function (node) {
-        completeNodeList.push(node);
-      });
-
-      this.completeNodeList = completeNodeList;
-      this.structure = structure;
-    },
     navProject() {
       this.$router.push(`/project/${this.assembly.projectNumber}`);
     },
@@ -131,7 +47,8 @@ export default {
     console.log("project created");
     const projectNumber = this.$route.params.projectNumber;
     this.assembly = getAssembly(projectNumber);
-    await this.loadProject();
+    this.structure = await loadStructure(projectNumber);
+    this.completeNodeList = loadCompleteNoteList(projectNumber, this.structure);
   },
 };
 </script>

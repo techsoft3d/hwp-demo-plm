@@ -42,7 +42,8 @@ export default {
       return [];
     },
     usedInNodeList() {
-      return [];
+      let ancestors = getAllAncestors(this.structure, this.currentNode);
+      return ancestors;
     }
   },
   methods: {
@@ -138,6 +139,7 @@ export default {
           v-for="(node, index) in usedInNodeList"
           class="column is-one-quarter"
           :key="index"
+          @click="load(node.partnumber)"
         >
           <div class="box">
             <figure class="image">

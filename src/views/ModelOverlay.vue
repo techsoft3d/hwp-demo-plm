@@ -1,7 +1,9 @@
 <script>
-import { getAssembly } from "../javascript/data-utilities";
-import { getAllChildren } from "../javascript/node-utilities";
-const Model_Data_Path = "../model-data";
+import {
+  getAssembly,
+  loadStructure,
+  loadCompleteNoteList,
+} from "../javascript/data-utilities";
 
 export default {
   data() {
@@ -26,99 +28,12 @@ export default {
       console.log(modelUrl);
       return modelUrl;
     },
-    async loadProject() {
-      let completeNodeList = [];
-      let masterAssembly = this.assembly.assemblyFile;
-
-      // Parse the xml
-      let xml = await import(
-        /* @vite-ignore */
-        `${Model_Data_Path}/${masterAssembly.replace(" ", "-")}.xml?raw`
-      );
-      xml = xml.default;
-
-      let parser = new DOMParser();
-      let xmlDoc = parser.parseFromString(xml, "text/xml");
-
-      let structure = [];
-      let x = xmlDoc.getElementsByTagName("ProductOccurence");
-      for (let i = 0; i < x.length; i++) {
-        let file_name = "";
-        let thumb_file = "";
-        let _modelBrowserName = "";
-        if (x[i].getAttribute("FilePath") != null) {
-          file_name = x[i]
-            .getAttribute("FilePath")
-            .split("\\")
-            .pop()
-            .split("/")
-            .pop();
-          thumb_file =
-            masterAssembly.replace(" ", "_") +
-            "/" +
-            file_name.replace(" ", "_") +
-            ".png";
-          _modelBrowserName = x[i].getAttribute("Name");
-        }
-
-        const id = parseInt(x[i].getAttribute("Id"));
-        const _fileSize = Math.round(
-          parseInt(x[i].getAttribute("FileSize")) / 1024
-        );
-        const _partNumber = x[i].getAttribute("PartNumber");
-
-        structure[id] = {
-          children: [],
-          parents: [],
-          name: file_name,
-          thumb: thumb_file,
-          modelBrowserName: _modelBrowserName,
-          filesize: _fileSize,
-          partnumber: _partNumber,
-        };
-
-        if (x[i].getAttribute("Children") != null) {
-          structure[id].children = x[i]
-            .getAttribute("Children")
-            .split(" ")
-            .map(function (item) {
-              return parseInt(item, 10);
-            });
-        } else if (x[i].getAttribute("InstanceRef") != null) {
-          structure[id].children.push(
-            parseInt(x[i].getAttribute("InstanceRef"), 10)
-          );
-        } else {
-          structure[id].children = null;
-        }
-      }
-
-      // find the root node
-      let root = {};
-      const searchName = masterAssembly;
-      let found = false;
-      for (let i = 0; i < structure.length && !found; i++) {
-        if (structure[i].name == searchName) {
-          root = structure[i];
-        }
-      }
-
-      completeNodeList.push(root);
-
-      getAllChildren(structure, root).forEach(function (node) {
-        completeNodeList.push(node);
-      });
-
-      this.completeNodeList = completeNodeList;
-      this.structure = structure;
-    },
   },
   async mounted() {
     const projectNumber = this.$route.params.projectNumber;
     this.assembly = getAssembly(projectNumber);
-    await this.loadProject();
-    console.log(this.assembly);
-    console.log(this.completeNodeList);
+    this.structure = await loadStructure(projectNumber);
+    this.completeNodeList = loadCompleteNoteList(projectNumber, this.structure);
 
     let viewer = new Communicator.WebViewer({
       containerId: "viewerContainer",
@@ -155,8 +70,8 @@ export default {
         viewer.model.setNodesVisibility([0], false);
         let partNode = findPartNode(partNumber);
         let childNodeId = findNode(0, partNode.modelBrowserName);
-        console.log(viewer.model.getNodeName(0));
         viewer.model.setNodesVisibility([childNodeId], true);
+        viewer.view.fitNodes([childNodeId]);
       },
     });
 
@@ -172,7 +87,6 @@ export default {
 
     viewer.start();
   },
-  async created() {},
 };
 </script>
 
