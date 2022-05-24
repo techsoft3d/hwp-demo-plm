@@ -25,7 +25,6 @@ export default {
         `../assets/CAD-models/${modelName}?url`,
         import.meta.url
       ).href;
-      console.log(modelUrl);
       return modelUrl;
     },
   },
