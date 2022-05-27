@@ -1,5 +1,5 @@
 <script>
-const Image_Path = "../../images";
+import { Image_Path } from "../../javascript/paths";
 
 export default {
   props: ["assembly", "completeNodeList", "structure"],
@@ -19,8 +19,7 @@ export default {
       return "A";
     },
     getThumb(thumbName) {
-      const imgUrl = new URL(`${Image_Path}/${thumbName}?url`, import.meta.url)
-        .href;
+      const imgUrl = `${Image_Path}/${thumbName}`;
       return imgUrl;
     },
     load(partNumber) {

@@ -6,8 +6,8 @@ import {
   loadStructure,
   loadCompleteNoteList,
 } from "../javascript/data-utilities";
+import { Image_Path } from "../javascript/paths";
 
-const Image_Path = "/src/images";
 
 export default {
   data() {
@@ -37,11 +37,9 @@ export default {
     navHome() {
       this.$router.push(`/`);
     },
-    getThumb(thumbName) {
-      const imgUrl = new URL(`${Image_Path}/${thumbName}?url`, import.meta.url)
-        .href;
-      return imgUrl;
-    },
+    getThumb(imageFile) {
+      return `${Image_Path}/${imageFile}`;
+    }
   },
   async created() {
     console.log("project created");

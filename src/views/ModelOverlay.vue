@@ -21,10 +21,7 @@ export default {
       this.$router.push(`/project/${projectNumber}/part/${partNumber}`);
     },
     getModelUrl(modelName) {
-      const modelUrl = new URL(
-        `../assets/CAD-models/${modelName}?url`,
-        import.meta.url
-      ).href;
+      const modelUrl = `/CAD-models/${modelName}?`;
       return modelUrl;
     },
   },

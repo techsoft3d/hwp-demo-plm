@@ -1,9 +1,6 @@
 <script>
-import drillXml from "../model-data/__drill.asm.xml?raw";
 import {
   assemblies,
-  getAssembly,
-  getUser,
 } from "../javascript/data-utilities.js";
 
 export default {
@@ -20,8 +17,6 @@ export default {
   },
   mounted() {
     console.log("home mounted");
-    console.log(getAssembly("PR00003"));
-    console.log(getUser(2));
   },
 };
 </script>

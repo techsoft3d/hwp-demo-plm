@@ -3,7 +3,7 @@
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://www.techsoft3d.com">
-        <img src="../../images/TS3D_logo.jpg" alt="Tech Soft 3D" />
+        <img src="/images/TS3D_logo.jpg" alt="Tech Soft 3D" />
       </a>
     </div>
     <div class="navbar-end">

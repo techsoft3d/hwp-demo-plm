@@ -35,12 +35,6 @@ export default {
       users: this.users,
     };
   },
-  methods: {
-    getThumb(thumbName) {
-      const imgUrl = new URL(`./images/${thumbName}?url`, import.meta.url).href;
-      return imgUrl;
-    },
-  },
 };
 </script>
 
