@@ -1,0 +1,471 @@
+<Root>
+	<ModelFile>
+		<ProductOccurence Behaviour="1" Children="1" Id="0" IsPart="false" Name="__drill" Unit="1.000000" />
+		<ProductOccurence Behaviour="1" Children="2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill/__drill.asm" FileSize="292252" Id="1" IsPart="false" Name="__drill" PartNumber="00490670" Style="65535">
+			<CADView Id="151" Name="Standard Orientation" isAnnotationView="false">
+				<Camera Projection="2" definition="487.139337601752743 693.5093981364173032 671.9620109951956692 -43.13696114416775629 45.97281827552846778 107.7857155790631793 7.079110370122875038e-08 0.6216100748931170372 -0.7833268250170987157" field="980.2463655164974625 980.2463655164974625" />
+			</CADView>
+			<CADView Id="152" Name="FRONT" isAnnotationView="false">
+				<Camera Projection="2" definition="-21.56957675038947286 57.44240861973628398 3391.754834227212541 -21.56957675038947286 57.44240861973628398 1832.253856936249576 0 1 -0" field="435.0309105041264388 515.5921902271128374" />
+			</CADView>
+			<CADView Id="153" Name="RIGHT" isAnnotationView="false">
+				<Camera Projection="2" definition="3269.229040499911662 47.0617926545143348 118.4980421295871622 1709.728063208948697 47.0617926545143348 118.4980421295871622 -0 1 0" field="608.9061247032294659 721.6665181667904108" />
+			</CADView>
+			<CADView Id="154" Name="TOP" isAnnotationView="false">
+				<Camera Projection="2" definition="-4.638321658167541273 3368.119359470116706 110.4442544850664092 -4.638321658167541273 1808.618382179153741 110.4442544850664092 0 0 -1" field="672.5471705727475182 797.0929429010340073" />
+			</CADView>
+			<CADView Id="155" Name="BOTTOM" isAnnotationView="false">
+				<Camera Projection="2" definition="-7.231277417726317935 -3273.406952303109392 119.7020560583304132 -7.231277417726317935 -1713.9059750121462 119.7020560583304132 -0 0 -1" field="700.5208649994086727 830.2469511104102367" />
+			</CADView>
+			<CADView Id="156" Name="LEFT" isAnnotationView="false">
+				<Camera Projection="2" definition="-3355.467328091594027 50.18248324151349493 119.0193962242541801 -1795.96635080063129 50.18248324151349493 119.0193962242541801 0 1 -0" field="609.1905060928580724 722.0035627767206279" />
+			</CADView>
+			<CADView Id="157" Name="BACK" isAnnotationView="false">
+				<Camera Projection="2" definition="-17.06708424396782675 57.80464981309667394 -3177.724128458861742 -17.06708424396782675 57.80464981309667394 -1618.223151167898777 -0 1 -0" field="428.6289457226558852 508.0046764120365879" />
+			</CADView>
+			<CADView Id="158" Name="GEARBOX" isAnnotationView="false">
+				<Camera Projection="2" definition="3078.529169569585974 472.6374003229496452 1217.825825931413874 1629.641263610690885 242.5650818021242685 688.8325722996029299 -0.1461114120461849408 0.988817126846985861 -0.02986879515384201905" field="189.2790654588389714 224.3307442475128539" />
+			</CADView>
+			<CADView Id="159" Name="CARB" isAnnotationView="false">
+				<Camera Projection="2" definition="-6125.192915230311883 21844.74671018184381 -44503.61520316131646 -5931.282342020282158 21163.71284741679483 -43114.14232989744778 0.03202398189610241447 0.8992396469033102635 0.4362826171425214228" field="209.2152732478144515 247.958842367780079" />
+			</CADView>
+			<CADView Id="160" Name="EXHAUST" isAnnotationView="false">
+				<Camera Projection="2" definition="-42045.58462947311637 24511.69118019508824 12162.65967598051429 -40738.56257159309462 23749.89423853360859 11783.97503401340509 0.4795665231827010433 0.8719227499503181544 -0.09882645375369500385" field="215.4613184334093887 255.361562587744487" />
+			</CADView>
+			<CADView Id="161" Name="TRIGGER" isAnnotationView="false">
+				<Camera Projection="2" definition="2681.097440254972753 1386.077661150798122 1550.21194591872063 1475.763301552827443 798.7143293596162721 753.834379234557673 -0.3873414296111414301 0.9174896852796572411 -0.09043945108321199688" field="111.3907353134940905 132.018649260437428" />
+			</CADView>
+			<CADView Id="162" Name="3D_1" isAnnotationView="false">
+				<Camera Projection="2" definition="2319.190327740805515 870.5835142194205218 2213.926628817775963 1203.529214806372238 483.8783512307938963 1195.20061257233283 -0.1697984680133547142 0.9685805235411111269 -0.1817147481002714393" field="436.2030688940193954 516.9814149855044434" />
+			</CADView>
+			<CADView Id="163" Name="3D_2" isAnnotationView="false">
+				<Camera Projection="2" definition="-2160.164564450945363 886.9673234711217447 2458.587882648335835 -1141.438548205499956 500.2621604825046688 1342.926769713901876 0.1817147481002653886 0.9685805235411126812 -0.1697984680133518276" field="414.458423392481393 491.209983279977962" />
+			</CADView>
+			<CADView Id="164" Name="3D_3" isAnnotationView="false">
+				<Camera Projection="2" definition="-2359.863225136125038 837.8306219591981971 -2057.374848347808893 -1244.202112201691534 451.1254589705818034 -1038.648832102362576 0.1697984680133531876 0.9685805235411129033 0.1817147481002633069" field="444.2749171144907905 526.5480499134705497" />
+			</CADView>
+			<CADView Id="165" Name="3D_4" isAnnotationView="false">
+				<Camera Projection="2" definition="2115.557111121447633 830.7443214278771393 -2221.972234007786028 1096.831094876001544 444.0391584392617688 -1106.31112107335116 -0.181714748100264667 0.9685805235411129033 0.1697984680133509394" field="420.8424574565569856 498.7762458744379614" />
+			</CADView>
+			<CADView Id="166" Name="DEFAULT" isAnnotationView="false">
+				<Camera Projection="2" definition="487.139337601752743 693.5093981364173032 671.9620109951956692 -43.13696114416775629 45.97281827552846778 107.7857155790631793 7.079110370122875038e-08 0.6216100748931170372 -0.7833268250170987157" field="980.2463655164974625 980.2463655164974625" />
+			</CADView>
+			<CADView Id="167" Name="DEFAULT[DEFAULT/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="487.139337601752743 693.5093981364173032 671.9620109951956692 -43.13696114416775629 45.97281827552846778 107.7857155790631793 7.079110370122875038e-08 0.6216100748931170372 -0.7833268250170987157" field="980.2463655164974625 980.2463655164974625" />
+			</CADView>
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="27 28 29 30 31 32 33 34 35 36 37 38 39" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\engine.asm" FileSize="85953" Id="2" InstanceRef="40" IsPart="false" Name="ENGINE" PartNumber="00680875" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\eng_block_rear.prt" FileSize="1016716" Id="27" InstanceRef="41" IsPart="false" Name="ENG_BLOCK_REAR" PartNumber="00353627" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="41" IsPart="false" Name="">
+			<ExternalModel Name="eng_block_rear.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\eng_bearing.prt" FileSize="76335" Id="28" InstanceRef="42" IsPart="false" Name="ENG_BEARING" PartNumber="00863168" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 -1.285836671513496121e-15 -17 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="42" IsPart="false" Name="">
+			<ExternalModel Name="eng_bearing.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\eng_block_front.prt" FileSize="742372" Id="29" InstanceRef="43" IsPart="false" Name="ENG_BLOCK_FRONT" PartNumber="0052226" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="43" IsPart="false" Name="">
+			<ExternalModel Name="eng_block_front.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\eng_bearing.prt" FileSize="76335" Id="30" InstanceRef="42" IsPart="false" Name="ENG_BEARING" PartNumber="00259724" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 0 0 17 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\cylinder.prt" FileSize="1714479" Id="31" InstanceRef="44" IsPart="false" Name="CYLINDER" PartNumber="00514209" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="44" IsPart="false" Name="">
+			<ExternalModel Name="cylinder.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="32" InstanceRef="45" IsPart="false" Name="BOLT_5-18&lt;BOLT&gt;" PartNumber="00798050" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 17.5 38 20.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="45" IsPart="false" Name="">
+			<ExternalModel Name="bolt.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="33" InstanceRef="45" IsPart="false" Name="BOLT_5-18&lt;BOLT&gt;" PartNumber="00992329" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -17.5 38 -20.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="34" InstanceRef="45" IsPart="false" Name="BOLT_5-28&lt;BOLT&gt;" PartNumber="00213771" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 -23.5 15.5 -23 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="35" InstanceRef="45" IsPart="false" Name="BOLT_5-28&lt;BOLT&gt;" PartNumber="00520568" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 -29.75 -23 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="36" InstanceRef="45" IsPart="false" Name="BOLT_5-28&lt;BOLT&gt;" PartNumber="00442406" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 23.5 15.5 -23 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="46 47" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\crank.asm" FileSize="30648" Id="37" InstanceRef="48" IsPart="false" Name="CRANK" PartNumber="0084023" Style="65535">
+			<Transformation RelativeTransfo="0.8910066485404968262 0.453990250825881958 -0 0 -0.453990250825881958 0.8910066485404968262 0 0 0 0 1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\crankshaft.prt" FileSize="315564" Id="46" InstanceRef="49" IsPart="false" Name="CRANKSHAFT" PartNumber="00699393" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="49" IsPart="false" Name="">
+			<ExternalModel Name="crankshaft.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\flywheel.prt" FileSize="1918204" Id="47" InstanceRef="50" IsPart="false" Name="FLYWHEEL" PartNumber="00858699" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 -2.204291436880279065e-15 -35 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="50" IsPart="false" Name="">
+			<ExternalModel Name="flywheel.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="48" IsPart="false" Name="">
+			<ExternalModel Name="crank.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="51 52 53" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\piston.asm" FileSize="32766" Id="38" InstanceRef="54" IsPart="false" Name="PISTON" PartNumber="00163662" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 63.58038330078125 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\piston.prt" FileSize="289133" Id="51" InstanceRef="55" IsPart="false" Name="PISTON" PartNumber="00446866" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="55" IsPart="false" Name="">
+			<ExternalModel Name="piston.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\piston_pin.prt" FileSize="39290" Id="52" InstanceRef="56" IsPart="false" Name="PISTON_PIN" PartNumber="00914365" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="56" IsPart="false" Name="">
+			<ExternalModel Name="piston_pin.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\piston_ring.prt" FileSize="44969" Id="53" InstanceRef="57" IsPart="false" Name="PISTON_RING" PartNumber="00759290" Style="65535">
+			<Transformation RelativeTransfo="0.9914069175720214844 0 0.130813896656036377 0 0 -1 0 0 0.130813896656036377 0 -0.9914069175720214844 0 0 10.39999961853027344 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="57" IsPart="false" Name="">
+			<ExternalModel Name="piston_ring.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="54" IsPart="false" Name="">
+			<ExternalModel Name="piston.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\connecting_rod.prt" FileSize="179718" Id="39" InstanceRef="58" IsPart="false" Name="CONNECTING_ROD" PartNumber="00300580" Style="65535">
+			<Transformation RelativeTransfo="0.9923551678657531738 -0.1234148293733596802 0 0 0.1234148293733596802 0.9923551678657531738 -0 0 0 0 1 0 -6.355863571166992188 12.47409343719482422 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="58" IsPart="false" Name="">
+			<ExternalModel Name="connecting_rod.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="40" IsPart="false" Name="">
+			<ExternalModel Name="engine.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\spark_plug.prt" FileSize="291549" Id="3" InstanceRef="59" IsPart="false" Name="SPARK_PLUG" PartNumber="00445431" Style="65535">
+			<Transformation RelativeTransfo="0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 0.7071067690849304199 -0 0 0 0 1 0 1.873832941055297852 84.77154541015625 -1.806294371888006456e-15 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="59" IsPart="false" Name="">
+			<ExternalModel Name="spark_plug.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\muffler.prt" FileSize="1014527" Id="4" InstanceRef="60" IsPart="false" Name="MUFFLER" PartNumber="00963875" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 -1 0 0 0 0 -1 0 0 -54 55 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="60" IsPart="false" Name="">
+			<ExternalModel Name="muffler.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="5" InstanceRef="45" IsPart="false" Name="BOLT_5-50&lt;BOLT&gt;" PartNumber="00175714" Style="65535">
+			<Transformation RelativeTransfo="0 1 0 0 -1 0 0 0 0 -0 1 0 -69 55 -18 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="6" InstanceRef="45" IsPart="false" Name="BOLT_5-50&lt;BOLT&gt;" PartNumber="00436673" Style="65535">
+			<Transformation RelativeTransfo="0 1 0 0 -1 0 0 0 0 -0 1 0 -69 55 18 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="61 62 63 64 65 66 67 68 69" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\carburetor.asm" FileSize="55930" Id="7" InstanceRef="70" IsPart="false" Name="CARBURETOR" PartNumber="00383598" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 30 46 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\manifold.prt" FileSize="220983" Id="61" InstanceRef="71" IsPart="false" Name="MANIFOLD" PartNumber="00831684" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="71" IsPart="false" Name="">
+			<ExternalModel Name="manifold.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\carburetor.prt" FileSize="417670" Id="62" InstanceRef="72" IsPart="false" Name="CARBURETOR" PartNumber="0022120" Style="65535">
+			<Transformation RelativeTransfo="0 0 -1 0 -0 1 0 0 1 0 0 0 25 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="72" IsPart="false" Name="">
+			<ExternalModel Name="carburetor.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="63" InstanceRef="45" IsPart="false" Name="BOLT_5-24&lt;BOLT&gt;" PartNumber="00180307" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 13.5 12 13.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="64" InstanceRef="45" IsPart="false" Name="BOLT_5-24&lt;BOLT&gt;" PartNumber="00843923" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 13.5 -13 -15.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\carburetor_plate.prt" FileSize="546072" Id="65" InstanceRef="73" IsPart="false" Name="CARBURETOR_PLATE" PartNumber="00140144" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 0 1 -0 0 -1 0 0 0 56 -54 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="73" IsPart="false" Name="">
+			<ExternalModel Name="carburetor_plate.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="66" InstanceRef="45" IsPart="false" Name="BOLT_5-60&lt;BOLT&gt;" PartNumber="00520406" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 65 0 15.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="67" InstanceRef="45" IsPart="false" Name="BOLT_5-60&lt;BOLT&gt;" PartNumber="0064755" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 65 0 -15.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\air_filter_cover.prt" FileSize="1797561" Id="68" InstanceRef="74" IsPart="false" Name="AIR_FILTER_COVER" PartNumber="0093272" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 65 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="74" IsPart="false" Name="">
+			<ExternalModel Name="air_filter_cover.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="69" InstanceRef="45" IsPart="false" Name="BOLT_5-24&lt;BOLT&gt;" PartNumber="00703968" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 93 -17 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="70" IsPart="false" Name="">
+			<ExternalModel Name="carburetor.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\coil.prt" FileSize="287684" Id="8" InstanceRef="75" IsPart="false" Name="COIL" PartNumber="00959434" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 0 84 -51 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="75" IsPart="false" Name="">
+			<ExternalModel Name="coil.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="9" InstanceRef="45" IsPart="false" Name="BOLT_4-18&lt;BOLT&gt;" PartNumber="00187478" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 84 -60 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="10" InstanceRef="45" IsPart="false" Name="BOLT_4-18&lt;BOLT&gt;" PartNumber="00945216" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 22 50 -60 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="76 77 78 79 80" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\clutch.asm" FileSize="367765" Id="11" InstanceRef="81" IsPart="false" Name="CLUTCH" PartNumber="00727170" Style="65535">
+			<Transformation RelativeTransfo="0.8910066485404968262 0.453990250825881958 0 0 0 0 -1 0 -0.453990250825881958 0.8910066485404968262 0 0 0 0 43.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\clutch_body.prt" FileSize="65812" Id="76" InstanceRef="82" IsPart="false" Name="CLUTCH_BODY" PartNumber="00861275" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="82" IsPart="false" Name="">
+			<ExternalModel Name="clutch_body.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\clutch_shoe_l.prt" FileSize="181440" Id="77" InstanceRef="83" IsPart="false" Name="CLUTCH_SHOE_L" PartNumber="00939564" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -8 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="83" IsPart="false" Name="">
+			<ExternalModel Name="clutch_shoe_l.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\clutch_shoe_r.prt" FileSize="71909" Id="78" InstanceRef="84" IsPart="false" Name="CLUTCH_SHOE_R" PartNumber="00180897" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 8 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="84" IsPart="false" Name="">
+			<ExternalModel Name="clutch_shoe_r.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\clutch_spring.prt" FileSize="316375" Id="79" InstanceRef="85" IsPart="false" Name="CLUTCH_SPRING" PartNumber="00768088" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 -0 0 1 0 0 -1 0 0 0 0 14.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="85" IsPart="false" Name="">
+			<ExternalModel Name="clutch_spring.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\clutch_spring.prt" FileSize="316375" Id="80" InstanceRef="85" IsPart="false" Name="CLUTCH_SPRING" PartNumber="00813855" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 -0 0 1 0 0 -1 0 0 0 0 -14.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="81" IsPart="false" Name="">
+			<ExternalModel Name="clutch.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="86 87 88 89 90 91 92 93 94 95" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\gearbox_chuck.asm" FileSize="62536" Id="12" InstanceRef="96" IsPart="false" Name="GEARBOX_CHUCK" PartNumber="00918405" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 0 45 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\gearbox_rear.prt" FileSize="1858219" Id="86" InstanceRef="97" IsPart="false" Name="GEARBOX_REAR" PartNumber="00726207" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="97" IsPart="false" Name="">
+			<ExternalModel Name="gearbox_rear.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\primary_gear_shaft.prt" FileSize="288911" Id="87" InstanceRef="98" IsPart="false" Name="PRIMARY_GEAR_SHAFT" PartNumber="00211980" Style="65535">
+			<Transformation RelativeTransfo="-0.9752125144004821777 0.2212703526020050049 0 0 0 -0 1 0 0.2212703526020050049 0.9752125144004821777 0 0 0 0 -10 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="98" IsPart="false" Name="">
+			<ExternalModel Name="primary_gear_shaft.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\reduction_gear_shaft.prt" FileSize="2055738" Id="88" InstanceRef="99" IsPart="false" Name="REDUCTION_GEAR_SHAFT" PartNumber="00115239" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 -0 0 1 0 0 -1 0 0 0 -28 42 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="99" IsPart="false" Name="">
+			<ExternalModel Name="reduction_gear_shaft.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\gearbox_front.prt" FileSize="1450582" Id="89" InstanceRef="100" IsPart="false" Name="GEARBOX_FRONT" PartNumber="0093782" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 0 43 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="100" IsPart="false" Name="">
+			<ExternalModel Name="gearbox_front.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\final_gear_shaft.prt" FileSize="1763332" Id="90" InstanceRef="101" IsPart="false" Name="FINAL_GEAR_SHAFT" PartNumber="00602757" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 0 50 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="101" IsPart="false" Name="">
+			<ExternalModel Name="final_gear_shaft.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="102 103 104 105" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\drill_chuck.asm" FileSize="35800" Id="91" InstanceRef="106" IsPart="false" Name="DRILL_CHUCK" PartNumber="00186811" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 0 96 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\chuck.prt" FileSize="250999" Id="102" InstanceRef="107" IsPart="false" Name="CHUCK" PartNumber="00539548" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="107" IsPart="false" Name="">
+			<ExternalModel Name="chuck.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\chuck_collar.prt" FileSize="602643" Id="103" InstanceRef="108" IsPart="false" Name="CHUCK_COLLAR" PartNumber="00859182" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 -0 0 1 0 0 -1 0 0 0 0 1 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="108" IsPart="false" Name="">
+			<ExternalModel Name="chuck_collar.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\auger_bit.prt" FileSize="151038" Id="104" IsPart="false" Name="AUGER_BIT" PartNumber="00771223" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 5.510140751335303178e-15 0 36 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\standard_bit.prt" FileSize="544193" Id="105" InstanceRef="109" IsPart="false" Name="STANDARD_BIT" PartNumber="00606106" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 5.510140751335303178e-15 0 36 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="109" IsPart="false" Name="">
+			<ExternalModel Name="standard_bit.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="106" IsPart="false" Name="">
+			<ExternalModel Name="drill_chuck.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="92" InstanceRef="45" IsPart="false" Name="BOLT_5-18&lt;BOLT&gt;" PartNumber="00726199" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 -27.25 -42 52 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="93" InstanceRef="45" IsPart="false" Name="BOLT_5-18&lt;BOLT&gt;" PartNumber="00102093" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 -30.19031143188476563 13 52 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="94" InstanceRef="45" IsPart="false" Name="BOLT_5-18&lt;BOLT&gt;" PartNumber="00349133" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 30.19031143188476563 13 52 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="95" InstanceRef="45" IsPart="false" Name="BOLT_5-18&lt;BOLT&gt;" PartNumber="0027344" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 27.25 -42 52 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="96" IsPart="false" Name="">
+			<ExternalModel Name="gearbox_chuck.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="110 111 112 113 114" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\fuel_tank.asm" FileSize="46324" Id="13" InstanceRef="115" IsPart="false" Name="FUEL_TANK" PartNumber="00190091" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 -7.105427357601001859e-15 -15.5 -4 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\fuel_tank.prt" FileSize="885610" Id="110" InstanceRef="116" IsPart="false" Name="FUEL_TANK" PartNumber="00117000" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="116" IsPart="false" Name="">
+			<ExternalModel Name="fuel_tank.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\fuel_cap.prt" FileSize="442289" Id="111" InstanceRef="117" IsPart="false" Name="FUEL_CAP" PartNumber="00235700" Style="65535">
+			<Transformation RelativeTransfo="-0.7071067690849304199 0 -0.7071067690849304199 0 -0.7071067690849304199 0 0.7071067690849304199 0 0 1 0 0 -83.1181488037109375 -22.28000068664550781 29.44365119934082031 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="117" IsPart="false" Name="">
+			<ExternalModel Name="fuel_cap.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\fuel_line.prt" FileSize="84692" Id="112" InstanceRef="118" IsPart="false" Name="FUEL_LINE" PartNumber="00322334" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -66.53246307373046875 0 14.20149803161621094 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="118" IsPart="false" Name="">
+			<ExternalModel Name="fuel_line.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="113" InstanceRef="45" IsPart="false" Name="BOLT_5-15&lt;BOLT&gt;" PartNumber="00762634" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 38.97114181518554688 -7 2.650000095367431641 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="114" InstanceRef="45" IsPart="false" Name="BOLT_5-15&lt;BOLT&gt;" PartNumber="0098111" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 -38.97114181518554688 -7 2.650000095367431641 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="115" IsPart="false" Name="">
+			<ExternalModel Name="fuel_tank.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\ratchet.prt" FileSize="322380" Id="14" InstanceRef="119" IsPart="false" Name="RATCHET" PartNumber="00880886" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 0 0 -67.59999847412109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="119" IsPart="false" Name="">
+			<ExternalModel Name="ratchet.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="120 121 122 123 124 125" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\recoil.asm" FileSize="47452" Id="15" InstanceRef="126" IsPart="false" Name="RECOIL" PartNumber="00888093" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -1.421085471520200372e-14 -3.552713678800500929e-15 -43 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\recoil_cover.prt" FileSize="1169780" Id="120" InstanceRef="127" IsPart="false" Name="RECOIL_COVER" PartNumber="00733693" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="127" IsPart="false" Name="">
+			<ExternalModel Name="recoil_cover.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\recoil_pulley.prt" FileSize="99478" Id="121" InstanceRef="128" IsPart="false" Name="RECOIL_PULLEY" PartNumber="00226658" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 -1.291959703282608007e-14 -56 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="128" IsPart="false" Name="">
+			<ExternalModel Name="recoil_pulley.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\recoil_grip.prt" FileSize="228947" Id="122" InstanceRef="129" IsPart="false" Name="RECOIL_GRIP" PartNumber="00258440" Style="65535">
+			<Transformation RelativeTransfo="-0.7071067690849304199 0.7071067690849304199 0 0 0.7071067690849304199 0.7071067690849304199 0 0 0 0 -1 0 32.98653030395507813 15.09673023223876953 -53.84000015258789063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="129" IsPart="false" Name="">
+			<ExternalModel Name="recoil_grip.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="123" InstanceRef="45" IsPart="false" Name="BOLT_4-15&lt;BOLT&gt;" PartNumber="00173603" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 -51.76482772827148438 23 -6.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="124" InstanceRef="45" IsPart="false" Name="BOLT_4-15&lt;BOLT&gt;" PartNumber="00586900" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 -60 -6.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="125" InstanceRef="45" IsPart="false" Name="BOLT_4-15&lt;BOLT&gt;" PartNumber="00646795" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 62.20699310302734375 23 -6.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="126" IsPart="false" Name="">
+			<ExternalModel Name="recoil.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\engine_cover.prt" FileSize="2599391" Id="16" InstanceRef="130" IsPart="false" Name="ENGINE_COVER" PartNumber="00879225" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="130" IsPart="false" Name="">
+			<ExternalModel Name="engine_cover.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="17" InstanceRef="45" IsPart="false" Name="BOLT_4-12&lt;BOLT&gt;" PartNumber="00750294" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 15 44 45 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="18" InstanceRef="45" IsPart="false" Name="BOLT_4-12&lt;BOLT&gt;" PartNumber="00791339" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 -44 15 45 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="19" InstanceRef="45" IsPart="false" Name="BOLT_4-12&lt;BOLT&gt;" PartNumber="00143090" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -14.5 103 -37 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="131 132 133 134 135 136 137 138" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_main.asm" FileSize="52341" Id="20" InstanceRef="139" IsPart="false" Name="HANDLE_MAIN" PartNumber="00715625" Style="65535">
+			<Transformation RelativeTransfo="0 -0.08715574443340301514 -0.9961947202682495117 0 0 0.9961947202682495117 -0.08715574443340301514 0 1 0 0 0 0 60.681243896484375 67.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_main.prt" FileSize="298205" Id="131" InstanceRef="140" IsPart="false" Name="HANDLE_MAIN" PartNumber="0036520" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="140" IsPart="false" Name="">
+			<ExternalModel Name="handle_main.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_grip.prt" FileSize="386905" Id="132" InstanceRef="141" IsPart="false" Name="HANDLE_GRIP" PartNumber="00936244" Style="65535">
+			<Transformation RelativeTransfo="-0.9961947202682495117 -0.08715574443340301514 -0 0 -0.08715574443340301514 0.9961947202682495117 0 0 0 0 -1 0 282.38531494140625 29.88584136962890625 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="141" IsPart="false" Name="">
+			<ExternalModel Name="handle_grip.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_plate.prt" FileSize="144150" Id="133" InstanceRef="142" IsPart="false" Name="HANDLE_PLATE" PartNumber="00396903" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 -0.08715574443340301514 0.9961947202682495117 0 0 -0.9961947202682495117 -0.08715574443340301514 0 0 3.794426679611206055 -60.58106613159179688 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="142" IsPart="false" Name="">
+			<ExternalModel Name="handle_plate.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_bracket.prt" FileSize="233595" Id="134" InstanceRef="143" IsPart="false" Name="HANDLE_BRACKET" PartNumber="00495131" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 0.9961947202682495117 0.08715574443340301514 -0 0 -0.08715574443340301514 0.9961947202682495117 0 0 279.770660400390625 59.7716827392578125 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="143" IsPart="false" Name="">
+			<ExternalModel Name="handle_bracket.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\switch.prt" FileSize="38930" Id="135" InstanceRef="144" IsPart="false" Name="SWITCH" PartNumber="00526830" Style="65535">
+			<Transformation RelativeTransfo="0.08715574443340301514 -0.9961947202682495117 0 0 0.9961947202682495117 0.08715574443340301514 -0 0 0 0 1 0 291.226898193359375 60.7739715576171875 16.25 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="144" IsPart="false" Name="">
+			<ExternalModel Name="switch.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\trigger.prt" FileSize="269435" Id="136" InstanceRef="145" IsPart="false" Name="TRIGGER" PartNumber="006467" Style="65535">
+			<Transformation RelativeTransfo="0.9961947202682495117 0.08715574443340301514 -0 0 -0.08715574443340301514 0.9961947202682495117 0 0 0 0 1 0 263.9248046875 45.8376007080078125 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="145" IsPart="false" Name="">
+			<ExternalModel Name="trigger.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\throttle_cable.prt" FileSize="148822" Id="137" InstanceRef="146" IsPart="false" Name="THROTTLE_CABLE" PartNumber="00924677" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="146" IsPart="false" Name="">
+			<ExternalModel Name="throttle_cable.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="138" InstanceRef="45" IsPart="false" Name="BOLT_6-15&lt;BOLT&gt;" PartNumber="00522632" Style="65535">
+			<Transformation RelativeTransfo="-0.08715574443340301514 0.9961947202682495117 0 0 -0.9961947202682495117 -0.08715574443340301514 0 0 0 0 1 0 -9.544353485107421875 17.30275344848632813 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="139" IsPart="false" Name="">
+			<ExternalModel Name="handle_main.asm" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="21" InstanceRef="45" IsPart="false" Name="BOLT_6-36&lt;BOLT&gt;" PartNumber="00585472" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 28.75 28.75 69 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="22" InstanceRef="45" IsPart="false" Name="BOLT_6-36&lt;BOLT&gt;" PartNumber="00935512" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 -28.75 28.75 69 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="23" InstanceRef="45" IsPart="false" Name="BOLT_6-20&lt;BOLT&gt;" PartNumber="00454849" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 28.75 -28.75 54 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="24" InstanceRef="45" IsPart="false" Name="BOLT_6-20&lt;BOLT&gt;" PartNumber="00149415" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 -28.75 -28.75 54 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\bolt.prt" FileSize="86888" Id="25" InstanceRef="45" IsPart="false" Name="BOLT_6-15&lt;BOLT&gt;" PartNumber="00688705" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -0 1 0 0 1 0 0 0 44.75 69 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="147 148" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_side.asm" FileSize="29962" Id="26" InstanceRef="149" IsPart="false" Name="HANDLE_SIDE" PartNumber="00263903" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 0 1 -0 0 -1 0 0 0 -50 -4 76 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_side.prt" FileSize="58175" Id="147" InstanceRef="150" IsPart="false" Name="HANDLE_SIDE" PartNumber="0085908" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="150" IsPart="false" Name="">
+			<ExternalModel Name="handle_side.prt" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Hammer Drill/Hammer Drill\handle_grip.prt" FileSize="386905" Id="148" InstanceRef="141" IsPart="false" Name="HANDLE_GRIP" PartNumber="00435860" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 0 0 -1 0 1 0 0 0 0 0 60 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="149" IsPart="false" Name="">
+			<ExternalModel Name="handle_side.asm" />
+		</ProductOccurence>
+	</ModelFile>
+</Root>

@@ -1,0 +1,1191 @@
+<Root>
+	<ModelFile>
+		<ProductOccurence Behaviour="1" Children="1" Id="0" IsPart="false" Name="_MOTO_X" Unit="1.000000" />
+		<ProductOccurence Behaviour="1" Children="2 3 4 5 6 7" FilePath="./_data/Moto/_MOTO_X.asm" FileSize="142730" Id="1" IsPart="false" Name="_MOTO_X" PartNumber="00592354" Style="65535">
+			<CADView Id="431" Name="V" isAnnotationView="false">
+				<ClipPlanes Count="1" Plane="1 0 0 -0" />
+			</CADView>
+			<CADView Id="432" Name="H" isAnnotationView="false">
+				<ClipPlanes Count="1" Plane="0 1 0 -0" />
+			</CADView>
+			<CADView Id="433" Name="F" isAnnotationView="false">
+				<ClipPlanes Count="1" Plane="0 0 1 -0" />
+			</CADView>
+			<CADView Id="434" Name="Standard Orientation" isAnnotationView="false">
+				<Camera Projection="2" definition="1006.489241671145692 1749.380479669584247 1224.647989466303443 -178.1762558229611386 213.5240152295254461 0 7.079110370122875038e-08 0.6216100748931170372 -0.7833268250170987157" field="2503.877692703878438 2503.877692703878438" />
+			</CADView>
+			<CADView Id="435" Name="FRONT" isAnnotationView="false">
+				<Camera Projection="2" definition="-176.2247270309048872 213.5240152295255029 5986.646995534443704 -176.2247270309048872 213.5240152295255029 4282.478310092717038 0 1 -0" field="3696.03488654732746 4380.485791463498572" />
+			</CADView>
+			<CADView Id="436" Name="RIGHT" isAnnotationView="false">
+				<Camera Projection="2" definition="2157.973435454340688 213.5240152295254461 0 -178.1762558229611386 213.5240152295254461 0 -0 1 0" field="2599.545682551826303 1448.530964034179078" />
+			</CADView>
+			<CADView Id="437" Name="LEFT" isAnnotationView="false">
+				<Camera Projection="2" definition="-5685.675586248959917 213.5240152295256166 2.273736754432320595e-13 -3981.506928643652827 213.5240152295256166 2.273736754432320595e-13 0 1 -0" field="3696.035130925290559 4380.486081096640191" />
+			</CADView>
+			<CADView Id="438" Name="TOP" isAnnotationView="false">
+				<Camera Projection="2" definition="-27838.68373374544171 70289.39729232985701 92733.51280680042692 -27444.32492636629104 69290.31808766713948 91411.40121706339414 0.3576822162354591494 0.7932584971008461716 -0.4927518533361363029" field="3702.894859473412907 4388.616129746266779" />
+			</CADView>
+			<CADView Id="439" Name="BOTTOM" isAnnotationView="false">
+				<Camera Projection="2" definition="-178.1762558229611386 -2122.625676047776324 0 -178.1762558229611386 213.5240152295254461 0 -0 0 1" field="1448.530964034179078 3258.851730749684066" />
+			</CADView>
+			<CADView Id="440" Name="REAR" isAnnotationView="false">
+				<Camera Projection="2" definition="-178.1762558229611386 213.5240152295254461 -2336.149691277301827 -178.1762558229611386 213.5240152295254461 0 -0 1 -0" field="2599.545682551826303 3258.851730749684066" />
+			</CADView>
+			<CADView Id="441" Name="DEFAUT" isAnnotationView="false">
+				<Camera Projection="2" definition="-2933.851707738069308 1574.954090849582144 5050.506589321365027 -2140.757535275582086 1123.80240102572975 3611.182233958960751 0.1799830386122440729 0.962590669341438554 -0.2025470540607906267" field="1892.369987033744792 2242.808873521475107" />
+			</CADView>
+			<CADView Id="442" Name="DEFAULT" isAnnotationView="false">
+				<Camera Projection="2" definition="1895.048029011047674 4054.674487913509893 3048.149366633434511 1231.703037685286972 2825.667117305990814 2072.869156981169908 -5.551115123125782702e-17 0.6216099682706643925 -0.7833269096274834142" field="3702.894859473414272 4388.616129746268598" />
+			</CADView>
+			<CADView Id="443" Name="DEFAULT[DEFAULT/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="1895.048029011047674 4054.674487913509893 3048.149366633434511 1231.703037685286972 2825.667117305990814 2072.869156981169908 -5.551115123125782702e-17 0.6216099682706643925 -0.7833269096274834142" field="3702.894859473414272 4388.616129746268598" />
+			</CADView>
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="8 9 10 11 12 13 14 15" FilePath="./_data/Moto\chassis.asm.1" FileSize="143541" Id="2" InstanceRef="16" IsPart="false" Name="CHASSIS" PartNumber="00852334" Style="65535" />
+		<ProductOccurence Behaviour="1" Children="17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40" FilePath="./_data/Moto\frame.asm.1" FileSize="135887" Id="8" InstanceRef="41" IsPart="false" Name="FRAME" PartNumber="00832189" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\head_tube.prt.1" FileSize="200933" Id="17" InstanceRef="42" IsPart="false" Name="HEAD_TUBE" PartNumber="00510950" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="42" IsPart="false" Name="">
+			<ExternalModel Name="head_tube.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rectangular_down_tube.prt.1" FileSize="175848" Id="18" InstanceRef="43" IsPart="false" Name="RECTANGULAR_DOWN_TUBE" PartNumber="0043716" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="43" IsPart="false" Name="">
+			<ExternalModel Name="rectangular_down_tube.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rectangular_top_tube.prt.1" FileSize="181556" Id="19" InstanceRef="44" IsPart="false" Name="RECTANGULAR_TOP_TUBE" PartNumber="0053254" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="44" IsPart="false" Name="">
+			<ExternalModel Name="rectangular_top_tube.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rectangular_brace.prt.1" FileSize="154285" Id="20" InstanceRef="45" IsPart="false" Name="RECTANGULAR_BRACE" PartNumber="00551956" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="45" IsPart="false" Name="">
+			<ExternalModel Name="rectangular_brace.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_support_left.prt.1" FileSize="270994" Id="21" InstanceRef="46" IsPart="false" Name="MOTOR_SUPPORT_LEFT" PartNumber="00400075" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="46" IsPart="false" Name="">
+			<ExternalModel Name="motor_support_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_support_right.prt.1" FileSize="273617" Id="22" InstanceRef="47" IsPart="false" Name="MOTOR_SUPPORT_RIGHT" PartNumber="00979230" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="47" IsPart="false" Name="">
+			<ExternalModel Name="motor_support_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_frame_crossbar.prt.1" FileSize="149387" Id="23" InstanceRef="48" IsPart="false" Name="SWINGARM_FRAME_CROSSBAR" PartNumber="00353253" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="48" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_frame_crossbar.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_left_tube.prt.1" FileSize="231707" Id="24" InstanceRef="49" IsPart="false" Name="REAR_LEFT_TUBE" PartNumber="00608165" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="49" IsPart="false" Name="">
+			<ExternalModel Name="rear_left_tube.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_right_tube.prt.1" FileSize="231625" Id="25" InstanceRef="50" IsPart="false" Name="REAR_RIGHT_TUBE" PartNumber="0087541" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="50" IsPart="false" Name="">
+			<ExternalModel Name="rear_right_tube.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_plate_upper_left.prt.1" FileSize="138685" Id="26" InstanceRef="51" IsPart="false" Name="MOTOR_PLATE_UPPER_LEFT" PartNumber="00133135" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="51" IsPart="false" Name="">
+			<ExternalModel Name="motor_plate_upper_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_plate_upper_right.prt.1" FileSize="138696" Id="27" InstanceRef="52" IsPart="false" Name="MOTOR_PLATE_UPPER_RIGHT" PartNumber="00931164" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="52" IsPart="false" Name="">
+			<ExternalModel Name="motor_plate_upper_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_plate_left.prt.1" FileSize="141166" Id="28" InstanceRef="53" IsPart="false" Name="MOTOR_PLATE_LEFT" PartNumber="00283394" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="53" IsPart="false" Name="">
+			<ExternalModel Name="motor_plate_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_plate_right.prt.1" FileSize="141153" Id="29" InstanceRef="54" IsPart="false" Name="MOTOR_PLATE_RIGHT" PartNumber="00816101" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="54" IsPart="false" Name="">
+			<ExternalModel Name="motor_plate_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\left_rear_plate.prt.1" FileSize="172111" Id="30" InstanceRef="55" IsPart="false" Name="LEFT_REAR_PLATE" PartNumber="00590297" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="55" IsPart="false" Name="">
+			<ExternalModel Name="left_rear_plate.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\right_rear_plate.prt.1" FileSize="175847" Id="31" InstanceRef="56" IsPart="false" Name="RIGHT_REAR_PLATE" PartNumber="0086318" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="56" IsPart="false" Name="">
+			<ExternalModel Name="right_rear_plate.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\head_tube_gusset_left.prt.1" FileSize="133750" Id="32" InstanceRef="57" IsPart="false" Name="HEAD_TUBE_GUSSET_LEFT" PartNumber="0061943" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="57" IsPart="false" Name="">
+			<ExternalModel Name="head_tube_gusset_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\head_tube_gusset_right.prt.1" FileSize="133776" Id="33" InstanceRef="58" IsPart="false" Name="HEAD_TUBE_GUSSET_RIGHT" PartNumber="00466351" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="58" IsPart="false" Name="">
+			<ExternalModel Name="head_tube_gusset_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\gusset_upper_rear.prt.1" FileSize="144675" Id="34" InstanceRef="59" IsPart="false" Name="GUSSET_UPPER_REAR" PartNumber="00376854" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="59" IsPart="false" Name="">
+			<ExternalModel Name="gusset_upper_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\upper_frame_bushing.prt.1" FileSize="132207" Id="35" InstanceRef="60" IsPart="false" Name="UPPER_FRAME_BUSHING" PartNumber="00270974" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="60" IsPart="false" Name="">
+			<ExternalModel Name="upper_frame_bushing.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_frame_lug.prt.1" FileSize="174233" Id="36" InstanceRef="61" IsPart="false" Name="REAR_FRAME_LUG" PartNumber="00189574" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="61" IsPart="false" Name="">
+			<ExternalModel Name="rear_frame_lug.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\frame_bracket_left_rear.prt.1" FileSize="194202" Id="37" InstanceRef="62" IsPart="false" Name="FRAME_BRACKET_LEFT_REAR" PartNumber="0070077" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="62" IsPart="false" Name="">
+			<ExternalModel Name="frame_bracket_left_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bolt_h_m6-15.prt.1" FileSize="149114" Id="38" InstanceRef="63" IsPart="false" Name="BOLT_H_M6-15" PartNumber="00751684" Style="65535">
+			<Transformation RelativeTransfo="0 0 -1 0 -1 0 0 0 0 1 0 0 51 66.33519744873046875 102 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="63" IsPart="false" Name="">
+			<ExternalModel Name="bolt_h_m6-15.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\frame_bracket_right_rear.prt.1" FileSize="192652" Id="39" InstanceRef="64" IsPart="false" Name="FRAME_BRACKET_RIGHT_REAR" PartNumber="00651172" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="64" IsPart="false" Name="">
+			<ExternalModel Name="frame_bracket_right_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bolt_h_m6-15.prt.1" FileSize="149114" Id="40" InstanceRef="63" IsPart="false" Name="BOLT_H_M6-15" PartNumber="00318669" Style="65535">
+			<Transformation RelativeTransfo="0 -0 1 0 1 0 -0 0 0 1 0 0 51 66.33519744873046875 -102 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="41" IsPart="false" Name="">
+			<ExternalModel Name="frame.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="65 66 67 68 69 70 71 72" FilePath="./_data/Moto\rear_subframe.asm.1" FileSize="118913" Id="9" InstanceRef="73" IsPart="false" Name="REAR_SUBFRAME" PartNumber="00445184" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_horizontal_left.prt.1" FileSize="161206" Id="65" InstanceRef="74" IsPart="false" Name="REAR_HORIZONTAL_LEFT" PartNumber="00818197" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="74" IsPart="false" Name="">
+			<ExternalModel Name="rear_horizontal_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_horizontal_right.prt.1" FileSize="161105" Id="66" InstanceRef="75" IsPart="false" Name="REAR_HORIZONTAL_RIGHT" PartNumber="00149426" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="75" IsPart="false" Name="">
+			<ExternalModel Name="rear_horizontal_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_diaganol_left.prt.1" FileSize="273466" Id="67" InstanceRef="76" IsPart="false" Name="REAR_DIAGANOL_LEFT" PartNumber="00332261" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="76" IsPart="false" Name="">
+			<ExternalModel Name="rear_diaganol_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_diaganol_right.prt.1" FileSize="274581" Id="68" InstanceRef="77" IsPart="false" Name="REAR_DIAGANOL_RIGHT" PartNumber="00311458" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="77" IsPart="false" Name="">
+			<ExternalModel Name="rear_diaganol_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_frame_junction.prt.1" FileSize="160650" Id="69" InstanceRef="78" IsPart="false" Name="REAR_FRAME_JUNCTION" PartNumber="00958158" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="78" IsPart="false" Name="">
+			<ExternalModel Name="rear_frame_junction.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rear_frame_bridge.prt.1" FileSize="154611" Id="70" InstanceRef="79" IsPart="false" Name="REAR_FRAME_BRIDGE" PartNumber="00451016" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="79" IsPart="false" Name="">
+			<ExternalModel Name="rear_frame_bridge.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\cap_tube_20.prt.1" FileSize="134144" Id="71" InstanceRef="80" IsPart="false" Name="CAP_TUBE_20" PartNumber="00663843" Style="65535">
+			<Transformation RelativeTransfo="0.2296299338340759277 -0.9732779860496520996 1.292368989602721285e-15 0 0.9729911088943481445 0.2295622527599334717 -0.02427855320274829865 0 0.02362978272140026093 0.005575082730501890182 0.9997052550315856934 0 270.825927734375 345.267425537109375 -62.77579116821289063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="80" IsPart="false" Name="">
+			<ExternalModel Name="cap_tube_20.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\cap_tube_20.prt.1" FileSize="134144" Id="72" InstanceRef="80" IsPart="false" Name="CAP_TUBE_20" PartNumber="00772914" Style="65535">
+			<Transformation RelativeTransfo="0.2296299338340759277 -0.9732779860496520996 -1.292368989602721285e-15 0 0.9729911088943481445 0.2295622527599334717 0.02427855320274829865 0 -0.02362978272140026093 -0.005575082730501890182 0.9997052550315856934 0 270.825927734375 345.267425537109375 62.77579116821289063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="73" IsPart="false" Name="">
+			<ExternalModel Name="rear_subframe.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96" FilePath="./_data/Moto\swingarm.asm.1" FileSize="137952" Id="10" InstanceRef="97" IsPart="false" Name="SWINGARM" PartNumber="00311874" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_crossbar.prt.1" FileSize="158167" Id="81" InstanceRef="98" IsPart="false" Name="SWINGARM_CROSSBAR" PartNumber="00525006" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="98" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_crossbar.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_shock_support.prt.1" FileSize="160994" Id="82" InstanceRef="99" IsPart="false" Name="SWINGARM_SHOCK_SUPPORT" PartNumber="0062384" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="99" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_shock_support.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_upper_left.prt.1" FileSize="176607" Id="83" InstanceRef="100" IsPart="false" Name="SWINGARM_UPPER_LEFT" PartNumber="00755980" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="100" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_upper_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_lower_left.prt.1" FileSize="176675" Id="84" InstanceRef="101" IsPart="false" Name="SWINGARM_LOWER_LEFT" PartNumber="00350721" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="101" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_lower_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_upper_right.prt.1" FileSize="176641" Id="85" InstanceRef="102" IsPart="false" Name="SWINGARM_UPPER_RIGHT" PartNumber="00712865" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="102" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_upper_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_lower_right.prt.1" FileSize="176807" Id="86" InstanceRef="103" IsPart="false" Name="SWINGARM_LOWER_RIGHT" PartNumber="00534077" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="103" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_lower_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_plate_left.prt.1" FileSize="156916" Id="87" InstanceRef="104" IsPart="false" Name="SWINGARM_PLATE_LEFT" PartNumber="0017340" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="104" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_plate_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_plate_right.prt.1" FileSize="156667" Id="88" InstanceRef="105" IsPart="false" Name="SWINGARM_PLATE_RIGHT" PartNumber="00571357" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="105" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_plate_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_axle_end_left.prt.1" FileSize="148661" Id="89" InstanceRef="106" IsPart="false" Name="SWINGARM_AXLE_END_LEFT" PartNumber="00851155" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="106" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_axle_end_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_axle_end_right.prt.1" FileSize="148362" Id="90" InstanceRef="107" IsPart="false" Name="SWINGARM_AXLE_END_RIGHT" PartNumber="00488532" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="107" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_axle_end_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_tube_left.prt.1" FileSize="135434" Id="91" InstanceRef="108" IsPart="false" Name="SWINGARM_TUBE_LEFT" PartNumber="0086443" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="108" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_tube_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_tube_right.prt.1" FileSize="135437" Id="92" InstanceRef="109" IsPart="false" Name="SWINGARM_TUBE_RIGHT" PartNumber="00689108" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="109" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_tube_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_joint.prt.1" FileSize="154001" Id="93" InstanceRef="110" IsPart="false" Name="SWINGARM_JOINT" PartNumber="00238559" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="110" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_joint.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_joint.prt.1" FileSize="154001" Id="94" InstanceRef="110" IsPart="false" Name="SWINGARM_JOINT" PartNumber="00840460" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_bushing.prt.1" FileSize="131588" Id="95" InstanceRef="111" IsPart="false" Name="SWINGARM_BUSHING" PartNumber="00833250" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="111" IsPart="false" Name="">
+			<ExternalModel Name="swingarm_bushing.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\swingarm_bushing.prt.1" FileSize="131588" Id="96" InstanceRef="111" IsPart="false" Name="SWINGARM_BUSHING" PartNumber="00486860" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 0 0 -131 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="97" IsPart="false" Name="">
+			<ExternalModel Name="swingarm.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="112 113 114 115 116 117 118 119 120 121 122" FilePath="./_data/Moto\shock_rear.asm.1" FileSize="135273" Id="11" InstanceRef="123" IsPart="false" Name="SHOCK_REAR" PartNumber="0062989" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -4.305477849242400623e-11 0 0.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_body_upper.prt.1" FileSize="189226" Id="112" InstanceRef="124" IsPart="false" Name="SHOCK_BODY_UPPER" PartNumber="00727119" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="124" IsPart="false" Name="">
+			<ExternalModel Name="shock_body_upper.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_body_main.prt.1" FileSize="693822" Id="113" InstanceRef="125" IsPart="false" Name="SHOCK_BODY_MAIN" PartNumber="00457504" Style="65535">
+			<Transformation RelativeTransfo="0.5763685703277587891 -0.8171898722648620605 0 0 0.8171898722648620605 0.5763685703277587891 -0 0 0 0 1 0 14.40921401977539063 234.57025146484375 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="125" IsPart="false" Name="">
+			<ExternalModel Name="shock_body_main.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_adjustment_ring.prt.1" FileSize="250901" Id="114" InstanceRef="126" IsPart="false" Name="SHOCK_ADJUSTMENT_RING" PartNumber="00348471" Style="65535">
+			<Transformation RelativeTransfo="0.5763685703277587891 -0.8171898722648620605 0 0 0.8171898722648620605 0.5763685703277587891 -0 0 0 0 1 0 25.64840126037597656 218.6350555419921875 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="126" IsPart="false" Name="">
+			<ExternalModel Name="shock_adjustment_ring.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_adjustment_ring.prt.1" FileSize="250901" Id="115" InstanceRef="126" IsPart="false" Name="SHOCK_ADJUSTMENT_RING" PartNumber="00724669" Style="65535">
+			<Transformation RelativeTransfo="0.5763685703277587891 -0.8171898722648620605 0 0 0.8171898722648620605 0.5763685703277587891 -0 0 0 0 1 0 35.44666671752929688 204.742828369140625 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_adjustment_ring.prt.1" FileSize="250901" Id="116" InstanceRef="126" IsPart="false" Name="SHOCK_ADJUSTMENT_RING" PartNumber="00375417" Style="65535">
+			<Transformation RelativeTransfo="-0.5763685703277587891 0.8171898722648620605 0 0 -0.8171898722648620605 -0.5763685703277587891 0 0 0 0 1 0 39.4812469482421875 199.022491455078125 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_rod.prt.1" FileSize="170654" Id="117" InstanceRef="127" IsPart="false" Name="SHOCK_ROD" PartNumber="00637547" Style="65535">
+			<Transformation RelativeTransfo="-0.8171898722648620605 -0.5763685703277587891 0 0 0 0 1 0 -0.5763685703277587891 0.8171898722648620605 0 0 190.201629638671875 -14.67265605926513672 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="127" IsPart="false" Name="">
+			<ExternalModel Name="shock_rod.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_inf_spring_cap.prt.1" FileSize="168614" Id="118" InstanceRef="128" IsPart="false" Name="SHOCK_INF_SPRING_CAP" PartNumber="0011197" Style="65535">
+			<Transformation RelativeTransfo="0.5763685703277587891 -0.8171898722648620605 0 0 0.8171898722648620605 0.5763685703277587891 -0 0 0 0 1 0 164.265045166015625 22.10088729858398438 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="128" IsPart="false" Name="">
+			<ExternalModel Name="shock_inf_spring_cap.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_end.prt.1" FileSize="190040" Id="119" InstanceRef="129" IsPart="false" Name="SHOCK_END" PartNumber="00517981" Style="65535">
+			<Transformation RelativeTransfo="-0.5763685703277587891 0.8171898722648620605 0 0 -0.8171898722648620605 -0.5763685703277587891 0 0 0 0 1 0 161.3831939697265625 26.18683624267578125 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="129" IsPart="false" Name="">
+			<ExternalModel Name="shock_end.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_bushing.prt.1" FileSize="132646" Id="120" InstanceRef="130" IsPart="false" Name="SHOCK_BUSHING" PartNumber="00719041" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 190.201629638671875 -14.67265605926513672 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="130" IsPart="false" Name="">
+			<ExternalModel Name="shock_bushing.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\shock_bushing_pad.prt.1" FileSize="136248" Id="121" InstanceRef="131" IsPart="false" Name="SHOCK_BUSHING_PAD" PartNumber="00872532" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 380.40325927734375 3.232614176340575796e-11 -40 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="131" IsPart="false" Name="">
+			<ExternalModel Name="shock_bushing_pad.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\coil_spring.prt.1" FileSize="405909" Id="122" InstanceRef="132" IsPart="false" Name="COIL_SPRING" PartNumber="006293" Style="65535">
+			<Transformation RelativeTransfo="0.8171898722648620605 0.5763685703277587891 -0 0 -0.5763685703277587891 0.8171898722648620605 0 0 0 0 1 0 164.265045166015625 22.10088729858398438 -20 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="132" IsPart="false" Name="">
+			<ExternalModel Name="coil_spring.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="123" IsPart="false" Name="">
+			<ExternalModel Name="shock_rear.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="133 134 135 136 137 138 139 140 141 142 143 144 145 146" FilePath="./_data/Moto\motor.asm.1" FileSize="136336" Id="12" InstanceRef="147" IsPart="false" Name="MOTOR" PartNumber="00796073" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -0.004379124846309423447 -0.07243020832538604736 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_block_left.prt.1" FileSize="1548968" Id="133" InstanceRef="148" IsPart="false" Name="MOTOR_BLOCK_LEFT" PartNumber="0088114" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="148" IsPart="false" Name="">
+			<ExternalModel Name="motor_block_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\motor_block_right.prt.1" FileSize="1108021" Id="134" InstanceRef="149" IsPart="false" Name="MOTOR_BLOCK_RIGHT" PartNumber="00105940" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="149" IsPart="false" Name="">
+			<ExternalModel Name="motor_block_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\clutch_cover.prt.1" FileSize="1205493" Id="135" InstanceRef="150" IsPart="false" Name="CLUTCH_COVER" PartNumber="00566272" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="150" IsPart="false" Name="">
+			<ExternalModel Name="clutch_cover.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\oil_sump_cover_left.prt.1" FileSize="709190" Id="136" InstanceRef="151" IsPart="false" Name="OIL_SUMP_COVER_LEFT" PartNumber="00854598" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="151" IsPart="false" Name="">
+			<ExternalModel Name="oil_sump_cover_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\cylinder_housing.prt.1" FileSize="763063" Id="137" InstanceRef="152" IsPart="false" Name="CYLINDER_HOUSING" PartNumber="00548374" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="152" IsPart="false" Name="">
+			<ExternalModel Name="cylinder_housing.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\valve_cover.prt.1" FileSize="723615" Id="138" InstanceRef="153" IsPart="false" Name="VALVE_COVER" PartNumber="00305723" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="153" IsPart="false" Name="">
+			<ExternalModel Name="valve_cover.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\admission_collector_gasket.prt.1" FileSize="167841" Id="139" InstanceRef="154" IsPart="false" Name="ADMISSION_COLLECTOR_GASKET" PartNumber="00445828" Style="65535">
+			<Transformation RelativeTransfo="0.4222227632999420166 -0.9064921140670776367 0 0 0 0 1 0 -0.9064921140670776367 -0.4222227632999420166 0 0 -112.6527557373046875 79.39440155029296875 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="154" IsPart="false" Name="">
+			<ExternalModel Name="admission_collector_gasket.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\admission_collector.prt.1" FileSize="219005" Id="140" InstanceRef="155" IsPart="false" Name="ADMISSION_COLLECTOR" PartNumber="00607460" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 -0.4222227632999420166 0.9064921140670776367 0 0 -0.9064921140670776367 -0.4222227632999420166 0 0 -110.8397674560546875 80.2388458251953125 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="155" IsPart="false" Name="">
+			<ExternalModel Name="admission_collector.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\admission_collector_ring.prt.1" FileSize="143097" Id="141" InstanceRef="156" IsPart="false" Name="ADMISSION_COLLECTOR_RING" PartNumber="00696505" Style="65535">
+			<Transformation RelativeTransfo="-0.2346174269914627075 -0.1092792972922325134 0.9659258127212524414 0 0.4222227632999420166 -0.9064921140670776367 -1.387778780781445676e-17 0 0.8756041526794433594 0.4078358709812164307 0.2588190436363220215 0 -87.198455810546875 91.2504119873046875 6.988114356994628906 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="156" IsPart="false" Name="">
+			<ExternalModel Name="admission_collector_ring.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\carborator_body.prt.1" FileSize="975654" Id="142" InstanceRef="157" IsPart="false" Name="CARBORATOR_BODY" PartNumber="00101402" Style="65535">
+			<Transformation RelativeTransfo="1 1.5792625543975334e-31 -6.133982211053989886e-15 0 -1.76087774815324974e-29 1 -2.844946500601963635e-15 0 6.133982211053989886e-15 2.844946500601963635e-15 1 0 -5.130073070526123047 -2.389467716217041016 -2.588190555572509766 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="157" IsPart="false" Name="">
+			<ExternalModel Name="carborator_body.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\carborator_pan.prt.1" FileSize="483967" Id="143" InstanceRef="158" IsPart="false" Name="CARBORATOR_PAN" PartNumber="00714439" Style="65535">
+			<Transformation RelativeTransfo="1 -7.91046102199416405e-32 -6.161737786669618799e-15 0 -1.748211899966642465e-29 1 -2.850043944878540014e-15 0 6.161737786669618799e-15 2.850043944878540014e-15 1 0 -3.496173381805419922 -1.628435611724853516 -1.587589502334594727 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="158" IsPart="false" Name="">
+			<ExternalModel Name="carborator_pan.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\carborator_cap.prt.1" FileSize="675656" Id="144" InstanceRef="159" IsPart="false" Name="CARBORATOR_CAP" PartNumber="00652724" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -5.130073070526123047 -2.389467716217041016 -2.588190555572509766 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="159" IsPart="false" Name="">
+			<ExternalModel Name="carborator_cap.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\sprocket_adaptor.prt.1" FileSize="286349" Id="145" InstanceRef="160" IsPart="false" Name="SPROCKET_ADAPTOR" PartNumber="00153216" Style="65535">
+			<Transformation RelativeTransfo="1 -0.0001256637042388319969 0 0 0.0001256637042388319969 1 -0 0 0 0 1 0 -51.99999618530273438 0.02268927916884422302 73 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="160" IsPart="false" Name="">
+			<ExternalModel Name="sprocket_adaptor.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\sprocket_12_tooth.prt.1" FileSize="325936" Id="146" InstanceRef="161" IsPart="false" Name="SPROCKET_12_TOOTH" PartNumber="0050430" Style="65535">
+			<Transformation RelativeTransfo="1 -0.0001256637042388319969 0 0 0.0001256637042388319969 1 -0 0 0 0 1 0 -51.99999618530273438 0.02268927916884422302 80 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="161" IsPart="false" Name="">
+			<ExternalModel Name="sprocket_12_tooth.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="147" IsPart="false" Name="">
+			<ExternalModel Name="motor.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="162 163 164 165" FilePath="./_data/Moto\cooling_system.asm.1" FileSize="119929" Id="13" InstanceRef="166" IsPart="false" Name="COOLING_SYSTEM" PartNumber="00174416" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\grill_support_right.prt.1" FileSize="393864" Id="162" InstanceRef="167" IsPart="false" Name="GRILL_SUPPORT_RIGHT" PartNumber="00637566" Style="65535">
+			<Transformation RelativeTransfo="0 0 -1 0 -0.9976072907447814941 -0.06913509964942932129 -0 0 -0.06913509964942932129 0.9976072907447814941 0 0 -314.69384765625 246.71875 8.562959671020507813 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="167" IsPart="false" Name="">
+			<ExternalModel Name="grill_support_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\grill_support_left.prt.1" FileSize="400877" Id="163" InstanceRef="168" IsPart="false" Name="GRILL_SUPPORT_LEFT" PartNumber="00555347" Style="65535">
+			<Transformation RelativeTransfo="0 0 -1 0 -0.9976072907447814941 -0.06913509964942932129 -0 0 -0.06913509964942932129 0.9976072907447814941 0 0 -314.69384765625 246.71875 8.562959671020507813 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="168" IsPart="false" Name="">
+			<ExternalModel Name="grill_support_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\radiator_body.prt.1" FileSize="602336" Id="164" InstanceRef="169" IsPart="false" Name="RADIATOR_BODY" PartNumber="00436194" Style="65535">
+			<Transformation RelativeTransfo="-0.06913509964942932129 0.9976072907447814941 0 0 -0 0 -1 0 -0.9976072907447814941 -0.06913509964942932129 0 0 -293.629150390625 248.178558349609375 -131.937042236328125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="169" IsPart="false" Name="">
+			<ExternalModel Name="radiator_body.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\radiator_cap.prt.1" FileSize="250254" Id="165" InstanceRef="170" IsPart="false" Name="RADIATOR_CAP" PartNumber="0097575" Style="65535">
+			<Transformation RelativeTransfo="-6.938893903907228378e-18 0.3096871376037597656 0.9508385062217712402 0 0.9978360533714294434 0.06251894682645797729 -0.02036235854029655457 0 -0.06575138121843338013 0.9487809538841247559 -0.3090170025825500488 0 -303.168182373046875 385.825286865234375 -105.2594451904296875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="170" IsPart="false" Name="">
+			<ExternalModel Name="radiator_cap.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="166" IsPart="false" Name="">
+			<ExternalModel Name="cooling_system.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\exhaust_pipe.prt.1" FileSize="546749" Id="14" InstanceRef="171" IsPart="false" Name="EXHAUST_PIPE" PartNumber="00671514" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="171" IsPart="false" Name="">
+			<ExternalModel Name="exhaust_pipe.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="172 173 174" FilePath="./_data/Moto\stand_foot_rests.asm.1" FileSize="116620" Id="15" InstanceRef="175" IsPart="false" Name="STAND_FOOT_RESTS" PartNumber="00499846" Style="65535" />
+		<ProductOccurence Behaviour="1" Children="176 177 178 179 180 181 182 183" FilePath="./_data/Moto\foot_peg_left.asm.1" FileSize="120492" Id="172" InstanceRef="184" IsPart="false" Name="FOOT_PEG_LEFT" PartNumber="0098571" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 0 1 -0 0 -1 0 0 0 16.9947967529296875 -74.7552032470703125 303.576263427734375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg.prt.1" FileSize="366285" Id="176" InstanceRef="185" IsPart="false" Name="FOOT_PEG" PartNumber="0086882" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="185" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_support.prt.1" FileSize="162971" Id="177" InstanceRef="186" IsPart="false" Name="FOOT_PEG_SUPPORT" PartNumber="00736979" Style="65535">
+			<Transformation RelativeTransfo="0 0.7071067690849304199 -0.7071067690849304199 0 -1 0 0 0 0 0.7071067690849304199 0.7071067690849304199 0 -162.5 -9.192388534545898438 10.80761146545410156 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="186" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg_support.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="178" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00179829" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 8.838834762573242188 11.16116523742675781 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="187" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg_washer.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="179" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00604424" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 -8.838834762573242188 28.83883476257324219 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="180" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00393171" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 -6.010407447814941406 26.01040840148925781 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="181" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00817066" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 6.010407447814941406 13.98959255218505859 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_bracket.prt.1" FileSize="161000" Id="182" InstanceRef="188" IsPart="false" Name="FOOT_PEG_BRACKET" PartNumber="00110546" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 0 -0.7071067690849304199 0.7071067690849304199 0 -167.076263427734375 11.13693141937255859 8.863068580627441406 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="188" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg_bracket.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_axle.prt.1" FileSize="161860" Id="183" InstanceRef="189" IsPart="false" Name="FOOT_PEG_AXLE" PartNumber="00652247" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 -3.005203723907470703 23.0052032470703125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="189" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg_axle.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="184" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg_left.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="190 191 192 193 194 195 196 197" FilePath="./_data/Moto\foot_peg_right.asm.1" FileSize="120308" Id="173" InstanceRef="198" IsPart="false" Name="FOOT_PEG_RIGHT" PartNumber="00952851" Style="65535">
+			<Transformation RelativeTransfo="1.004859156360183789e-14 1.004859156360183789e-14 -1 0 -1.009741958682895111e-28 1 1.004859156360183789e-14 0 1 0 1.004859156360183789e-14 0 -27.24784469604492188 -75.81586456298828125 -303.576263427734375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg.prt.1" FileSize="366285" Id="190" InstanceRef="185" IsPart="false" Name="FOOT_PEG" PartNumber="00784364" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_support.prt.1" FileSize="162971" Id="191" InstanceRef="186" IsPart="false" Name="FOOT_PEG_SUPPORT" PartNumber="00480116" Style="65535">
+			<Transformation RelativeTransfo="0 0.7071067690849304199 -0.7071067690849304199 0 -1 0 0 0 0 0.7071067690849304199 0.7071067690849304199 0 -162.5 -9.192388534545898438 10.80761146545410156 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="192" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00384109" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 8.838834762573242188 11.16116523742675781 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="193" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00885362" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 -8.838834762573242188 28.83883476257324219 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="194" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="00367773" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 -6.010407447814941406 26.01040840148925781 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_washer.prt.1" FileSize="135248" Id="195" InstanceRef="187" IsPart="false" Name="FOOT_PEG_WASHER" PartNumber="0096963" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 6.010407447814941406 13.98959255218505859 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_bracket.prt.1" FileSize="161000" Id="196" InstanceRef="188" IsPart="false" Name="FOOT_PEG_BRACKET" PartNumber="00132141" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 0 -0.7071067690849304199 0.7071067690849304199 0 -167.076263427734375 11.13693141937255859 8.863068580627441406 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\foot_peg_axle.prt.1" FileSize="161860" Id="197" InstanceRef="189" IsPart="false" Name="FOOT_PEG_AXLE" PartNumber="00346592" Style="65535">
+			<Transformation RelativeTransfo="0 -0.7071067690849304199 -0.7071067690849304199 0 0 0.7071067690849304199 -0.7071067690849304199 0 1 0 0 0 -165 -3.005203723907470703 23.0052032470703125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="198" IsPart="false" Name="">
+			<ExternalModel Name="foot_peg_right.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="199 200" FilePath="./_data/Moto\kick_stand.asm.1" FileSize="117185" Id="174" InstanceRef="201" IsPart="false" Name="KICK_STAND" PartNumber="00991966" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 -0 0.3420201539993286133 0.9396926164627075195 0 0 -0.9396926164627075195 0.3420201539993286133 0 36.76955413818359375 -96.75737762451171875 89.1529693603515625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\kick_stand_support.prt.1" FileSize="189697" Id="199" InstanceRef="202" IsPart="false" Name="KICK_STAND_SUPPORT" PartNumber="00772427" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="202" IsPart="false" Name="">
+			<ExternalModel Name="kick_stand_support.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\kick_stand.prt.1" FileSize="296967" Id="200" InstanceRef="203" IsPart="false" Name="KICK_STAND" PartNumber="00920364" Style="65535">
+			<Transformation RelativeTransfo="0.08715574443340301514 0 -0.9961947202682495117 0 -0.9961947202682495117 0 -0.08715574443340301514 0 0 1 0 0 277.396453857421875 -2 46.10202789306640625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="203" IsPart="false" Name="">
+			<ExternalModel Name="kick_stand.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="201" IsPart="false" Name="">
+			<ExternalModel Name="kick_stand.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="175" IsPart="false" Name="">
+			<ExternalModel Name="stand_foot_rests.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="16" IsPart="false" Name="">
+			<ExternalModel Name="chassis.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274" FilePath="./_data/Moto\wheel_rear.asm.1" FileSize="181390" Id="3" InstanceRef="275" IsPart="false" Name="WHEEL_REAR" PartNumber="00446932" Style="65535">
+			<Transformation RelativeTransfo="1 -3.461921369307674468e-05 0 0 0 0 1 0 -3.461921369307674468e-05 -1 0 0 436.560211181640625 -151.1924896240234375 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\hub_rear.prt.1" FileSize="2078031" Id="204" InstanceRef="276" IsPart="false" Name="HUB_REAR" PartNumber="0037956" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="276" IsPart="false" Name="">
+			<ExternalModel Name="hub_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rim_rear.prt.1" FileSize="1832447" Id="205" InstanceRef="277" IsPart="false" Name="RIM_REAR" PartNumber="00709413" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="277" IsPart="false" Name="">
+			<ExternalModel Name="rim_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\tire_rear.prt.1" FileSize="2454839" Id="206" InstanceRef="278" IsPart="false" Name="TIRE_REAR" PartNumber="00715750" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="278" IsPart="false" Name="">
+			<ExternalModel Name="tire_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\sprocket_46_tooth.prt.1" FileSize="1399661" Id="207" InstanceRef="279" IsPart="false" Name="SPROCKET_46_TOOTH" PartNumber="00570814" Style="65535">
+			<Transformation RelativeTransfo="0 1 0 0 -1 0 0 0 0 -0 1 0 4.308731149649247527e-11 71 -2.503952600818593055e-11 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="279" IsPart="false" Name="">
+			<ExternalModel Name="sprocket_46_tooth.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="208" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00768317" Style="65535">
+			<Transformation RelativeTransfo="0.5421456694602966309 -0.8392249345779418945 0.04218548163771629333 0 0.4025071859359741211 0.2152980566024780273 -0.8897385597229003906 0 0.7376083135604858398 0.4993478655815124512 0.454516977071762085 0 30.77714920043945313 -33.72238540649414063 6.6821441650390625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="280" IsPart="false" Name="">
+			<ExternalModel Name="spoke_01.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="209" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00626989" Style="65535">
+			<Transformation RelativeTransfo="0.921848297119140625 -0.2349606901407241821 -0.3082032203674316406 0 0.3511216938495635986 0.1697414815425872803 0.920815587043762207 0 -0.1640405952930450439 -0.957069098949432373 0.2389756888151168823 0 31.31666755676269531 -26.25298690795898438 -4.30525970458984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="210" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00162521" Style="65535">
+			<Transformation RelativeTransfo="0.3203181028366088867 -0.9034242630004882813 0.2849928140640258789 0 0.9137557148933410645 0.2152980566024780273 -0.3445245921611785889 0 0.249893486499786377 0.3707712888717651367 0.894472956657409668 0 17.03774261474609375 -33.72238540649414063 26.48772048950195313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="211" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00540051" Style="65535">
+			<Transformation RelativeTransfo="0.8990848660469055176 -0.1106095612049102783 0.423570483922958374 0 -0.4028344452381134033 0.1697414815425872803 0.8993954658508300781 0 -0.1713792234659194946 -0.9792616367340087891 0.1080546528100967407 0 25.188507080078125 -26.25298690795898438 19.09994888305664063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="212" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00255532" Style="65535">
+			<Transformation RelativeTransfo="0.1162512078881263733 -0.9595810174942016602 0.2563003599643707275 0 0.8897385597229003906 0.2152980566024780273 0.4025071859359741211 0 -0.4414192438125610352 0.1812483817338943481 0.8788049221038818359 0 -6.6821441650390625 -33.72238540649414063 30.77714920043945313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="213" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="002105" Style="65535">
+			<Transformation RelativeTransfo="0.3588995635509490967 0.01651339232921600342 0.9332301020622253418 0 -0.920815587043762207 0.1697414815425872803 0.3511216938495635986 0 -0.1526096463203430176 -0.9853502511978149414 0.07612593472003936768 0 4.30525970458984375 -26.25298690795898438 31.31666755676269531 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="214" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00557441" Style="65535">
+			<Transformation RelativeTransfo="-0.05708822980523109436 0.9763501286506652832 -0.2085217833518981934 0 0.3445245921611785889 0.2152980566024780273 0.9137557148933410645 0 0.9370398521423339844 -0.01967618800699710846 -0.3486676216125488281 0 -26.48772048950195313 -33.72238540649414063 17.03774261474609375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="215" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00443200" Style="65535">
+			<Transformation RelativeTransfo="0.3129880726337432861 -0.3932700753211975098 -0.8645097613334655762 0 -0.8993954658508300781 0.1697414815425872803 -0.4028344452381134033 0 0.3051658868789672852 0.9036185741424560547 -0.3005782663822174072 0 -19.09994888305664063 -26.25298690795898438 25.188507080078125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="216" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00381257" Style="65535">
+			<Transformation RelativeTransfo="0.5199191570281982422 -0.7666806578636169434 -0.3766759335994720459 0 -0.3445245921611785889 0.2152980566024780273 -0.9137557148933410645 0 0.7816564440727233887 0.6048532724380493164 -0.1522027701139450073 0 26.48772048950195313 -33.72238540649414063 -17.03774261474609375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="217" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00692786" Style="65535">
+			<Transformation RelativeTransfo="0.05570436269044876099 -0.9585222601890563965 0.2795211374759674072 0 0.8993954658508300781 0.1697414815425872803 0.4028344452381134033 0 -0.4335721135139465332 0.2289604097604751587 0.8715459704399108887 0 19.09994888305664063 -26.25298690795898438 -25.188507080078125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="218" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00565725" Style="65535">
+			<Transformation RelativeTransfo="0.1685051769018173218 -0.664587855339050293 -0.727962195873260498 0 -0.8897385597229003906 0.2152980566024780273 -0.4025071859359741211 0 0.4242302477359771729 0.7155205607414245605 -0.5550306439399719238 0 6.6821441650390625 -33.72238540649414063 -30.77714920043945313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="219" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00258002" Style="65535">
+			<Transformation RelativeTransfo="0.2871700823307037354 -0.9042711257934570313 0.3159542381763458252 0 0.920815587043762207 0.1697414815425872803 -0.3511216938495635986 0 0.2638786733150482178 0.3917672336101531982 0.8814116120338439941 0 -4.30525970458984375 -26.25298690795898438 -31.31666755676269531 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="220" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00869511" Style="65535">
+			<Transformation RelativeTransfo="0.4058583974838256836 0.5216431617736816406 0.7504447698593139648 0 -0.9137557148933410645 0.2152980566024780273 0.3445245921611785889 0 0.01814959757030010223 -0.825551450252532959 0.5640349388122558594 0 -17.03774261474609375 -33.72238540649414063 -26.48772048950195313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="221" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00337566" Style="65535">
+			<Transformation RelativeTransfo="0.5247895121574401855 -0.8479194045066833496 0.07502394169569015503 0 0.4028344452381134033 0.1697414815425872803 -0.8993954658508300781 0 0.7498802542686462402 0.5022155642509460449 0.4306496977806091309 0 -25.188507080078125 -26.25298690795898438 -19.09994888305664063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="222" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00570717" Style="65535">
+			<Transformation RelativeTransfo="0.6559635400772094727 0.74578094482421875 0.1162867993116378784 0 -0.4025071859359741211 0.2152980566024780273 0.8897385597229003906 0 0.6385137438774108887 -0.6304423213005065918 0.4414098858833312988 0 -30.77714920043945313 -33.72238540649414063 -6.6821441650390625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_01.prt.1" FileSize="124807" Id="223" InstanceRef="280" IsPart="false" Name="SPOKE_01" PartNumber="00521652" Style="65535">
+			<Transformation RelativeTransfo="0.5129725337028503418 -0.7878398299217224121 -0.3408335745334625244 0 -0.3511216938495635986 0.1697414815425872803 -0.920815587043762207 0 0.7833088040351867676 0.5920271873474121094 -0.189554944634437561 0 -31.31666755676269531 -26.25298690795898438 4.30525970458984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="224" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00127040" Style="65535">
+			<Transformation RelativeTransfo="-0.5328208804130554199 -0.05180355161428451538 -0.8446409702301025391 0 0.8091586828231811523 -0.3233716189861297607 -0.4906047284603118896 0 -0.2477178424596786499 -0.9448530077934265137 0.2142164409160614014 0 28.41086387634277344 49.20383071899414063 15.96024608612060547 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="281" IsPart="false" Name="">
+			<ExternalModel Name="spoke_02.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="225" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="0023591" Style="65535">
+			<Transformation RelativeTransfo="0.4881620109081268311 -0.6303178668022155762 -0.603653252124786377 0 0.5106980204582214355 -0.3545824587345123291 0.7832361459732055664 0 -0.7077325582504272461 -0.6906306147575378418 0.1488084197044372559 0 34.27773666381835938 54.1095733642578125 -1.985181927680969238 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="226" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00644540" Style="65535">
+			<Transformation RelativeTransfo="0.08867456763982772827 -0.3872252702713012695 -0.9177109599113464355 0 0.9190715551376342773 -0.3233716189861297607 0.2252516746520996094 0 -0.3839848339557647705 -0.863416135311126709 0.3272128701210021973 0 8.803915977478027344 49.20383071899414063 31.37511253356933594 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="227" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00607682" Style="65535">
+			<Transformation RelativeTransfo="0.5078809261322021484 -0.8338596224784851074 -0.216182902455329895 0 -0.1927135288715362549 -0.3545824587345123291 0.9149495959281921387 0 -0.8395941853523254395 -0.4230240881443023682 -0.3407817184925079346 0 25.641754150390625 54.1095733642578125 22.83428382873535156 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="228" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00826184" Style="65535">
+			<Transformation RelativeTransfo="0.4380428791046142578 -0.7112087011337280273 -0.5498187541961669922 0 0.4906047284603118896 -0.3233716189861297607 0.8091586828231811523 0 -0.7532764673233032227 -0.6241898536682128906 0.2072717100381851196 0 -15.96024608612060547 49.20383071899414063 28.41086387634277344 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="229" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00929951" Style="65535">
+			<Transformation RelativeTransfo="0.2543284595012664795 -0.9322798848152160645 -0.2572377920150756836 0 -0.7832361459732055664 -0.3545824587345123291 0.5106980204582214355 0 -0.5673254728317260742 0.07159288227558135986 -0.8203756809234619141 0 1.985181927680969238 54.1095733642578125 34.27773666381835938 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="230" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00313596" Style="65535">
+			<Transformation RelativeTransfo="-0.7567979097366333008 -0.5360243320465087891 -0.3740786612033843994 0 -0.2252516746520996094 -0.3233716189861297607 0.9190715551376342773 0 -0.6136111021041870117 0.779813230037689209 0.1239865869283676147 0 -31.37511253356933594 49.20383071899414063 8.803915977478027344 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="231" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00263856" Style="65535">
+			<Transformation RelativeTransfo="0.02725355513393878937 0.4221460521221160889 -0.9061180353164672852 0 -0.9149495959281921387 -0.3545824587345123291 -0.1927135288715362549 0 -0.4026468098163604736 0.834304511547088623 0.3765787482261657715 0 -22.83428382873535156 54.1095733642578125 25.641754150390625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="232" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00925503" Style="65535">
+			<Transformation RelativeTransfo="0.4276464283466339111 0.6855415105819702148 -0.5891954898834228516 0 -0.5106980204582214355 -0.3545824587345123291 -0.7832361459732055664 0 -0.7458592653274536133 0.6358491182327270508 0.1984687894582748413 0 -34.27773666381835938 54.1095733642578125 1.985181927680969238 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="233" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00694508" Style="65535">
+			<Transformation RelativeTransfo="-0.5441142916679382324 0.0971695631742477417 -0.8333652615547180176 0 -0.8091586828231811523 -0.3233716189861297607 0.4906047284603118896 0 -0.2218148410320281982 0.9412698149681091309 0.2545767128467559814 0 -28.41086387634277344 49.20383071899414063 -15.96024608612060547 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="234" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00367076" Style="65535">
+			<Transformation RelativeTransfo="0.3268210291862487793 0.9023841023445129395 -0.2808752954006195068 0 0.1927135288715362549 -0.3545824587345123291 -0.9149495959281921387 0 -0.9252294301986694336 0.2448963075876235962 -0.2897866368293762207 0 -25.641754150390625 54.1095733642578125 -22.83428382873535156 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="235" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00689024" Style="65535">
+			<Transformation RelativeTransfo="0.06396260112524032593 0.4415935277938842773 -0.8949323892593383789 0 -0.9190715551376342773 -0.3233716189861297607 -0.2252516746520996094 0 -0.3888654112815856934 0.8369145393371582031 0.3851723372936248779 0 -8.803915977478027344 49.20383071899414063 -31.37511253356933594 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="236" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00438626" Style="65535">
+			<Transformation RelativeTransfo="-0.3084658980369567871 0.4915644526481628418 -0.8143790364265441895 0 0.7832361459732055664 -0.3545824587345123291 -0.5106980204582214355 0 -0.5398054718971252441 -0.7953839898109436035 -0.2756344377994537354 0 -1.985181927680969238 54.1095733642578125 -34.27773666381835938 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="237" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="004465" Style="65535">
+			<Transformation RelativeTransfo="0.4550907313823699951 0.6968034505844116211 -0.5543981790542602539 0 -0.4906047284603118896 -0.3233716189861297607 -0.8091586828231811523 0 -0.7431012392044067383 0.640231013298034668 0.1946916431188583374 0 15.96024608612060547 49.20383071899414063 -28.41086387634277344 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="238" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00225942" Style="65535">
+			<Transformation RelativeTransfo="0.2685002982616424561 0.1783406734466552734 -0.9466267228126525879 0 0.9149495959281921387 -0.3545824587345123291 0.1927135288715362549 0 -0.3012885749340057373 -0.9178594350814819336 -0.2583782374858856201 0 22.83428382873535156 54.1095733642578125 -25.641754150390625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_02.prt.1" FileSize="124838" Id="239" InstanceRef="281" IsPart="false" Name="SPOKE_02" PartNumber="00439134" Style="65535">
+			<Transformation RelativeTransfo="0.3284310102462768555 0.913304448127746582 -0.2408486157655715942 0 0.2252516746520996094 -0.3233716189861297607 -0.9190715551376342773 0 -0.9172757267951965332 0.2476000487804412842 -0.3119286298751831055 0 31.37511253356933594 49.20383071899414063 -8.803915977478027344 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="240" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00671179" Style="65535">
+			<Transformation RelativeTransfo="-0.9111054539680480957 1.387778780781445676e-17 -0.4121733307838439941 0 -0.4025071859359741211 -0.2152980566024780273 0.8897385597229003906 0 -0.08874011784791946411 0.9765483736991882324 0.1961592286825180054 0 87.1281585693359375 -3.580657243728637695 -117.881256103515625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="282" IsPart="false" Name="">
+			<ExternalModel Name="spoke_nipple.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="241" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00512367" Style="65535">
+			<Transformation RelativeTransfo="0.934374690055847168 0 -0.3562919795513153076 0 -0.3511216938495635986 -0.1697414815425872803 -0.920815587043762207 0 -0.06047752499580383301 0.9854886531829833984 -0.1586021333932876587 0 80.47370147705078125 -2.489180088043212891 124.6089248657226563 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="242" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00204769" Style="65535">
+			<Transformation RelativeTransfo="-0.5184605717658996582 -5.551115123125782702e-17 -0.8551015257835388184 0 -0.8091586828231811523 0.3233716189861297607 0.4906047284603118896 0 0.276515573263168335 0.9462720751762390137 -0.1676554232835769653 0 138.456451416015625 5.225290775299072266 -50.76199722290039063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="243" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0077315" Style="65535">
+			<Transformation RelativeTransfo="0.8376635313034057617 -2.775557561562891351e-17 -0.5461866259574890137 0 -0.5106980204582214355 0.3545824587345123291 -0.7832361459732055664 0 0.1936681866645812988 0.9350247383117675781 0.2970207631587982178 0 103.732666015625 5.886359214782714844 104.5349273681640625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="244" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0069297" Style="65535">
+			<Transformation RelativeTransfo="-0.3527982831001281738 0 -0.9356994032859802246 0 -0.9137557148933410645 -0.2152980566024780273 0.3445245921611785889 0 -0.2014542520046234131 0.9765483736991882324 0.07595678418874740601 0 144.9635467529296875 -3.580657243728637695 -21.74572372436523438 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="245" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00332501" Style="65535">
+			<Transformation RelativeTransfo="0.9126391410827636719 6.938893903907228378e-18 0.4087661802768707275 0 0.4028344452381134033 -0.1697414815425872803 -0.8993954658508300781 0 0.06938457489013671875 0.9854886531829833984 -0.1549127101898193359 0 -31.20831489562988281 -2.489180088043212891 145.01531982421875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="246" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00789662" Style="65535">
+			<Transformation RelativeTransfo="0.3319012820720672607 0.9433141350746154785 -1.387778780781445676e-17 0 -0.9190715551376342773 0.3233716189861297607 -0.2252516746520996094 0 -0.2124830931425094604 0.07476131618022918701 0.9743006229400634766 0 133.797637939453125 5.225290775299072266 62.00934219360351563 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="247" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00550366" Style="65535">
+			<Transformation RelativeTransfo="0 -0.9324278831481933594 -0.3613560497760772705 0 0.1927135288715362549 0.3545824587345123291 -0.9149495959281921387 0 0.9812550544738769531 -0.06963820010423660278 0.1796914786100387573 0 -0.5672857761383056641 5.886359214782714844 147.267425537109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="248" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00603143" Style="65535">
+			<Transformation RelativeTransfo="0.4121733307838439941 -1.387778780781445676e-17 -0.9111054539680480957 0 -0.8897385597229003906 -0.2152980566024780273 -0.4025071859359741211 0 -0.1961592286825180054 0.9765483736991882324 -0.08874011784791946411 0 117.881256103515625 -3.580657243728637695 87.1281585693359375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="249" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0079409" Style="65535">
+			<Transformation RelativeTransfo="0.3562919795513153076 0 0.934374690055847168 0 0.920815587043762207 -0.1697414815425872803 -0.3511216938495635986 0 0.1586021333932876587 0.9854886531829833984 -0.06047752499580383301 0 -124.6089248657226563 -2.489180088043212891 80.47370147705078125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="250" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00935561" Style="65535">
+			<Transformation RelativeTransfo="0.8551015257835388184 0 -0.5184605717658996582 0 -0.4906047284603118896 0.3233716189861297607 -0.8091586828231811523 0 0.1676554232835769653 0.9462720751762390137 0.276515573263168335 0 50.76199722290039063 5.225290775299072266 138.456451416015625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="251" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00991826" Style="65535">
+			<Transformation RelativeTransfo="0.5461866259574890137 -2.775557561562891351e-17 0.8376635313034057617 0 0.7832361459732055664 0.3545824587345123291 -0.5106980204582214355 0 -0.2970207631587982178 0.9350247383117675781 0.1936681866645812988 0 -104.5349273681640625 5.886359214782714844 103.732666015625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="252" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00888124" Style="65535">
+			<Transformation RelativeTransfo="0.9356994032859802246 1.387778780781445676e-17 -0.3527982831001281738 0 -0.3445245921611785889 -0.2152980566024780273 -0.9137557148933410645 0 -0.07595678418874740601 0.9765483736991882324 -0.2014542520046234131 0 21.74572372436523438 -3.580657243728637695 144.9635467529296875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="253" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00604983" Style="65535">
+			<Transformation RelativeTransfo="-0.4087661802768707275 0 0.9126391410827636719 0 0.8993954658508300781 -0.1697414815425872803 0.4028344452381134033 0 0.1549127101898193359 0.9854886531829833984 0.06938457489013671875 0 -145.01531982421875 -2.489180088043212891 -31.20831489562988281 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="254" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00443776" Style="65535">
+			<Transformation RelativeTransfo="1.387778780781445676e-17 -0.9433141350746154785 -0.3319012820720672607 0 0.2252516746520996094 0.3233716189861297607 -0.9190715551376342773 0 0.9743006229400634766 -0.07476131618022918701 0.2124830931425094604 0 -62.00934219360351563 5.225290775299072266 133.797637939453125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="255" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00375937" Style="65535">
+			<Transformation RelativeTransfo="0.3613560497760772705 -0.9324278831481933594 -1.387778780781445676e-17 0 0.9149495959281921387 0.3545824587345123291 0.1927135288715362549 0 -0.1796914786100387573 -0.06963820010423660278 0.9812550544738769531 0 -147.267425537109375 5.886359214782714844 -0.5672857761383056641 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="256" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00325420" Style="65535">
+			<Transformation RelativeTransfo="0.9111054539680480957 0 0.4121733307838439941 0 0.4025071859359741211 -0.2152980566024780273 -0.8897385597229003906 0 0.08874011784791946411 0.9765483736991882324 -0.1961592286825180054 0 -87.1281585693359375 -3.580657243728637695 117.881256103515625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="257" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00772604" Style="65535">
+			<Transformation RelativeTransfo="0.5184605717658996582 -2.775557561562891351e-17 0.8551015257835388184 0 0.8091586828231811523 0.3233716189861297607 -0.4906047284603118896 0 -0.276515573263168335 0.9462720751762390137 0.1676554232835769653 0 -138.456451416015625 5.225290775299072266 50.76199722290039063 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="258" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00120814" Style="65535">
+			<Transformation RelativeTransfo="0.3527982831001281738 1.387778780781445676e-17 0.9356994032859802246 0 0.9137557148933410645 -0.2152980566024780273 -0.3445245921611785889 0 0.2014542520046234131 0.9765483736991882324 -0.07595678418874740601 0 -144.9635467529296875 -3.580657243728637695 21.74572372436523438 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="259" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00905052" Style="65535">
+			<Transformation RelativeTransfo="0.3319012820720672607 -0.9433141350746154785 0 0 0.9190715551376342773 0.3233716189861297607 0.2252516746520996094 0 -0.2124830931425094604 -0.07476131618022918701 0.9743006229400634766 0 -133.797637939453125 5.225290775299072266 -62.00934219360351563 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="260" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00707672" Style="65535">
+			<Transformation RelativeTransfo="-0.4121733307838439941 0 0.9111054539680480957 0 0.8897385597229003906 -0.2152980566024780273 0.4025071859359741211 0 0.1961592286825180054 0.9765483736991882324 0.08874011784791946411 0 -117.881256103515625 -3.580657243728637695 -87.1281585693359375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="261" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00780704" Style="65535">
+			<Transformation RelativeTransfo="-0.8376635313034057617 0 0.5461866259574890137 0 0.5106980204582214355 0.3545824587345123291 0.7832361459732055664 0 -0.1936681866645812988 0.9350247383117675781 -0.2970207631587982178 0 -103.732666015625 5.886359214782714844 -104.5349273681640625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="262" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00330583" Style="65535">
+			<Transformation RelativeTransfo="-0.934374690055847168 0 0.3562919795513153076 0 0.3511216938495635986 -0.1697414815425872803 0.920815587043762207 0 0.06047752499580383301 0.9854886531829833984 0.1586021333932876587 0 -80.47370147705078125 -2.489180088043212891 -124.6089248657226563 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="263" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00443557" Style="65535">
+			<Transformation RelativeTransfo="-0.8551015257835388184 0 0.5184605717658996582 0 0.4906047284603118896 0.3233716189861297607 0.8091586828231811523 0 -0.1676554232835769653 0.9462720751762390137 -0.276515573263168335 0 -50.76199722290039063 5.225290775299072266 -138.456451416015625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="264" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00850777" Style="65535">
+			<Transformation RelativeTransfo="-0.9356994032859802246 1.387778780781445676e-17 0.3527982831001281738 0 0.3445245921611785889 -0.2152980566024780273 0.9137557148933410645 0 0.07595678418874740601 0.9765483736991882324 0.2014542520046234131 0 -21.74572372436523438 -3.580657243728637695 -144.9635467529296875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="265" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00901863" Style="65535">
+			<Transformation RelativeTransfo="1.387778780781445676e-17 0.9324278831481933594 -0.3613560497760772705 0 -0.1927135288715362549 0.3545824587345123291 0.9149495959281921387 0 0.9812550544738769531 0.06963820010423660278 0.1796914786100387573 0 0.5672857761383056641 5.886359214782714844 -147.267425537109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="266" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00824393" Style="65535">
+			<Transformation RelativeTransfo="-0.9126391410827636719 6.938893903907228378e-18 -0.4087661802768707275 0 -0.4028344452381134033 -0.1697414815425872803 0.8993954658508300781 0 -0.06938457489013671875 0.9854886531829833984 0.1549127101898193359 0 31.20831489562988281 -2.489180088043212891 -145.01531982421875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="267" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00889624" Style="65535">
+			<Transformation RelativeTransfo="0 0.9433141350746154785 -0.3319012820720672607 0 -0.2252516746520996094 0.3233716189861297607 0.9190715551376342773 0 0.9743006229400634766 0.07476131618022918701 0.2124830931425094604 0 62.00934219360351563 5.225290775299072266 -133.797637939453125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="268" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0033192" Style="65535">
+			<Transformation RelativeTransfo="-0.5461866259574890137 0 -0.8376635313034057617 0 -0.7832361459732055664 0.3545824587345123291 0.5106980204582214355 0 0.2970207631587982178 0.9350247383117675781 -0.1936681866645812988 0 104.5349273681640625 5.886359214782714844 -103.732666015625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="269" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00928581" Style="65535">
+			<Transformation RelativeTransfo="-0.3562919795513153076 0 -0.934374690055847168 0 -0.920815587043762207 -0.1697414815425872803 0.3511216938495635986 0 -0.1586021333932876587 0.9854886531829833984 0.06047752499580383301 0 124.6089248657226563 -2.489180088043212891 -80.47370147705078125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="270" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00392411" Style="65535">
+			<Transformation RelativeTransfo="0.3613560497760772705 0.9324278831481933594 1.387778780781445676e-17 0 -0.9149495959281921387 0.3545824587345123291 -0.1927135288715362549 0 -0.1796914786100387573 0.06963820010423660278 0.9812550544738769531 0 147.267425537109375 5.886359214782714844 0.5672857761383056641 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="271" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00956697" Style="65535">
+			<Transformation RelativeTransfo="0.4087661802768707275 0 -0.9126391410827636719 0 -0.8993954658508300781 -0.1697414815425872803 -0.4028344452381134033 0 -0.1549127101898193359 0.9854886531829833984 -0.06938457489013671875 0 145.01531982421875 -2.489180088043212891 31.20831489562988281 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bearing_35x11.prt.1" FileSize="175600" Id="272" InstanceRef="283" IsPart="false" Name="BEARING_35X11" PartNumber="00419759" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 7.5 -47 -2.503952600818593055e-11 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="283" IsPart="false" Name="">
+			<ExternalModel Name="bearing_35x11.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bearing_35x20.prt.1" FileSize="168079" Id="273" InstanceRef="284" IsPart="false" Name="BEARING_35X20" PartNumber="00689761" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -1 0 0 0 0 1 0 -7.5 45.59999847412109375 -2.503952600818593055e-11 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="284" IsPart="false" Name="">
+			<ExternalModel Name="bearing_35x20.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\axle_rear_wheel.prt.1" FileSize="150817" Id="274" InstanceRef="285" IsPart="false" Name="AXLE_REAR_WHEEL" PartNumber="00638342" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="285" IsPart="false" Name="">
+			<ExternalModel Name="axle_rear_wheel.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="275" IsPart="false" Name="">
+			<ExternalModel Name="wheel_rear.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303" FilePath="./_data/Moto\fork.asm.1" FileSize="153502" Id="4" InstanceRef="304" IsPart="false" Name="FORK" PartNumber="00354911" Style="65535">
+			<Transformation RelativeTransfo="0 0 1 0 0.446197807788848877 0.8949343562126159668 -0 0 -0.8949343562126159668 0.446197807788848877 0 0 -342.845794677734375 496.772979736328125 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\upper_fork_brace.prt.1" FileSize="1004261" Id="286" InstanceRef="305" IsPart="false" Name="UPPER_FORK_BRACE" PartNumber="00276983" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="305" IsPart="false" Name="">
+			<ExternalModel Name="upper_fork_brace.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_tube.prt.1" FileSize="127271" Id="287" InstanceRef="306" IsPart="false" Name="FORK_TUBE" PartNumber="00661833" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 72.5 -570 14 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="306" IsPart="false" Name="">
+			<ExternalModel Name="fork_tube.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_tube.prt.1" FileSize="127271" Id="288" InstanceRef="306" IsPart="false" Name="FORK_TUBE" PartNumber="00501703" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -72.5 -570 14 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\slider_left.prt.1" FileSize="686888" Id="289" InstanceRef="307" IsPart="false" Name="SLIDER_LEFT" PartNumber="00315429" Style="65535">
+			<Transformation RelativeTransfo="0 -0 1 0 1 0 -0 0 0 1 0 0 72.5 -420 14 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="307" IsPart="false" Name="">
+			<ExternalModel Name="slider_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\slider_right.prt.1" FileSize="508389" Id="290" InstanceRef="308" IsPart="false" Name="SLIDER_RIGHT" PartNumber="00104054" Style="65535">
+			<Transformation RelativeTransfo="0 -0 1 0 1 0 -0 0 0 1 0 0 -72.5 -420 14 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="308" IsPart="false" Name="">
+			<ExternalModel Name="slider_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_caliper_front.prt.1" FileSize="193235" Id="291" InstanceRef="309" IsPart="false" Name="BRAKE_CALIPER_FRONT" PartNumber="00155054" Style="65535">
+			<Transformation RelativeTransfo="0 -0.446197807788848877 0.8949343562126159668 0 0 0.8949343562126159668 0.446197807788848877 0 -1 0 0 0 57.75 -646.0667724609375 77.30388641357421875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="309" IsPart="false" Name="">
+			<ExternalModel Name="brake_caliper_front.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_plug.prt.1" FileSize="145154" Id="292" InstanceRef="310" IsPart="false" Name="FORK_PLUG" PartNumber="00253692" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 72.5 6.13642470170816523e-12 14 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="310" IsPart="false" Name="">
+			<ExternalModel Name="fork_plug.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_plug.prt.1" FileSize="145154" Id="293" InstanceRef="310" IsPart="false" Name="FORK_PLUG" PartNumber="00745360" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -72.5 6.13642470170816523e-12 14 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\lower_fork_brace.prt.1" FileSize="962517" Id="294" InstanceRef="311" IsPart="false" Name="LOWER_FORK_BRACE" PartNumber="00973962" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 -183 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="311" IsPart="false" Name="">
+			<ExternalModel Name="lower_fork_brace.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bar_clamp_lower.prt.1" FileSize="153539" Id="295" InstanceRef="312" IsPart="false" Name="BAR_CLAMP_LOWER" PartNumber="0033692" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 32.5 32 2.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="312" IsPart="false" Name="">
+			<ExternalModel Name="bar_clamp_lower.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bar_clamp_upper.prt.1" FileSize="210373" Id="296" InstanceRef="313" IsPart="false" Name="BAR_CLAMP_UPPER" PartNumber="00500002" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 32.5 32 2.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="313" IsPart="false" Name="">
+			<ExternalModel Name="bar_clamp_upper.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bar_clamp_lower.prt.1" FileSize="153539" Id="297" InstanceRef="312" IsPart="false" Name="BAR_CLAMP_LOWER" PartNumber="00287291" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -32.5 32 2.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bar_clamp_upper.prt.1" FileSize="210373" Id="298" InstanceRef="313" IsPart="false" Name="BAR_CLAMP_UPPER" PartNumber="00814733" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -32.5 32 2.5 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_axle_nut.prt.1" FileSize="129061" Id="299" InstanceRef="314" IsPart="false" Name="FORK_AXLE_NUT" PartNumber="00118094" Style="65535">
+			<Transformation RelativeTransfo="-0.866025388240814209 0 0.5 0 0 1 0 0 -0.5 0 -0.866025388240814209 0 0 -28 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="314" IsPart="false" Name="">
+			<ExternalModel Name="fork_axle_nut.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_lock_nut.prt.1" FileSize="156795" Id="300" InstanceRef="315" IsPart="false" Name="FORK_LOCK_NUT" PartNumber="00421968" Style="65535">
+			<Transformation RelativeTransfo="-0.866025388240814209 0 0.5 0 0 1 0 0 -0.5 0 -0.866025388240814209 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="315" IsPart="false" Name="">
+			<ExternalModel Name="fork_lock_nut.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fork_race_upper.prt.1" FileSize="146177" Id="301" InstanceRef="316" IsPart="false" Name="FORK_RACE_UPPER" PartNumber="00527021" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 -0 0 1 0 0 -1 0 0 0 -38 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="316" IsPart="false" Name="">
+			<ExternalModel Name="fork_race_upper.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\mud_gaurd_front.prt.1" FileSize="739614" Id="302" InstanceRef="317" IsPart="false" Name="MUD_GAURD_FRONT" PartNumber="00440395" Style="65535">
+			<Transformation RelativeTransfo="1 0 0 0 0 0 -1 0 -0 1 0 0 0 -203 45 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="317" IsPart="false" Name="">
+			<ExternalModel Name="mud_gaurd_front.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="318 319 320 321 322 323 324 325 326" FilePath="./_data/Moto\handel_bar.asm.1" FileSize="128620" Id="303" InstanceRef="327" IsPart="false" Name="HANDEL_BAR" PartNumber="00116477" Style="65535">
+			<Transformation RelativeTransfo="0 0.4929668903350830078 -0.8700480461120605469 0 -0 0.8700480461120605469 0.4929668903350830078 0 1 0 0 0 0 -258.08685302734375 -548.99847412109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\handle_bar.prt.1" FileSize="286247" Id="318" InstanceRef="328" IsPart="false" Name="HANDLE_BAR" PartNumber="00633952" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="328" IsPart="false" Name="">
+			<ExternalModel Name="handle_bar.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\grip.prt.1" FileSize="285467" Id="319" InstanceRef="329" IsPart="false" Name="GRIP" PartNumber="00941451" Style="65535">
+			<Transformation RelativeTransfo="0.1133640408515930176 -0.05668202042579650879 0.9919353723526000977 0 0.9935326576232910156 -1.894318035766673347e-15 -0.1135465875267982483 0 0.006436049938201904297 0.9983922839164733887 0.05631544068455696106 0 -299.863861083984375 570.7784423828125 245.92742919921875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="329" IsPart="false" Name="">
+			<ExternalModel Name="grip.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\grip.prt.1" FileSize="285467" Id="320" InstanceRef="329" IsPart="false" Name="GRIP" PartNumber="00541878" Style="65535">
+			<Transformation RelativeTransfo="0.1133640408515930176 -0.05668202042579650879 -0.9919353723526000977 0 -0.9935326576232910156 9.020562075079396891e-16 -0.1135465875267982483 0 0.006436049938201904297 0.9983922839164733887 -0.05631544068455696106 0 -299.863861083984375 570.7784423828125 -245.92742919921875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_lever_support.prt.1" FileSize="338500" Id="321" InstanceRef="330" IsPart="false" Name="BRAKE_LEVER_SUPPORT" PartNumber="00376867" Style="65535">
+			<Transformation RelativeTransfo="0.006436049938201904297 0.9983922839164733887 0.05631544068455696106 0 -0.9935326576232910156 1.894318035766673347e-15 0.1135465875267982483 0 0.1133640408515930176 -0.05668202042579650879 0.9919353723526000977 0 -302.017791748046875 571.85540771484375 227.080657958984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="330" IsPart="false" Name="">
+			<ExternalModel Name="brake_lever_support.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_lever_clamp.prt.1" FileSize="220472" Id="322" InstanceRef="331" IsPart="false" Name="BRAKE_LEVER_CLAMP" PartNumber="00668528" Style="65535">
+			<Transformation RelativeTransfo="-0.006436049938201904297 -0.9983922839164733887 -0.05631544068455696106 0 0.9935326576232910156 -1.894318035766673347e-15 -0.1135465875267982483 0 0.1133640408515930176 -0.05668202042579650879 0.9919353723526000977 0 -302.017791748046875 571.85540771484375 227.080657958984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="331" IsPart="false" Name="">
+			<ExternalModel Name="brake_lever_clamp.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_lever.prt.1" FileSize="343291" Id="323" InstanceRef="332" IsPart="false" Name="BRAKE_LEVER" PartNumber="00275784" Style="65535">
+			<Transformation RelativeTransfo="-0.1476439237594604492 -0.0547506287693977356 0.9875239729881286621 0 -0.9890196323394775391 0.01467038597911596298 -0.1470541805028915405 0 -0.006436049938201904297 -0.9983922839164733887 -0.05631544068455696106 0 -339.103729248046875 570.98748779296875 246.7053070068359375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="332" IsPart="false" Name="">
+			<ExternalModel Name="brake_lever.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_lever_support.prt.1" FileSize="338500" Id="324" InstanceRef="330" IsPart="false" Name="BRAKE_LEVER_SUPPORT" PartNumber="0040172" Style="65535">
+			<Transformation RelativeTransfo="-0.006436049938201904297 -0.9983922839164733887 0.05631544068455696106 0 -0.9935326576232910156 8.994541222939744785e-16 -0.1135465875267982483 0 0.1133640408515930176 -0.05668202042579650879 -0.9919353723526000977 0 -302.017791748046875 571.85540771484375 -227.080657958984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_lever_clamp.prt.1" FileSize="220472" Id="325" InstanceRef="331" IsPart="false" Name="BRAKE_LEVER_CLAMP" PartNumber="00709269" Style="65535">
+			<Transformation RelativeTransfo="0.006436049938201904297 0.9983922839164733887 -0.05631544068455696106 0 0.9935326576232910156 -9.00321484031962882e-16 0.1135465875267982483 0 0.1133640408515930176 -0.05668202042579650879 -0.9919353723526000977 0 -302.017791748046875 571.85540771484375 -227.080657958984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_lever.prt.1" FileSize="343291" Id="326" InstanceRef="332" IsPart="false" Name="BRAKE_LEVER" PartNumber="00385354" Style="65535">
+			<Transformation RelativeTransfo="-0.1476439237594604492 -0.0547506287693977356 -0.9875239729881286621 0 -0.9890196323394775391 0.01467038597911596298 0.1470541805028915405 0 0.006436049938201904297 0.9983922839164733887 -0.05631544068455696106 0 -339.103729248046875 570.98748779296875 -246.7053070068359375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="327" IsPart="false" Name="">
+			<ExternalModel Name="handel_bar.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="304" IsPart="false" Name="">
+			<ExternalModel Name="fork.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="333 334 335 336 337 338 339 340 341 342 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360 361 362 363 364 365 366 367 368 369 370 371 372 373 374 375 376 377 378 379 380 381 382 383 384 385 386 387 388 389 390 391 392 393 394 395 396 397 398 399 400 401 402 403" FilePath="./_data/Moto\wheel_front.asm.1" FileSize="178376" Id="5" InstanceRef="404" IsPart="false" Name="WHEEL_FRONT" PartNumber="00624003" Style="65535">
+			<Transformation RelativeTransfo="-0.4462259411811828613 -0.89492034912109375 0 0 0 0 1 0 -0.89492034912109375 0.4462259411811828613 0 0 -712.4093017578125 -145.845733642578125 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\hub_front.prt.1" FileSize="1310951" Id="333" InstanceRef="405" IsPart="false" Name="HUB_FRONT" PartNumber="00988452" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="405" IsPart="false" Name="">
+			<ExternalModel Name="hub_front.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\rim_front.prt.1" FileSize="1869977" Id="334" InstanceRef="406" IsPart="false" Name="RIM_FRONT" PartNumber="00246902" Style="65535">
+			<Transformation RelativeTransfo="0 1 0 0 -1 0 0 0 0 -0 1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="406" IsPart="false" Name="">
+			<ExternalModel Name="rim_front.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\brake_disc_front.prt.1" FileSize="362485" Id="335" InstanceRef="407" IsPart="false" Name="BRAKE_DISC_FRONT" PartNumber="0038970" Style="65535">
+			<Transformation RelativeTransfo="4.438792649413825231e-12 -1 2.562738216083104703e-12 0 0.5 0 -0.866025388240814209 0 0.866025388240814209 5.125476432166209406e-12 0.5 0 0 49 3.000195647473447025e-10 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="407" IsPart="false" Name="">
+			<ExternalModel Name="brake_disc_front.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\tire_front.prt.1" FileSize="2537323" Id="336" InstanceRef="408" IsPart="false" Name="TIRE_FRONT" PartNumber="00377723" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="408" IsPart="false" Name="">
+			<ExternalModel Name="tire_front.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="337" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00981941" Style="65535">
+			<Transformation RelativeTransfo="0.5856421589851379395 -1.387778780781445676e-17 0.8105697035789489746 0 0.7994467616081237793 -0.1650952696800231934 -0.5776057839393615723 0 0.1338212341070175171 0.9862776398658752441 -0.09668675065040588379 0 -4.656512737274169922 27.97642898559570313 -32.9358367919921875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="409" IsPart="false" Name="">
+			<ExternalModel Name="spoke_03.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="338" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00547877" Style="65535">
+			<Transformation RelativeTransfo="0.8541184067726135254 -6.938893903907228378e-18 -0.5200785994529724121 0 -0.5152605772018432617 -0.1358021199703216553 -0.8462058305740356445 0 -0.07062777876853942871 0.9907360076904296875 -0.1159910857677459717 0 16.6107025146484375 23.03703117370605469 -27.37009620666503906 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="339" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00988751" Style="65535">
+			<Transformation RelativeTransfo="-0.1671647727489471436 -0.985928952693939209 0 0 0.9737231731414794922 -0.1650952696800231934 0.1568652838468551636 0 -0.1546580344438552856 0.02622235007584095001 0.9876199960708618164 0 19.99650192260742188 27.97642898559570313 -26.58180618286132813 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="340" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00799612" Style="65535">
+			<Transformation RelativeTransfo="0.9717040061950683594 -3.469446951953614189e-18 0.2362018078565597534 0 0.2340136319398880005 -0.1358021199703216553 -0.9627021551132202148 0 0.03207670524716377258 0.9907360076904296875 -0.1319594681262969971 0 31.09912109375 23.03703117370605469 -7.60803985595703125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="341" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="0043682" Style="65535">
+			<Transformation RelativeTransfo="-0.8105697035789489746 -1.387778780781445676e-17 0.5856421589851379395 0 0.5776057839393615723 -0.1650952696800231934 0.7994467616081237793 0 0.09668675065040588379 0.9862776398658752441 0.1338212341070175171 0 32.9358367919921875 27.97642898559570313 -4.656512737274169922 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="342" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00372361" Style="65535">
+			<Transformation RelativeTransfo="0.5200785994529724121 -6.938893903907228378e-18 0.8541184067726135254 0 0.8462058305740356445 -0.1358021199703216553 -0.5152605772018432617 0 0.1159910857677459717 0.9907360076904296875 -0.07062777876853942871 0 27.37009620666503906 23.03703117370605469 16.6107025146484375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="343" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00276214" Style="65535">
+			<Transformation RelativeTransfo="6.938893903907228378e-18 0.985928952693939209 0.1671647727489471436 0 -0.1568652838468551636 -0.1650952696800231934 0.9737231731414794922 0 0.9876199960708618164 -0.02622235007584095001 0.1546580344438552856 0 26.58180618286132813 27.97642898559570313 19.99650192260742188 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="344" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00220086" Style="65535">
+			<Transformation RelativeTransfo="-0.2362018078565597534 -3.469446951953614189e-18 0.9717040061950683594 0 0.9627021551132202148 -0.1358021199703216553 0.2340136319398880005 0 0.1319594681262969971 0.9907360076904296875 0.03207670524716377258 0 7.60803985595703125 23.03703117370605469 31.09912109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="345" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00458790" Style="65535">
+			<Transformation RelativeTransfo="-0.5856421589851379395 -1.387778780781445676e-17 -0.8105697035789489746 0 -0.7994467616081237793 -0.1650952696800231934 0.5776057839393615723 0 -0.1338212341070175171 0.9862776398658752441 0.09668675065040588379 0 4.656512737274169922 27.97642898559570313 32.9358367919921875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="346" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00458721" Style="65535">
+			<Transformation RelativeTransfo="-0.8541184067726135254 -6.938893903907228378e-18 0.5200785994529724121 0 0.5152605772018432617 -0.1358021199703216553 0.8462058305740356445 0 0.07062777876853942871 0.9907360076904296875 0.1159910857677459717 0 -16.6107025146484375 23.03703117370605469 27.37009620666503906 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="347" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00147071" Style="65535">
+			<Transformation RelativeTransfo="-0.1671647727489471436 0.985928952693939209 0 0 -0.9737231731414794922 -0.1650952696800231934 -0.1568652838468551636 0 -0.1546580344438552856 -0.02622235007584095001 0.9876199960708618164 0 -19.99650192260742188 27.97642898559570313 26.58180618286132813 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="348" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00273314" Style="65535">
+			<Transformation RelativeTransfo="-0.9717040061950683594 -3.469446951953614189e-18 -0.2362018078565597534 0 -0.2340136319398880005 -0.1358021199703216553 0.9627021551132202148 0 -0.03207670524716377258 0.9907360076904296875 0.1319594681262969971 0 -31.09912109375 23.03703117370605469 7.60803985595703125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="349" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00918720" Style="65535">
+			<Transformation RelativeTransfo="0.8105697035789489746 -1.387778780781445676e-17 -0.5856421589851379395 0 -0.5776057839393615723 -0.1650952696800231934 -0.7994467616081237793 0 -0.09668675065040588379 0.9862776398658752441 -0.1338212341070175171 0 -32.9358367919921875 27.97642898559570313 4.656512737274169922 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="350" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00823502" Style="65535">
+			<Transformation RelativeTransfo="-0.5200785994529724121 -6.938893903907228378e-18 -0.8541184067726135254 0 -0.8462058305740356445 -0.1358021199703216553 0.5152605772018432617 0 -0.1159910857677459717 0.9907360076904296875 0.07062777876853942871 0 -27.37009620666503906 23.03703117370605469 -16.6107025146484375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="351" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00383665" Style="65535">
+			<Transformation RelativeTransfo="6.938893903907228378e-18 -0.985928952693939209 0.1671647727489471436 0 0.1568652838468551636 -0.1650952696800231934 -0.9737231731414794922 0 0.9876199960708618164 0.02622235007584095001 0.1546580344438552856 0 -26.58180618286132813 27.97642898559570313 -19.99650192260742188 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_03.prt.1" FileSize="124145" Id="352" InstanceRef="409" IsPart="false" Name="SPOKE_03" PartNumber="00953173" Style="65535">
+			<Transformation RelativeTransfo="0.2362018078565597534 0 -0.9717040061950683594 0 -0.9627021551132202148 -0.1358021199703216553 -0.2340136319398880005 0 -0.1319594681262969971 0.9907360076904296875 -0.03207670524716377258 0 -7.60803985595703125 23.03703117370605469 -31.09912109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="353" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00657167" Style="65535">
+			<Transformation RelativeTransfo="0.4189229011535644531 0 0.9080218076705932617 0 0.893980860710144043 0.17517814040184021 -0.4124450087547302246 0 -0.1590655744075775146 0.9845367670059204102 0.07338614016771316528 0 7.442178249359130859 -28.90142440795898438 -33.05004119873046875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="410" IsPart="false" Name="">
+			<ExternalModel Name="spoke_04.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="354" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="0089820" Style="65535">
+			<Transformation RelativeTransfo="0.941296696662902832 1.387778780781445676e-17 -0.3375804722309112549 0 -0.3304919302463531494 0.2038510590791702271 -0.9215312600135803223 0 0.06881613284349441528 0.9790019392967224121 0.1918843239545822144 0 19.02594375610351563 -33.63080978393554688 -29.53062820434570313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="355" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00735612" Style="65535">
+			<Transformation RelativeTransfo="-0.3458451330661773682 6.938893903907228378e-18 0.9382916092872619629 0 0.9237825870513916016 0.17517814040184021 0.3404972553253173828 0 -0.1643681824207305908 0.9845367670059204102 -0.06058451160788536072 0 28.63232231140136719 -28.90142440795898438 -18.10749244689941406 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="356" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="0084320" Style="65535">
+			<Transformation RelativeTransfo="0.9043027162551879883 1.387778780781445676e-17 0.4268918335437774658 0 0.4179279208183288574 0.2038510590791702271 -0.8853140473365783691 0 -0.08702234923839569092 0.9790019392967224121 0.1843430697917938232 0 34.33468246459960938 -33.63080978393554688 -7.427933216094970703 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="357" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00652341" Style="65535">
+			<Transformation RelativeTransfo="-0.9080218076705932617 0 0.4189229011535644531 0 0.4124450087547302246 0.17517814040184021 0.893980860710144043 0 -0.07338614016771316528 0.9845367670059204102 -0.1590655744075775146 0 33.05004119873046875 -28.90142440795898438 7.442178249359130859 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="358" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00551047" Style="65535">
+			<Transformation RelativeTransfo="0.3375804722309112549 0 0.941296696662902832 0 0.9215312600135803223 0.2038510590791702271 -0.3304919302463531494 0 -0.1918843239545822144 0.9790019392967224121 0.06881613284349441528 0 29.53062820434570313 -33.63080978393554688 19.02594375610351563 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="359" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="0026386" Style="65535">
+			<Transformation RelativeTransfo="-0.9382916092872619629 0 -0.3458451330661773682 0 -0.3404972553253173828 0.17517814040184021 0.9237825870513916016 0 0.06058451160788536072 0.9845367670059204102 -0.1643681824207305908 0 18.10749244689941406 -28.90142440795898438 28.63232231140136719 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="360" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="0059042" Style="65535">
+			<Transformation RelativeTransfo="-0.4268918335437774658 1.387778780781445676e-17 0.9043027162551879883 0 0.8853140473365783691 0.2038510590791702271 0.4179279208183288574 0 -0.1843430697917938232 0.9790019392967224121 -0.08702234923839569092 0 7.427933216094970703 -33.63080978393554688 34.33468246459960938 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="361" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00637643" Style="65535">
+			<Transformation RelativeTransfo="-0.4189229011535644531 1.387778780781445676e-17 -0.9080218076705932617 0 -0.893980860710144043 0.17517814040184021 0.4124450087547302246 0 0.1590655744075775146 0.9845367670059204102 -0.07338614016771316528 0 -7.442178249359130859 -28.90142440795898438 33.05004119873046875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="362" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00174672" Style="65535">
+			<Transformation RelativeTransfo="-0.941296696662902832 1.387778780781445676e-17 0.3375804722309112549 0 0.3304919302463531494 0.2038510590791702271 0.9215312600135803223 0 -0.06881613284349441528 0.9790019392967224121 -0.1918843239545822144 0 -19.02594375610351563 -33.63080978393554688 29.53062820434570313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="363" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="0082817" Style="65535">
+			<Transformation RelativeTransfo="0.3458451330661773682 6.938893903907228378e-18 -0.9382916092872619629 0 -0.9237825870513916016 0.17517814040184021 -0.3404972553253173828 0 0.1643681824207305908 0.9845367670059204102 0.06058451160788536072 0 -28.63232231140136719 -28.90142440795898438 18.10749244689941406 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="364" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00193804" Style="65535">
+			<Transformation RelativeTransfo="-0.9043027162551879883 1.387778780781445676e-17 -0.4268918335437774658 0 -0.4179279208183288574 0.2038510590791702271 0.8853140473365783691 0 0.08702234923839569092 0.9790019392967224121 -0.1843430697917938232 0 -34.33468246459960938 -33.63080978393554688 7.427933216094970703 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="365" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00392289" Style="65535">
+			<Transformation RelativeTransfo="0.9080218076705932617 0 -0.4189229011535644531 0 -0.4124450087547302246 0.17517814040184021 -0.893980860710144043 0 0.07338614016771316528 0.9845367670059204102 0.1590655744075775146 0 -33.05004119873046875 -28.90142440795898438 -7.442178249359130859 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="366" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00509717" Style="65535">
+			<Transformation RelativeTransfo="-0.3375804722309112549 0 -0.941296696662902832 0 -0.9215312600135803223 0.2038510590791702271 0.3304919302463531494 0 0.1918843239545822144 0.9790019392967224121 -0.06881613284349441528 0 -29.53062820434570313 -33.63080978393554688 -19.02594375610351563 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="367" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00351654" Style="65535">
+			<Transformation RelativeTransfo="0.9382916092872619629 0 0.3458451330661773682 0 0.3404972553253173828 0.17517814040184021 -0.9237825870513916016 0 -0.06058451160788536072 0.9845367670059204102 0.1643681824207305908 0 -18.10749244689941406 -28.90142440795898438 -28.63232231140136719 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_04.prt.1" FileSize="124138" Id="368" InstanceRef="410" IsPart="false" Name="SPOKE_04" PartNumber="00562456" Style="65535">
+			<Transformation RelativeTransfo="0.4268918335437774658 1.387778780781445676e-17 -0.9043027162551879883 0 -0.8853140473365783691 0.2038510590791702271 -0.4179279208183288574 0 0.1843430697917938232 0.9790019392967224121 0.08702234923839569092 0 -7.427933216094970703 -33.63080978393554688 -34.33468246459960938 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="369" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00196496" Style="65535">
+			<Transformation RelativeTransfo="-0.9043027162551879883 -1.387778780781445676e-17 -0.4268918335437774658 0 -0.4179279208183288574 -0.2038510590791702271 0.8853140473365783691 0 -0.08702234923839569092 0.9790019392967224121 0.1843430697917938232 0 92.8445892333984375 -5.091660022735595703 -131.3719024658203125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="370" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00939865" Style="65535">
+			<Transformation RelativeTransfo="-0.9717040061950683594 3.469446951953614189e-18 -0.2362018078565597534 0 -0.2340136319398880005 0.1358021199703216553 0.9627021551132202148 0 0.03207670524716377258 0.9907360076904296875 -0.1319594681262969971 0 65.031097412109375 3.345724582672119141 -147.1998443603515625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="371" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00204430" Style="65535">
+			<Transformation RelativeTransfo="-0.9382916092872619629 0 -0.3458451330661773682 0 -0.3404972553253173828 -0.17517814040184021 0.9237825870513916016 0 -0.06058451160788536072 0.9845367670059204102 0.1643681824207305908 0 29.56212234497070313 -4.376484870910644531 -157.961883544921875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="372" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00261385" Style="65535">
+			<Transformation RelativeTransfo="-6.938893903907228378e-18 0.985928952693939209 -0.1671647727489471436 0 -0.1568652838468551636 0.1650952696800231934 0.9737231731414794922 0 0.9876199960708618164 0.02622235007584095001 0.1546580344438552856 0 -3.836339712142944336 4.037614345550537109 -161.186370849609375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="373" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00905351" Style="65535">
+			<Transformation RelativeTransfo="-0.941296696662902832 -1.387778780781445676e-17 0.3375804722309112549 0 0.3304919302463531494 -0.2038510590791702271 0.9215312600135803223 0 0.06881613284349441528 0.9790019392967224121 0.1918843239545822144 0 -27.24292564392089844 -5.091660022735595703 -158.5449981689453125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="374" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00325151" Style="65535">
+			<Transformation RelativeTransfo="-0.8541184067726135254 6.938893903907228378e-18 0.5200785994529724121 0 0.5152605772018432617 0.1358021199703216553 0.8462058305740356445 0 -0.07062777876853942871 0.9907360076904296875 -0.1159910857677459717 0 -58.102081298828125 3.345724582672119141 -150.0699462890625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="375" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00836278" Style="65535">
+			<Transformation RelativeTransfo="-0.9080218076705932617 0 0.4189229011535644531 0 0.4124450087547302246 -0.17517814040184021 0.893980860710144043 0 0.07338614016771316528 0.9845367670059204102 0.1590655744075775146 0 -90.7923431396484375 -4.376484870910644531 -132.5995025634765625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="376" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00182911" Style="65535">
+			<Transformation RelativeTransfo="-0.8105697035789489746 1.387778780781445676e-17 0.5856421589851379395 0 0.5776057839393615723 0.1650952696800231934 0.7994467616081237793 0 -0.09668675065040588379 0.9862776398658752441 -0.1338212341070175171 0 -116.6886749267578125 4.037614345550537109 -111.2632675170898438 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="377" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00125873" Style="65535">
+			<Transformation RelativeTransfo="-0.4268918335437774658 -1.387778780781445676e-17 0.9043027162551879883 0 0.8853140473365783691 -0.2038510590791702271 0.4179279208183288574 0 0.1843430697917938232 0.9790019392967224121 0.08702234923839569092 0 -131.3719024658203125 -5.091660022735595703 -92.8445892333984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="378" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00200586" Style="65535">
+			<Transformation RelativeTransfo="-0.2362018078565597534 0 0.9717040061950683594 0 0.9627021551132202148 0.1358021199703216553 0.2340136319398880005 0 -0.1319594681262969971 0.9907360076904296875 -0.03207670524716377258 0 -147.1998443603515625 3.345724582672119141 -65.031097412109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="379" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00407767" Style="65535">
+			<Transformation RelativeTransfo="-0.3458451330661773682 -6.938893903907228378e-18 0.9382916092872619629 0 0.9237825870513916016 -0.17517814040184021 0.3404972553253173828 0 0.1643681824207305908 0.9845367670059204102 0.06058451160788536072 0 -157.961883544921875 -4.376484870910644531 -29.56212234497070313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="380" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00816445" Style="65535">
+			<Transformation RelativeTransfo="0.1671647727489471436 -0.985928952693939209 0 0 0.9737231731414794922 0.1650952696800231934 0.1568652838468551636 0 -0.1546580344438552856 -0.02622235007584095001 0.9876199960708618164 0 -161.186370849609375 4.037614345550537109 3.836339712142944336 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="381" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00339100" Style="65535">
+			<Transformation RelativeTransfo="0.3375804722309112549 0 0.941296696662902832 0 0.9215312600135803223 -0.2038510590791702271 -0.3304919302463531494 0 0.1918843239545822144 0.9790019392967224121 -0.06881613284349441528 0 -158.5449981689453125 -5.091660022735595703 27.24292564392089844 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="382" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00225468" Style="65535">
+			<Transformation RelativeTransfo="0.5200785994529724121 6.938893903907228378e-18 0.8541184067726135254 0 0.8462058305740356445 0.1358021199703216553 -0.5152605772018432617 0 -0.1159910857677459717 0.9907360076904296875 0.07062777876853942871 0 -150.0699462890625 3.345724582672119141 58.102081298828125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="383" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00691512" Style="65535">
+			<Transformation RelativeTransfo="0.4189229011535644531 -1.387778780781445676e-17 0.9080218076705932617 0 0.893980860710144043 -0.17517814040184021 -0.4124450087547302246 0 0.1590655744075775146 0.9845367670059204102 -0.07338614016771316528 0 -132.5995025634765625 -4.376484870910644531 90.7923431396484375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="384" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00499914" Style="65535">
+			<Transformation RelativeTransfo="0.5856421589851379395 1.387778780781445676e-17 0.8105697035789489746 0 0.7994467616081237793 0.1650952696800231934 -0.5776057839393615723 0 -0.1338212341070175171 0.9862776398658752441 0.09668675065040588379 0 -111.2632675170898438 4.037614345550537109 116.6886749267578125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="385" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00507150" Style="65535">
+			<Transformation RelativeTransfo="0.9043027162551879883 -1.387778780781445676e-17 0.4268918335437774658 0 0.4179279208183288574 -0.2038510590791702271 -0.8853140473365783691 0 0.08702234923839569092 0.9790019392967224121 -0.1843430697917938232 0 -92.8445892333984375 -5.091660022735595703 131.3719024658203125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="386" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00344788" Style="65535">
+			<Transformation RelativeTransfo="0.9717040061950683594 3.469446951953614189e-18 0.2362018078565597534 0 0.2340136319398880005 0.1358021199703216553 -0.9627021551132202148 0 -0.03207670524716377258 0.9907360076904296875 0.1319594681262969971 0 -65.031097412109375 3.345724582672119141 147.1998443603515625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="387" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0070672" Style="65535">
+			<Transformation RelativeTransfo="0.9382916092872619629 0 0.3458451330661773682 0 0.3404972553253173828 -0.17517814040184021 -0.9237825870513916016 0 0.06058451160788536072 0.9845367670059204102 -0.1643681824207305908 0 -29.56212234497070313 -4.376484870910644531 157.961883544921875 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="388" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00336469" Style="65535">
+			<Transformation RelativeTransfo="-6.938893903907228378e-18 -0.985928952693939209 -0.1671647727489471436 0 0.1568652838468551636 0.1650952696800231934 -0.9737231731414794922 0 0.9876199960708618164 -0.02622235007584095001 0.1546580344438552856 0 3.836339712142944336 4.037614345550537109 161.186370849609375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="389" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00448162" Style="65535">
+			<Transformation RelativeTransfo="0.941296696662902832 -1.387778780781445676e-17 -0.3375804722309112549 0 -0.3304919302463531494 -0.2038510590791702271 -0.9215312600135803223 0 -0.06881613284349441528 0.9790019392967224121 -0.1918843239545822144 0 27.24292564392089844 -5.091660022735595703 158.5449981689453125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="390" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00512173" Style="65535">
+			<Transformation RelativeTransfo="0.8541184067726135254 6.938893903907228378e-18 -0.5200785994529724121 0 -0.5152605772018432617 0.1358021199703216553 -0.8462058305740356445 0 0.07062777876853942871 0.9907360076904296875 0.1159910857677459717 0 58.102081298828125 3.345724582672119141 150.0699462890625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="391" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0099895" Style="65535">
+			<Transformation RelativeTransfo="0.9080218076705932617 0 -0.4189229011535644531 0 -0.4124450087547302246 -0.17517814040184021 -0.893980860710144043 0 -0.07338614016771316528 0.9845367670059204102 -0.1590655744075775146 0 90.7923431396484375 -4.376484870910644531 132.5995025634765625 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="392" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00569344" Style="65535">
+			<Transformation RelativeTransfo="0.8105697035789489746 1.387778780781445676e-17 -0.5856421589851379395 0 -0.5776057839393615723 0.1650952696800231934 -0.7994467616081237793 0 0.09668675065040588379 0.9862776398658752441 0.1338212341070175171 0 116.6886749267578125 4.037614345550537109 111.2632675170898438 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="393" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0049342" Style="65535">
+			<Transformation RelativeTransfo="0.4268918335437774658 -1.387778780781445676e-17 -0.9043027162551879883 0 -0.8853140473365783691 -0.2038510590791702271 -0.4179279208183288574 0 -0.1843430697917938232 0.9790019392967224121 -0.08702234923839569092 0 131.3719024658203125 -5.091660022735595703 92.8445892333984375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="394" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00530059" Style="65535">
+			<Transformation RelativeTransfo="0.2362018078565597534 3.469446951953614189e-18 -0.9717040061950683594 0 -0.9627021551132202148 0.1358021199703216553 -0.2340136319398880005 0 0.1319594681262969971 0.9907360076904296875 0.03207670524716377258 0 147.1998443603515625 3.345724582672119141 65.031097412109375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="395" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00838283" Style="65535">
+			<Transformation RelativeTransfo="0.3458451330661773682 -6.938893903907228378e-18 -0.9382916092872619629 0 -0.9237825870513916016 -0.17517814040184021 -0.3404972553253173828 0 -0.1643681824207305908 0.9845367670059204102 -0.06058451160788536072 0 157.961883544921875 -4.376484870910644531 29.56212234497070313 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="396" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="0041198" Style="65535">
+			<Transformation RelativeTransfo="0.1671647727489471436 0.985928952693939209 0 0 -0.9737231731414794922 0.1650952696800231934 -0.1568652838468551636 0 -0.1546580344438552856 0.02622235007584095001 0.9876199960708618164 0 161.186370849609375 4.037614345550537109 -3.836339712142944336 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="397" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00878325" Style="65535">
+			<Transformation RelativeTransfo="-0.3375804722309112549 0 -0.941296696662902832 0 -0.9215312600135803223 -0.2038510590791702271 0.3304919302463531494 0 -0.1918843239545822144 0.9790019392967224121 0.06881613284349441528 0 158.5449981689453125 -5.091660022735595703 -27.24292564392089844 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="398" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00962296" Style="65535">
+			<Transformation RelativeTransfo="-0.5200785994529724121 6.938893903907228378e-18 -0.8541184067726135254 0 -0.8462058305740356445 0.1358021199703216553 0.5152605772018432617 0 0.1159910857677459717 0.9907360076904296875 -0.07062777876853942871 0 150.0699462890625 3.345724582672119141 -58.102081298828125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="399" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00280529" Style="65535">
+			<Transformation RelativeTransfo="-0.4189229011535644531 0 -0.9080218076705932617 0 -0.893980860710144043 -0.17517814040184021 0.4124450087547302246 0 -0.1590655744075775146 0.9845367670059204102 0.07338614016771316528 0 132.5995025634765625 -4.376484870910644531 -90.7923431396484375 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\spoke_nipple.prt.1" FileSize="196032" Id="400" InstanceRef="282" IsPart="false" Name="SPOKE_NIPPLE" PartNumber="00754901" Style="65535">
+			<Transformation RelativeTransfo="-0.5856421589851379395 1.387778780781445676e-17 -0.8105697035789489746 0 -0.7994467616081237793 0.1650952696800231934 0.5776057839393615723 0 0.1338212341070175171 0.9862776398658752441 -0.09668675065040588379 0 111.2632675170898438 4.037614345550537109 -116.6886749267578125 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bearing_35x10.prt.1" FileSize="164962" Id="401" InstanceRef="411" IsPart="false" Name="BEARING_35X10" PartNumber="00568871" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 7.5 41 3.000195647473447025e-10 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="411" IsPart="false" Name="">
+			<ExternalModel Name="bearing_35x10.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\bearing_35x10.prt.1" FileSize="164962" Id="402" InstanceRef="411" IsPart="false" Name="BEARING_35X10" PartNumber="00734041" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 -1 0 0 0 0 1 0 -7.5 -41 3.000195647473447025e-10 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\axle_front_wheel.prt.1" FileSize="149224" Id="403" InstanceRef="412" IsPart="false" Name="AXLE_FRONT_WHEEL" PartNumber="00434776" Style="65535">
+			<Transformation RelativeTransfo="0 -1 0 0 1 0 -0 0 0 0 1 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="412" IsPart="false" Name="">
+			<ExternalModel Name="axle_front_wheel.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="404" IsPart="false" Name="">
+			<ExternalModel Name="wheel_front.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="413 414 415 416 417 418 419 420" FilePath="./_data/Moto\body_panels.asm.1" FileSize="878025" Id="6" InstanceRef="421" IsPart="false" Name="BODY_PANELS" PartNumber="00283046" Style="65535" />
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\panel_left.prt.1" FileSize="1380786" Id="413" InstanceRef="422" IsPart="false" Name="PANEL_LEFT" PartNumber="00690" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="422" IsPart="false" Name="">
+			<ExternalModel Name="panel_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\panel_right.prt.1" FileSize="1380971" Id="414" InstanceRef="423" IsPart="false" Name="PANEL_RIGHT" PartNumber="00196976" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="423" IsPart="false" Name="">
+			<ExternalModel Name="panel_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\mud_gaurd_rear.prt.1" FileSize="399638" Id="415" InstanceRef="424" IsPart="false" Name="MUD_GAURD_REAR" PartNumber="00202204" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="424" IsPart="false" Name="">
+			<ExternalModel Name="mud_gaurd_rear.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\upper_panel_left.prt.1" FileSize="556187" Id="416" InstanceRef="425" IsPart="false" Name="UPPER_PANEL_LEFT" PartNumber="00142639" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="425" IsPart="false" Name="">
+			<ExternalModel Name="upper_panel_left.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\upper_panel_right.prt.1" FileSize="381714" Id="417" InstanceRef="426" IsPart="false" Name="UPPER_PANEL_RIGHT" PartNumber="00863256" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="426" IsPart="false" Name="">
+			<ExternalModel Name="upper_panel_right.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fuel_tank.prt.1" FileSize="842815" Id="418" InstanceRef="427" IsPart="false" Name="FUEL_TANK" PartNumber="00856232" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="427" IsPart="false" Name="">
+			<ExternalModel Name="fuel_tank.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\fuel_cap.prt.1" FileSize="399797" Id="419" InstanceRef="428" IsPart="false" Name="FUEL_CAP" PartNumber="00165213" Style="65535">
+			<Transformation RelativeTransfo="1 0 -0 0 -0 1 0 0 0 0 1 0 -225.4511566162109375 430.075592041015625 1.071530559594580101e-15 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="428" IsPart="false" Name="">
+			<ExternalModel Name="fuel_cap.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\seat.prt.1" FileSize="275774" Id="420" InstanceRef="429" IsPart="false" Name="SEAT" PartNumber="00605056" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="429" IsPart="false" Name="">
+			<ExternalModel Name="seat.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="421" IsPart="false" Name="">
+			<ExternalModel Name="body_panels.asm.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="./_data/Moto\number_plate.prt.1" FileSize="72464" Id="7" InstanceRef="430" IsPart="false" Name="NUMBER_PLATE" PartNumber="00842435" Style="65535">
+			<Transformation RelativeTransfo="0 0 25.39999961853027344 0 11.33342456817626953 22.73133277893066406 -0 0 -22.73133277893066406 11.33342456817626953 0 0 -390.399658203125 490.312652587890625 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="430" IsPart="false" Name="">
+			<ExternalModel Name="number_plate.prt.1" />
+		</ProductOccurence>
+	</ModelFile>
+</Root>
