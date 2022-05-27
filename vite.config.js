@@ -5,11 +5,13 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   build: {
-    target: "es2020"
+    target: "es2020",
+    outDir: "docs"
   },
   optimizeDeps: {
     esbuildOptions: {
       target: "es2020"
     }
-  }
+  },
+  base: "/hwp-demo-plm/"
 })
