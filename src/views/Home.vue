@@ -1,7 +1,5 @@
 <script>
-import {
-  assemblies,
-} from "../javascript/data-utilities.js";
+import { assemblies } from "../javascript/data-utilities.js";
 
 export default {
   computed: {

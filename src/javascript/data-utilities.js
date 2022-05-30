@@ -2,6 +2,7 @@ import axios from "axios";
 import assemblies from "../data/assemblies.json";
 import users from "../data/users.json";
 import { getAllChildren } from "./node-utilities";
+import { getModelDataUrl } from "./paths";
 
 function getAssembly(projectNumber) {
   let result = null;
@@ -35,7 +36,8 @@ async function loadStructure(projectNumber) {
   let masterAssembly = assembly.assemblyFile;
 
   // Parse the xml
-  let xml = await axios.get(`/model-data/${masterAssembly.replace(" ", "-")}.xml`);
+  let modelDataUrl = getModelDataUrl(`${masterAssembly.replace(" ", "-")}.xml`);
+  let xml = await axios.get(modelDataUrl);
   xml = xml.data;
 
   let parser = new DOMParser();

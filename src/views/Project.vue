@@ -6,8 +6,7 @@ import {
   loadStructure,
   loadCompleteNoteList,
 } from "../javascript/data-utilities";
-import { Image_Path } from "../javascript/paths";
-
+import { getImageUrl } from "../javascript/paths";
 
 export default {
   data() {
@@ -37,9 +36,7 @@ export default {
     navHome() {
       this.$router.push(`/`);
     },
-    getThumb(imageFile) {
-      return `${Image_Path}/${imageFile}`;
-    }
+    getThumb: getImageUrl,
   },
   async created() {
     console.log("project created");

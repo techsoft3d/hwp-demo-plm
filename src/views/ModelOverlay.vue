@@ -1,4 +1,5 @@
 <script>
+import { getModelUrl } from "../javascript/paths";
 import {
   getAssembly,
   loadStructure,
@@ -20,10 +21,7 @@ export default {
       const projectNumber = this.$route.params.projectNumber;
       this.$router.push(`/project/${projectNumber}/part/${partNumber}`);
     },
-    getModelUrl(modelName) {
-      const modelUrl = `/CAD-models/${modelName}?`;
-      return modelUrl;
-    },
+    getModelUrl: getModelUrl,
   },
   async mounted() {
     const projectNumber = this.$route.params.projectNumber;

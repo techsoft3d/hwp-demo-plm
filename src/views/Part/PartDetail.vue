@@ -1,6 +1,6 @@
 <script>
 import { getAllChildren, getAllAncestors } from "../../javascript/node-utilities";
-import { Image_Path } from "../../javascript/paths";
+import { getImageUrl } from "../../javascript/paths";
 
 export default {
   props: ["assembly", "completeNodeList", "structure"],
@@ -46,10 +46,7 @@ export default {
     }
   },
   methods: {
-    getThumb(thumbName) {
-      const imgUrl = `${Image_Path}/${thumbName}`;
-      return imgUrl;
-    },
+    getThumb: getImageUrl,
     load(partNumber) {
       this.$router.push(
         `/project/${this.assembly.projectNumber}/part/${partNumber}`
