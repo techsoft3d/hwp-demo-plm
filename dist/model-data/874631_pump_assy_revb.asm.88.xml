@@ -1,0 +1,259 @@
+<Root>
+	<ModelFile>
+		<ProductOccurence Behaviour="1" Children="1" Id="0" IsPart="false" Name="874631_pump_assy_revb.asm" Unit="25.400000" />
+		<ProductOccurence Behaviour="1" Children="2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly/874631_pump_assy_revb.asm.88" FileSize="764737" Id="1" IsPart="false" Name="874631_pump_assy_revb.asm" PartNumber="00252433" Style="65535">
+			<CADView Id="56" Name="SEC_A" isAnnotationView="false">
+				<ClipPlanes Count="1" Plane="-1 -0 -0 0" />
+			</CADView>
+			<CADView Id="57" Name="Standard Orientation" isAnnotationView="false">
+				<Camera Projection="2" definition="6.728416099540649675 6.93181118130632612 7.453078576270920408 -2.442490654175344389e-15 -8.659739592076221015e-15 0.6125000001266034388 7.079110370122875038e-08 0.6216100748931170372 -0.7833268250170987157" field="12.04788755428591251 12.04788755428591251" />
+			</CADView>
+			<CADView Id="58" Name="FRONT" isAnnotationView="false">
+				<Camera Projection="2" definition="0 -8.881784197001252323e-16 1812.443102831667829 0 -8.881784197001252323e-16 20.96780324611287938 0 1 -0" field="17.08607740408934461 20.25016581225403556" />
+			</CADView>
+			<CADView Id="59" Name="RIGHT" isAnnotationView="false">
+				<Camera Projection="2" definition="1699.333092897103597 0 -0.7375000000000007105 21.65790137561423379 0 -0.7375000000000007105 -0 1 0" field="20.40716882907721086 24.18627416779521155" />
+			</CADView>
+			<CADView Id="60" Name="TOP" isAnnotationView="false">
+				<Camera Projection="2" definition="0 1699.333092897103597 -0.7375000000000007105 0 21.65790137561423379 -0.7375000000000007105 0 0 -1" field="20.40716882907721086 24.18627416779521155" />
+			</CADView>
+			<CADView Id="61" Name="BOTTOM" isAnnotationView="false">
+				<Camera Projection="2" definition="-2.442490654175344389e-15 -11.24083211911795033 0.6125000001266034388 -2.442490654175344389e-15 -8.659739592076221015e-15 0.6125000001266034388 -0 0 -1" field="7.812360961711140028 13.96213777443580284" />
+			</CADView>
+			<CADView Id="62" Name="LEFT" isAnnotationView="false">
+				<Camera Projection="2" definition="-1810.452880931491336 -8.881784197001252323e-16 0.4875000001266034388 -18.97758134593642865 -8.881784197001252323e-16 0.4875000001266034388 0 1 -0" field="17.08607740408934461 20.25016581225403556" />
+			</CADView>
+			<CADView Id="63" Name="BACK" isAnnotationView="false">
+				<Camera Projection="2" definition="-1.776356839400250465e-15 -8.881784197001252323e-16 -1811.468102831414626 -1.776356839400250465e-15 -8.881784197001252323e-16 -19.99280324585966895 -0 1 -0" field="17.08607740408934461 20.25016581225403556" />
+			</CADView>
+			<CADView Id="64" Name="DEFAULT" isAnnotationView="false">
+				<Camera Projection="2" definition="-769.4306439483943905 597.5813528936174635 1194.991606237408178 -45.35494998011091639 24.41909815816374163 9.175395083328456991 0.2742275606714615344 0.920730679896608839 -0.2775864911434063331" field="16.05621166837514835 19.02958419955573177" />
+			</CADView>
+			<CADView Id="65" Name="VIEW0001" isAnnotationView="false">
+				<Camera Projection="2" definition="-872.0687685607688309 687.7437690420956642 1419.302212546055898 -11.05078367681892715 6.181035069868059395 9.216094373819036178 0.2742275606714615344 0.920730679896608839 -0.2775864911434062776" field="23.58561152014810247 27.9533173572125655" />
+			</CADView>
+			<CADView Id="66" Name="VIEW0002" isAnnotationView="false">
+				<Camera Projection="2" definition="-552.000086945795374 387.9022923344952574 1676.435702147211487 -5.439160427980106682 4.210475172165351054 18.64369639316630511 0.01569956398136791026 0.9752508178580685527 -0.2205433425836367256" field="13.5853122356052971 16.10111079775442633" />
+			</CADView>
+			<CADView Id="67" Name="VIEW0005" isAnnotationView="false">
+				<Camera Projection="2" definition="-877.6533392030861478 688.1878735347290785 1418.818346671440622 -16.63535431913644302 6.625139562501589197 8.732228499203433358 0.2742275606714614233 0.9207306798966089501 -0.2775864911434063331" field="14.8570309640095104 17.6083329943816409" />
+			</CADView>
+			<CADView Id="68" Name="VIEW0006" isAnnotationView="false">
+				<Camera Projection="2" definition="-3.059489991037428247 0.4972643337480984194 -1807.578762366603769 -3.059489991037428247 0.4972643337480984194 -20.33994472208913606 -0 1 -0" field="13.58531223560529 16.10111079775441922" />
+			</CADView>
+			<CADView Id="69" Name="VIEW0007" isAnnotationView="false">
+				<Camera Projection="2" definition="-1806.024985587675474 1.341393954422744006 5.696240549397154851 -18.78616794316084793 1.341393954422744006 5.696240549397154851 0 1 -0" field="16.98164029450661516 20.12638849719302314" />
+			</CADView>
+			<CADView Id="70" Name="NOTES" isAnnotationView="false">
+				<Camera Projection="2" definition="-1001.221636608964786 647.5158628148012667 1352.592061273405761 -12.68944547504750631 5.571763992528247833 9.113564097288289645 0.1932596713284357448 0.9329926044898486648 -0.3036041821274433339" field="18.86848921611854024 22.36265388577012203" />
+			</CADView>
+			<CADView Id="71" Name="VIEW0008" isAnnotationView="false">
+				<Camera Projection="2" definition="-1615.103676427149821 633.8859033070668829 -487.749704382775974 -14.3011263009696048 6.078626183947438477 -0.3978709029619160731 0.3349341846842419645 0.9362666178707926834 0.1059429666881628318" field="12.07583309831592189 14.31209848689294439" />
+			</CADView>
+			<CADView Id="72" Name="VIEW0014" isAnnotationView="false">
+				<Camera Projection="2" definition="-878.6609862626227141 693.9100119736933721 1416.872561558946018 -17.64300137867298446 12.34727800146561094 6.786443386708823411 0.2742275606714614788 0.920730679896608839 -0.2775864911434063886" field="10.86824978848424372 12.88088863820354923" />
+			</CADView>
+			<CADView Id="73" Name="VIEW0016" isAnnotationView="false">
+				<Camera Projection="2" definition="-880.4629402491729024 682.9914525254124555 1420.560890283783465 -19.44495536522325807 1.428718553184673556 10.4747721115464536 0.2742275606714615344 0.920730679896608839 -0.2775864911434063331" field="12.2267810120447713 14.49099971797898867" />
+			</CADView>
+			<CADView Id="74" Name="VIEW0017" isAnnotationView="false">
+				<Camera Projection="2" definition="-880.964886603656737 690.2091147763148911 1418.585281497208143 -19.94690171970710679 8.646380804087211658 8.499163324971036104 0.2742275606714614788 0.9207306798966089501 -0.2775864911434063886" field="7.170142251911622466 8.497946372635997392" />
+			</CADView>
+			<CADView Id="75" Name="VIEW0019" isAnnotationView="false">
+				<Camera Projection="2" definition="-1665.352456733399322 1055.663544677986692 -575.9107762359432172 -29.23613403955734213 18.56726325861069427 -15.16408730788829118 0.5101733042179116273 0.8550457399370533507 0.0928438596724378562" field="26.29354758833743944 31.16272306765918998" />
+			</CADView>
+			<CADView Id="76" Name="DEFAULT[DEFAULT/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-769.4306439483943905 597.5813528936174635 1194.991606237408178 -45.35494998011091639 24.41909815816374163 9.175395083328456991 0.2742275606714615344 0.920730679896608839 -0.2775864911434063331" field="16.05621166837514835 19.02958419955573177" />
+			</CADView>
+			<CADView Id="77" Name="00-OVERALL[VIEW0001/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-872.0687685607688309 687.7437690420956642 1419.302212546055898 -11.05078367681892715 6.181035069868059395 9.216094373819036178 0.2742275606714615344 0.920730679896608839 -0.2775864911434062776" field="23.58561152014810247 27.9533173572125655" />
+			</CADView>
+			<CADView Id="78" Name="01-MODELONLY[VIEW0002/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-552.000086945795374 387.9022923344952574 1676.435702147211487 -5.439160427980106682 4.210475172165351054 18.64369639316630511 0.01569956398136791026 0.9752508178580685527 -0.2205433425836367256" field="13.5853122356052971 16.10111079775442633" />
+			</CADView>
+			<CADView Id="79" Name="04-NOTES[VIEW0017/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-880.964886603656737 690.2091147763148911 1418.585281497208143 -19.94690171970710679 8.646380804087211658 8.499163324971036104 0.2742275606714614788 0.9207306798966089501 -0.2775864911434063886" field="7.170142251911622466 8.497946372635997392" />
+			</CADView>
+			<CADView Id="80" Name="6A-FRONT[VIEW0006/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-3.059489991037428247 0.4972643337480984194 -1807.578762366603769 -3.059489991037428247 0.4972643337480984194 -20.33994472208913606 -0 1 -0" field="13.58531223560529 16.10111079775441922" />
+			</CADView>
+			<CADView Id="81" Name="6B-RIGHT[VIEW0007/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-1806.024985587675474 1.341393954422744006 5.696240549397154851 -18.78616794316084793 1.341393954422744006 5.696240549397154851 0 1 -0" field="16.98164029450661516 20.12638849719302314" />
+			</CADView>
+			<CADView Id="82" Name="6D-SECTIONA[VIEW0008/SEC_A]" isAnnotationView="false">
+				<Camera Projection="2" definition="-1615.103676427149821 633.8859033070668829 -487.749704382775974 -14.3011263009696048 6.078626183947438477 -0.3978709029619160731 0.3349341846842419645 0.9362666178707926834 0.1059429666881628318" field="12.07583309831592189 14.31209848689294439" />
+				<ClipPlanes Count="1" Plane="-1 -0 -0 0" />
+			</CADView>
+			<CADView Id="83" Name="02-MANAGEMENTDATA[VIEW0014/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-878.6609862626227141 693.9100119736933721 1416.872561558946018 -17.64300137867298446 12.34727800146561094 6.786443386708823411 0.2742275606714614788 0.920730679896608839 -0.2775864911434063886" field="10.86824978848424372 12.88088863820354923" />
+			</CADView>
+			<CADView Id="84" Name="03-PROPERTIES[VIEW0016/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-880.4629402491729024 682.9914525254124555 1420.560890283783465 -19.44495536522325807 1.428718553184673556 10.4747721115464536 0.2742275606714615344 0.920730679896608839 -0.2775864911434063331" field="12.2267810120447713 14.49099971797898867" />
+			</CADView>
+			<CADView Id="85" Name="08-EXPLODED[VIEW0019/*]" isAnnotationView="false">
+				<Camera Projection="2" definition="-1665.352456733399322 1055.663544677986692 -575.9107762359432172 -29.23613403955734213 18.56726325861069427 -15.16408730788829118 0.5101733042179116273 0.8550457399370533507 0.0928438596724378562" field="26.29354758833743944 31.16272306765918998" />
+				<InstanceToShow Count="6" IDs="2 3 4 5 6 21 " />
+			</CADView>
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\450722_impeller_revb.prt.9" FileSize="1680057" Id="2" InstanceRef="22" IsPart="false" Name="450722_IMPELLER_REVB" PartNumber="00427331" Style="65535" />
+		<ProductOccurence Behaviour="1" Id="22" IsPart="false" Name="">
+			<ExternalModel Name="450722_impeller_revb.prt.9" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\348766_drive_shaft_reva.prt.6" FileSize="528873" Id="3" InstanceRef="23" IsPart="false" Name="348766_DRIVE_SHAFT_REVA" PartNumber="00322669" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 0 6.123233968888980904e-21 1.60000002384185791 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="23" IsPart="false" Name="">
+			<ExternalModel Name="348766_drive_shaft_reva.prt.6" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\778594_case_reva.prt.6" FileSize="4649279" Id="4" InstanceRef="24" IsPart="false" Name="778594_CASE_REVA" PartNumber="0064848" Style="65535">
+			<Transformation RelativeTransfo="-1 0 0 0 0 1 0 0 0 0 -1 0 0 1.224646793777796181e-20 1.64999997615814209 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="24" IsPart="false" Name="">
+			<ExternalModel Name="778594_case_reva.prt.6" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\667201_gasket_reva.prt.4" FileSize="675002" Id="5" InstanceRef="25" IsPart="false" Name="667201_GASKET_REVA" PartNumber="00486689" Style="65535">
+			<Transformation RelativeTransfo="-0.5 -0.866025388240814209 -1.060575247213029794e-16 0 -0.866025388240814209 0.5 -6.123234262925839272e-17 0 1.060575247213029794e-16 6.123234262925839272e-17 -1 0 -3.921892565344814105e-15 -2.503143718912909446e-15 -0.3499999940395355225 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="25" IsPart="false" Name="">
+			<ExternalModel Name="667201_gasket_reva.prt.4" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\134019_cover_revb.prt.17" FileSize="1267524" Id="6" InstanceRef="26" IsPart="false" Name="134019_COVER_REVB" PartNumber="00392266" Style="65535">
+			<Transformation RelativeTransfo="1 0 1.060575247213029794e-16 0 -6.494150049548225581e-33 1 6.123234262925839272e-17 0 -1.060575247213029794e-16 -6.123234262925839272e-17 1 0 -1.59591959134020386e-17 -9.214045906928205467e-18 -0.2120232135057449341 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="26" IsPart="false" Name="">
+			<ExternalModel Name="134019_cover_revb.prt.17" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="7" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00736794" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 -0.6470476388931274414 -2.414814472198486328 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="27" IsPart="false" Name="">
+			<ExternalModel Name="washer_nas620_8.prt.2" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="8" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00453046" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 1.25 -2.165063619613647461 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="9" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00207155" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 2.414814472198486328 -0.6470476388931274414 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="10" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00105253" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 0.6470476388931274414 2.414814472198486328 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="11" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00720708" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 -1.25 2.165063619613647461 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="12" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00642764" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 -2.414814472198486328 0.6470476388931274414 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\washer_nas620_8.prt.2" FileSize="126941" Id="13" InstanceRef="27" IsPart="false" Name="WASHER_NAS620_8" PartNumber="00709069" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -1.224646852585167854e-16 1 0 1 -1.298830009909645116e-32 1.060575247213029794e-16 0 0 1 1.224646852585167854e-16 0 -2.165063619613647461 -1.25 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="14" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="00538318" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 -0.6470476388931274414 -2.414814472198486328 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="28" IsPart="false" Name="">
+			<ExternalModel Name="nas1352_08_20.prt.2" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="15" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="00698789" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 1.25 -2.165063619613647461 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="16" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="00500617" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 2.414814472198486328 -0.6470476388931274414 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="17" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="0085984" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 0.6470476388931274414 2.414814472198486328 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="18" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="00718273" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 -1.25 2.165063619613647461 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="19" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="00829640" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 -2.414814472198486328 0.6470476388931274414 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\nas1352_08_20.prt.2" FileSize="234497" Id="20" InstanceRef="28" IsPart="false" Name="NAS1352_08_20" PartNumber="00615479" Style="65535">
+			<Transformation RelativeTransfo="-1.060575247213029794e-16 -6.123234262925839272e-17 1 0 1 -6.494150049548225581e-33 1.060575247213029794e-16 0 0 1 6.123234262925839272e-17 0 -2.165063619613647461 -1.25 -0.6741989850997924805 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Children="29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9.asm.9" FileSize="346651" Id="21" InstanceRef="51" IsPart="false" Name="127_TN9" PartNumber="00410924" Style="65535">
+			<Transformation RelativeTransfo="0 0 -1 0 -1 0 0 0 0 1 0 0 0 6.123233968888980904e-21 -0.3000000119209289551 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part1.prt.1" FileSize="192957" Id="29" InstanceRef="52" IsPart="false" Name="127_TN9_PART1" PartNumber="00388053" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.03937007859349250793 0 0 0 0 0.03937007859349250793 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="52" IsPart="false" Name="">
+			<ExternalModel Name="127_tn9_part1.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part2.prt.1" FileSize="151991" Id="30" InstanceRef="53" IsPart="false" Name="127_TN9_PART2" PartNumber="0031238" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.03937007859349250793 0 0 0 0 0.03937007859349250793 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="53" IsPart="false" Name="">
+			<ExternalModel Name="127_tn9_part2.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="31" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00496021" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.03937007859349250793 0 0 0 0 0.03937007859349250793 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="54" IsPart="false" Name="">
+			<ExternalModel Name="127_tn9_part3.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="32" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00782645" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.03185106441378593445 -0.02314115129411220551 0 0 0.02314115129411220551 0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="33" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00673041" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.01216602325439453125 -0.03744316846132278442 0 0 0.03744316846132278442 0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="34" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00839074" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.01216602325439453125 -0.03744316846132278442 0 0 0.03744316846132278442 -0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="35" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00894580" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.03185106441378593445 -0.02314115129411220551 0 0 0.02314115129411220551 -0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="36" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00651985" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.03937007859349250793 -4.821443884669486014e-18 0 0 4.821443884669486014e-18 -0.03937007859349250793 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="37" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00516577" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.03185106441378593445 0.02314115129411220551 0 0 -0.02314115129411220551 -0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="38" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00116077" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.01216602325439453125 0.03744316846132278442 0 0 -0.03744316846132278442 -0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="39" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00222794" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.03937007859349250793 0 0 0 0 0.03937007859349250793 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="55" IsPart="false" Name="">
+			<ExternalModel Name="127_tn9_part4.prt.1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="40" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00383603" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.03185106441378593445 -0.02314115129411220551 0 0 0.02314115129411220551 0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="41" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00887928" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 -0 0 -0 0.01216602325439453125 -0.03744316846132278442 0 0 0.03744316846132278442 0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="42" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00907081" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.01216602325439453125 -0.03744316846132278442 0 0 0.03744316846132278442 -0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="43" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00405575" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.03185106441378593445 -0.02314115129411220551 0 0 0.02314115129411220551 -0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="44" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00365470" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.03937007859349250793 -4.821443884669486014e-18 0 0 4.821443884669486014e-18 -0.03937007859349250793 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="45" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="0015151" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.03185106441378593445 0.02314115129411220551 0 0 -0.02314115129411220551 -0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="46" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00949445" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 0 -0.01216602325439453125 0.03744316846132278442 0 0 -0.03744316846132278442 -0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="47" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="00837233" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 -0 0.01216602325439453125 0.03744316846132278442 0 0 -0.03744316846132278442 0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part3.prt.1" FileSize="104863" Id="48" InstanceRef="54" IsPart="false" Name="127_TN9_PART3" PartNumber="0094223" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 -0 0.03185106441378593445 0.02314115129411220551 0 0 -0.02314115129411220551 0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="49" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00147296" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 -0 0.01216602325439453125 0.03744316846132278442 0 0 -0.03744316846132278442 0.01216602325439453125 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" FilePath="C:/Users/jonathan.BEND/Dropbox/_Work/Data/Pump_Assembly/Pump_Assembly\127_tn9_part4.prt.1" FileSize="106010" Id="50" InstanceRef="55" IsPart="false" Name="127_TN9_PART4" PartNumber="00361793" Style="65535">
+			<Transformation RelativeTransfo="0.03937007859349250793 0 0 0 -0 0.03185106441378593445 0.02314115129411220551 0 0 -0.02314115129411220551 0.03185106441378593445 0 0 0 0 1" />
+		</ProductOccurence>
+		<ProductOccurence Behaviour="1" Id="51" IsPart="false" Name="">
+			<ExternalModel Name="127_tn9.asm.9" />
+		</ProductOccurence>
+	</ModelFile>
+</Root>
