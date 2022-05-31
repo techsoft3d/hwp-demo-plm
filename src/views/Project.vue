@@ -50,7 +50,7 @@ export default {
 
 <template>
   <div class="columns">
-    <!-- Levt 3/4 Column -->
+    <!-- Left 3/4 Column -->
     <div class="column">
       <!-- Level Start-->
       <div class="level">
