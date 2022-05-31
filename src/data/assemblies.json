@@ -2,7 +2,7 @@
   {
     "projectNumber": "PR00001",
     "name": "Micro Engine",
-    "assemblyFile": "_micro engine.CATProduct",
+    "assemblyFile": "micro_engine.CATProduct",
     "CADFile": "microengine.scs",
     "modeler": "Catia",
     "status": "In Design",
@@ -18,7 +18,7 @@
   {
     "projectNumber": "PR00002",
     "name": "Moto X",
-    "assemblyFile": "_MOTO_X.asm",
+    "assemblyFile": "MOTO_X.asm",
     "CADFile": "moto.scs",
     "modeler": "Creo",
     "status": "Complete",
@@ -34,7 +34,7 @@
   {
     "projectNumber": "PR00003",
     "name": "Hammer Drill",
-    "assemblyFile": "__drill.asm",
+    "assemblyFile": "drill.asm",
     "CADFile": "drill.scs",
     "modeler": "Creo",
     "status": "In Design",
@@ -50,7 +50,7 @@
   {
     "projectNumber": "PR00004",
     "name": "Pump Assembly",
-    "assemblyFile": "874631_pump_assy_revb.asm.88",
+    "assemblyFile": "pump_assy_revb.asm.88",
     "CADFile": "pump.scs",
     "modeler": "Creo",
     "status": "Complete",

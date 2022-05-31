@@ -97,6 +97,7 @@ async function loadStructure(projectNumber) {
     }
   }
 
+  console.log(structure);
   return structure;
 }
 
@@ -114,11 +115,17 @@ function loadCompleteNoteList(projectNumber, structure) {
 
   // find the root node
   let root = {};
-  const searchName = masterAssembly;
-  let found = false;
-  for (let i = 0; i < structure.length && !found; i++) {
-    if (structure[i].name == searchName) {
+  // const searchName = masterAssembly;
+  // let found = false;
+  // for (let i = 0; i < structure.length && !found; i++) {
+  //   if (structure[i].name == searchName) {
+  //     root = structure[i];
+  //   }
+  // }
+  for (let i = 0; i < structure.length; i++) {
+    if (structure[i].name != "") {
       root = structure[i];
+      break;
     }
   }
 
