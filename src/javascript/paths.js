@@ -13,18 +13,42 @@ if (base_path.charAt(base_path.length - 1) == "/") {
 const Base_Path = base_path;
 
 /**
+ * The path can not have file name starting with "_"
+ * @param {string} path 
+ * @returns 
+ */
+const sanitizePath = (path) => {
+  let files = path.split("/");
+  let result = "";
+  for (let i = 0; i < files.length; i++) {
+    while (files[i].charAt(0) == "_") {
+      files[i] = files[i].substring(1);
+    }
+    if (i == files.length - 1) {
+      result += files[i];
+    } else {
+      result += files[i] + "/";
+    }
+  }
+  return result;
+};
+
+/**
  * Path should start with no "/"
  */
 const getImageUrl = (imagePath) => {
-  return `${Base_Path}${Image_Path}/${imagePath}`;
+  let sanitizedPath = sanitizePath(imagePath);
+  return `${Base_Path}${Image_Path}/${sanitizedPath}`;
 };
 
 const getModelUrl = (modelPath) => {
-  return `${Base_Path}${Model_Path}/${modelPath}`;
+  let sanitizedPath = sanitizePath(modelPath);
+  return `${Base_Path}${Model_Path}/${sanitizedPath}`;
 };
 
 const getModelDataUrl = (modelDataPath) => {
-  return `${Base_Path}${Model_Data_Path}/${modelDataPath}`;
+  let sanitizedPath = sanitizePath(modelDataPath);
+  return `${Base_Path}${Model_Data_Path}/${sanitizedPath}`;
 };
 
 export {
