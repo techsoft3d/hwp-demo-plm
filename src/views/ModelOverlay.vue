@@ -92,7 +92,7 @@ export default {
     <div class="fullscreen">
       <div class="navbar">
         <div class="navbar-end">
-          <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-item has-dropdown is-hoverable" v-show="false">
             <a class="navbar-link button"> V. {{ "revision" }} </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" @click="changeRevision(1)"> V. 1 </a>
@@ -106,15 +106,7 @@ export default {
               </span>
             </a>
             <div class="navbar-dropdown is-boxed">
-              <a
-                class="navbar-item"
-                @click="
-                  eco.node = currentNode;
-                  ecoVisible = true;
-                "
-              >
-                ECO...
-              </a>
+              <a class="navbar-item"> ECO... </a>
               <!-- <a
                 class="navbar-item"
                 v-show="checkedOut"
