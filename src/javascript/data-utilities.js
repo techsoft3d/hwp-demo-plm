@@ -97,7 +97,6 @@ async function loadStructure(projectNumber) {
     }
   }
 
-  console.log(structure);
   return structure;
 }
 
@@ -111,17 +110,9 @@ function loadCompleteNoteList(projectNumber, structure) {
   const assembly = getAssembly(projectNumber);
 
   let completeNodeList = [];
-  let masterAssembly = assembly.assemblyFile;
 
   // find the root node
   let root = {};
-  // const searchName = masterAssembly;
-  // let found = false;
-  // for (let i = 0; i < structure.length && !found; i++) {
-  //   if (structure[i].name == searchName) {
-  //     root = structure[i];
-  //   }
-  // }
   for (let i = 0; i < structure.length; i++) {
     if (structure[i].name != "") {
       root = structure[i];
