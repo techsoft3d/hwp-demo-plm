@@ -1,3 +1,16 @@
+<script>
+import { users } from "../../javascript/data-utilities";
+
+export default {
+  data() {
+    return {
+      users: users,
+      currentUser: 0,
+    };
+  }
+}
+</script>
+
 <template>
   <!-- Nav Start -->
   <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -37,14 +50,14 @@
             <i class="fa fa-user-circle-o"></i>
           </span>
         </a>
-        <!-- <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item" @click="" v-for="(user, index) in users">
-              <div v-if="index === currentUser">
-                <strong @click="currentUser = index">{{ user.name }}</strong>
-              </div>
-              <div v-else @click="currentUser = index">{{ user.name }}</div>
-            </a>
-          </div> -->
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" v-bind:key="index" v-for="(user, index) in users">
+            <div v-if="index === currentUser">
+              <strong @click="currentUser = index">{{ user.name }}</strong>
+            </div>
+            <div v-else @click="currentUser = index">{{ user.name }}</div>
+          </a>
+        </div>
       </div>
     </div>
   </nav>

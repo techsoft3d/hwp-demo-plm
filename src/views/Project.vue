@@ -21,6 +21,19 @@ export default {
     users() {
       return users;
     },
+    currentPartName() {
+      const partNumber = this.$route.params.partNumber;
+
+      let result = "";
+      if (partNumber) {
+        for (let i = 0; i < this.completeNodeList.length; i++) {
+          if (this.completeNodeList[i].partnumber == partNumber) {
+            result = this.completeNodeList[i].modelBrowserName;
+          }
+        }
+      }
+      return result;
+    },
   },
   provide() {
     return {
@@ -64,7 +77,7 @@ export default {
           </a>
           <p v-if="$route.params.partNumber != null"><strong>|</strong></p>
           <a v-if="$route.params.partNumber != null" class="button is-white">
-            <strong>Part</strong>
+            <strong>{{currentPartName}}</strong>
           </a>
         </div>
         <div v-if="false" class="level-center">

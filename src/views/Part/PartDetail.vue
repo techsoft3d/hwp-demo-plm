@@ -1,5 +1,8 @@
 <script>
-import { getAllChildren, getAllAncestors } from "../../javascript/node-utilities";
+import {
+  getAllChildren,
+  getAllAncestors,
+} from "../../javascript/node-utilities";
 import { getImageUrl } from "../../javascript/paths";
 
 export default {
@@ -33,7 +36,7 @@ export default {
     usesNodeList() {
       if (this.structure.length > 0) {
         let children = getAllChildren(this.structure, this.currentNode);
-        children = children.filter(node => {
+        children = children.filter((node) => {
           return node.partnumber != null;
         });
         return children;
@@ -43,7 +46,7 @@ export default {
     usedInNodeList() {
       let ancestors = getAllAncestors(this.structure, this.currentNode);
       return ancestors;
-    }
+    },
   },
   methods: {
     getThumb: getImageUrl,
@@ -55,10 +58,8 @@ export default {
     viewModel() {
       const partNumber = this.$route.params.partNumber;
       const projectNumber = this.$route.params.projectNumber;
-      this.$router.push(
-        `/model/${projectNumber}/${partNumber}`
-      );
-    }
+      this.$router.push(`/model/${projectNumber}/${partNumber}`);
+    },
   },
   created() {
     console.log("part detail created");
@@ -109,7 +110,10 @@ export default {
     </div>
     <!-- Uses View -->
     <div v-show="usesView === 0">
-      <div class="columns is-multiline is-2-desktop">
+      <div
+        v-if="usesNodeList.length > 0"
+        class="columns is-multiline is-2-desktop"
+      >
         <div
           v-for="(node, index) in usesNodeList"
           class="column is-one-quarter"
@@ -124,12 +128,13 @@ export default {
           </div>
         </div>
       </div>
+      <div v-else>None</div>
     </div>
     <!-- Uses View End -->
 
     <!-- Used In View -->
     <div v-show="usesView === 1">
-      <div class="columns">
+      <div v-if="usedInNodeList.length > 0" class="columns">
         <div
           v-for="(node, index) in usedInNodeList"
           class="column is-one-quarter"
@@ -144,6 +149,7 @@ export default {
           </div>
         </div>
       </div>
+      <div v-else>None</div>
     </div>
     <!-- Used In View End -->
   </div>
