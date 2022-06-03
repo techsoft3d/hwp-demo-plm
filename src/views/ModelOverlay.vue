@@ -92,15 +92,15 @@ export default {
     <div class="fullscreen">
       <div class="navbar">
         <div class="navbar-end">
-          <div class="navbar-item has-dropdown is-hoverable" v-show="false">
-            <a class="navbar-link button"> V. {{ "revision" }} </a>
+          <div class="navbar-item has-dropdown is-hoverable" v-show="true">
+            <a class="navbar-link button is-white"> V. {{ "revision" }} </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item" @click="changeRevision(1)"> V. 1 </a>
               <a class="navbar-item" @click="changeRevision(2)"> V. 2 </a>
             </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link button">
+            <a class="navbar-link button is-white">
               <span class="icon">
                 <i class="fa fa-navicon"></i>
               </span>
