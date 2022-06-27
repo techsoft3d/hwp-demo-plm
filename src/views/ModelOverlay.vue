@@ -12,6 +12,9 @@ export default {
       assembly: {},
       completeNodeList: [],
       structure: [],
+      versionNodeIds: [],
+      currentRevision: 1,
+      viewer: null,
     };
   },
   methods: {
@@ -22,6 +25,17 @@ export default {
       this.$router.push(`/project/${projectNumber}/part/${partNumber}`);
     },
     getModelUrl: getModelUrl,
+    changeRevision(revision) {
+      this.viewer.model.setNodesVisibility(
+        [this.versionNodeIds[this.currentRevision - 1]],
+        false
+      );
+      this.viewer.model.setNodesVisibility(
+        [this.versionNodeIds[revision - 1]],
+        true
+      );
+      this.currentRevision = revision;
+    },
   },
   async mounted() {
     const projectNumber = this.$route.params.projectNumber;
@@ -59,13 +73,32 @@ export default {
     };
 
     const partNumber = this.$route.params.partNumber;
+    const subtreeModelUrl = this.getModelUrl("housing-3-hole.scs");
+    // let versionNodeIds = [];
     viewer.setCallbacks({
-      modelStructureReady: function () {
+      modelStructureReady: () => {
         viewer.model.setNodesVisibility([0], false);
         let partNode = findPartNode(partNumber);
         let childNodeId = findNode(0, partNode.modelBrowserName);
         viewer.model.setNodesVisibility([childNodeId], true);
         viewer.view.fitNodes([childNodeId]);
+        this.versionNodeIds.push(childNodeId);
+        // Currently revision only works with the housing
+        if (
+          this.$route.params.projectNumber == "PR00001" &&
+          this.$route.params.partNumber == "00142526"
+        ) {
+          viewer.model
+            .loadSubtreeFromScsFile(
+              viewer.model.getNodeParent(childNodeId),
+              subtreeModelUrl,
+              viewer.model.getNodeMatrix(childNodeId)
+            )
+            .then((ids) => {
+              this.versionNodeIds.push(ids[0]);
+              viewer.model.setNodesVisibility([ids[0]], false);
+            });
+        }
       },
     });
 
@@ -80,6 +113,7 @@ export default {
     new Communicator.Ui.Desktop.DesktopUi(viewer, uiConfig);
 
     viewer.start();
+    this.viewer = viewer;
   },
 };
 </script>
@@ -93,10 +127,18 @@ export default {
       <div class="navbar">
         <div class="navbar-end">
           <div class="navbar-item has-dropdown is-hoverable" v-show="true">
-            <a class="navbar-link button is-white"> V. {{ "revision" }} </a>
+            <a class="navbar-link button is-white">
+              V. {{ currentRevision }}
+            </a>
             <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item" @click="changeRevision(1)"> V. 1 </a>
-              <a class="navbar-item" @click="changeRevision(2)"> V. 2 </a>
+              <a
+                v-for="(revisionId, index) in versionNodeIds"
+                v-bind:key="revisionId"
+                class="navbar-item"
+                @click="changeRevision(index + 1)"
+              >
+                V. {{ index + 1 }}
+              </a>
             </div>
           </div>
           <div class="navbar-item has-dropdown is-hoverable">
@@ -107,18 +149,6 @@ export default {
             </a>
             <div class="navbar-dropdown is-boxed">
               <a class="navbar-item"> ECO... </a>
-              <!-- <a
-                class="navbar-item"
-                v-show="checkedOut"
-                @click="checkedOut = false"
-                >Check in</a
-              >
-              <a
-                class="navbar-item"
-                v-show="!checkedOut"
-                @click="checkedOut = true"
-                >Check out</a
-              > -->
               <a class="navbar-item" @click="uploadVisible = true">
                 Upload...
               </a>
