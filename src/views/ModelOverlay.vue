@@ -17,6 +17,15 @@ export default {
       viewer: null,
     };
   },
+  computed: {
+    haveRevisions() {
+      return (
+        this.$route.params.projectNumber == "PR00001" &&
+        (this.$route.params.partNumber == "00142526" ||
+          this.$route.params.partNumber == "00413099")
+      );
+    },
+  },
   methods: {
     closeViewer() {
       console.log("close viewer");
@@ -82,17 +91,21 @@ export default {
         let childNodeId = findNode(0, partNode.modelBrowserName);
         viewer.model.setNodesVisibility([childNodeId], true);
         viewer.view.fitNodes([childNodeId]);
-        this.versionNodeIds.push(childNodeId);
-        // Currently revision only works with the housing
-        if (
-          this.$route.params.projectNumber == "PR00001" &&
-          this.$route.params.partNumber == "00142526"
-        ) {
+        // Currently revisions only works with the housing for the micro engine
+        // this part is kinda hardcoded at the moment
+        if (this.haveRevisions) {
+          const versionedPartNumber = "00142526";
+          let versionedPartNode = findPartNode(versionedPartNumber);
+          let versionedChildNodeId = findNode(
+            0,
+            versionedPartNode.modelBrowserName
+          );
+          this.versionNodeIds.push(versionedChildNodeId);
           viewer.model
             .loadSubtreeFromScsFile(
-              viewer.model.getNodeParent(childNodeId),
+              viewer.model.getNodeParent(versionedChildNodeId),
               subtreeModelUrl,
-              viewer.model.getNodeMatrix(childNodeId)
+              viewer.model.getNodeMatrix(versionedChildNodeId)
             )
             .then((ids) => {
               this.versionNodeIds.push(ids[0]);
@@ -126,7 +139,10 @@ export default {
     <div class="fullscreen">
       <div class="navbar">
         <div class="navbar-end">
-          <div class="navbar-item has-dropdown is-hoverable" v-show="true">
+          <div
+            class="navbar-item has-dropdown is-hoverable"
+            v-show="haveRevisions"
+          >
             <a class="navbar-link button is-white">
               V. {{ currentRevision }}
             </a>
@@ -138,19 +154,6 @@ export default {
                 @click="changeRevision(index + 1)"
               >
                 V. {{ index + 1 }}
-              </a>
-            </div>
-          </div>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link button is-white">
-              <span class="icon">
-                <i class="fa fa-navicon"></i>
-              </span>
-            </a>
-            <div class="navbar-dropdown is-boxed">
-              <a class="navbar-item"> ECO... </a>
-              <a class="navbar-item" @click="uploadVisible = true">
-                Upload...
               </a>
             </div>
           </div>

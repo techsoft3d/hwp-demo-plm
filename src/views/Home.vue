@@ -1,11 +1,13 @@
 <script>
-import { assemblies } from "../javascript/data-utilities.js";
+import { assemblies, tickets, getUser } from "../javascript/data-utilities.js";
 
 export default {
-  computed: {
-    assemblies() {
-      return assemblies;
-    },
+  data() {
+    return {
+      tickets: tickets,
+      getUser: getUser,
+      assemblies: assemblies,
+    };
   },
   methods: {
     load(projectNumber) {
@@ -58,22 +60,13 @@ export default {
         <th>Assignee</th>
         <th>Status</th>
       </tr>
-      <!--<tr v-for="(changeOrder, index) in activeEco(ecos)" @click="eco=ecos[index]; ecoVisible=true">-->
-      <!-- <tr
-        v-for="(changeOrder, index) in users[currentUser].tickets"
-        @click="
-          eco = users[currentUser].tickets[index];
-          ecoVisible = true;
-        "
-      >
-        <div>
-          <td>{{ changeOrder.Ticket }}</td>
-          <td>{{ changeOrder.Title }}</td>
-          <td>{{ changeOrder.Priority }}</td>
-          <td>{{ changeOrder.Assignee }}</td>
-          <td>{{ changeOrder.Status }}</td>
-        </div>
-      </tr> -->
+      <tr v-for="ticket in tickets" v-bind:key="ticket.id">
+          <td>{{ ticket.id }}</td>
+          <td>{{ ticket.title }}</td>
+          <td>{{ ticket.priority }}</td>
+          <td>{{ getUser(ticket.assigneeId).name }}</td>
+          <td>{{ ticket.status }}</td>
+      </tr>
     </table>
     <br />
     <div class="buttons is-right">

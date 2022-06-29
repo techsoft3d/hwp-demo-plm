@@ -1,6 +1,7 @@
 import axios from "axios";
 import assemblies from "../data/assemblies.json";
 import users from "../data/users.json";
+import tickets from "../data/tickets.json";
 import { getAllChildren } from "./node-utilities";
 import { getModelDataUrl } from "./paths";
 
@@ -129,5 +130,5 @@ function loadCompleteNoteList(projectNumber, structure) {
   return completeNodeList;
 }
 
-export { assemblies, users, getAssembly, getUser, loadStructure, loadCompleteNoteList };
+export { assemblies, users, tickets, getAssembly, getUser, loadStructure, loadCompleteNoteList };
 
