@@ -7,8 +7,8 @@ export default {
       users: users,
       currentUser: 0,
     };
-  }
-}
+  },
+};
 </script>
 
 <template>
@@ -16,7 +16,7 @@ export default {
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://www.techsoft3d.com">
-        <img src="/images/TS3D_logo.jpg" alt="Tech Soft 3D" />
+        <img src="/dist/images/TS3D_logo-2024.png" alt="Tech Soft 3D" />
       </a>
     </div>
     <div class="navbar-end">
@@ -51,7 +51,11 @@ export default {
           </span>
         </a>
         <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" v-bind:key="index" v-for="(user, index) in users">
+          <a
+            class="navbar-item"
+            v-bind:key="index"
+            v-for="(user, index) in users"
+          >
             <div v-if="index === currentUser">
               <strong @click="currentUser = index">{{ user.name }}</strong>
             </div>
